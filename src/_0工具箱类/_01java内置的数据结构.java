@@ -18,7 +18,7 @@ import org.junit.Test;
 public class _01java内置的数据结构 {
 	
 	@Test
-	public void main() {
+	public void main() {哈哈
 	//数组(本身java是有数组的,那就来谈谈集合中数组的应用吧)
 		List<Integer> list = new ArrayList<Integer>();
 		list.add(1);	//添加一个元素
