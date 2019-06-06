@@ -7,7 +7,6 @@ import java.util.List;
 import java.util.PriorityQueue;
 import java.util.Queue;
 import java.util.Stack;
-import java.util.concurrent.LinkedBlockingDeque;
 
 import org.junit.Test;
 
@@ -82,9 +81,7 @@ public class _01java内置的数据结构 {
 //		PriorityQueue<Integer> heap = new PriorityQueue<Integer>(); //默认形成小顶堆
 		//实现大顶堆的策略-->重写比较器
 		PriorityQueue<Integer> heap = new PriorityQueue<Integer>(1, new Comparator<Integer>() {
-			@Override
 			public int compare(Integer o1, Integer o2) {
-				// TODO Auto-generated method stub
 				return o2-o1;
 			}
 		}); 	
@@ -109,7 +106,6 @@ public class _01java内置的数据结构 {
 
 			@Override
 			public int compare(Student o1, Student o2) {
-				// TODO Auto-generated method stub
 				return o2.score-o1.score;
 			}
 		});

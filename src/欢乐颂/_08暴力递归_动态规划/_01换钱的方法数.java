@@ -24,18 +24,18 @@ public class _01换钱的方法数 {
 	@Test
 	public void main() {
 		int[] arr = {5,10,25,1};
-		int arm = 15;
-		int num1 = baoli(arr,arm);
-		System.out.println(arm);
+		int aim = 15;
+		int num1 = baoli(arr,aim);
+		System.out.println(num1);
 	}
 
 	//暴力解法
-	private int baoli(int[] arr, int arm) {
+	private int baoli(int[] arr, int aim) {
+		//输入的basecase
 		if (arr == null || arr.length == 0) {
 			return 0;
 		}
-		
-		return baoliPartion(arr,0,arm);
+		return baoliPartion(arr,0,aim);	//调用递归方法返回
 	}
 	
 	/*
@@ -45,13 +45,15 @@ public class _01换钱的方法数 {
 	 * arm :代表要拼出的目的钱数
 	 * 返回值时方法数
 	 */
-	private int baoliPartion(int[] arr, int index, int arm) {
+	private int baoliPartion(int[] arr, int index, int aim) {
 		int res = 0; //定义返回结果
+		//定义结束条件,当index=arr.length是代表没有钱时的情况(index=arr.length-1代表只有最后一张钱时)
 		if (index == arr.length) {
-			return res = arm == 0 ? 1 : 0;
+			return res = aim == 0 ? 1 : 0;
 		}
-		for (int i = 0; arr[index] * i < arm; i++) { //依次计算第一个位置为不同值时返回的方法数的和
-			res += baoliPartion(arr, index + 1, arm - arr[index] * i);
+		 //依次计算第一个金额使用不同个时,剩余金额返回的方法数的和(只要当前金额*使用的个数小于等于总金额就可以继续)
+		for (int i = 0; arr[index] * i <= aim; i++) {
+			res += baoliPartion(arr, index + 1, aim - arr[index] * i);  //方法数依次累加
 		}
 		return res;
 	}

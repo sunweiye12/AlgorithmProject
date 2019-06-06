@@ -40,7 +40,6 @@ public class _02¶ÔÊıÆ÷ {
 	 * @param arr3
 	 */
 	private static void printArray(int[] arr) {
-		// TODO Auto-generated method stub
 		for (int i = 0; i < arr.length; i++) {
 			System.out.print(arr[i]+" ");
 		}
