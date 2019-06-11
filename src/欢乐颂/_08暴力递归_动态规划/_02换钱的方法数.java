@@ -8,11 +8,11 @@ import org.junit.Test;
 /*
  * 【题目】给定数组arr，arr中所有的值都为正数且不重复。每个值代表一种面值的货币，每种面值的货币可以使用任意张，再给定一个整数aim代表要找的钱数，
  * 		求换钱有多少种方法。
- *【举例】arr=[5,10,25,1]，aim=0。
+ *【举例】	arr=[5,10,25,1]，aim=0。
  *		组成0元的方法有1种，就是所有面值的货币都不用。所以返回1。
- *	arr=[5,10,25,1]，aim=15。
+ *			arr=[5,10,25,1]，aim=15。
  *		组成15元的方法有6种，分别为3张5元、1张10元+1张5元、1张10元+5张1元、10张1元+1张5元、2张5元+5张1元和15张1元。所以返回6。
- *	arr=[3,5]，aim=2。
+ *			arr=[3,5]，aim=2。
  *		任何方法都无法组成2元。所以返回0。
  *
  * 暴力递归解法:以[5,10,25,1]，aim=15。为例此枚举
@@ -31,8 +31,8 @@ import org.junit.Test;
  * 		例如上面:两个5元和0个10元  和  0个5元和1个10元 都要求25和1组成5元的方法数这个结果不依赖与前面的状态
  * 
  * DP解法:由于只要是index和aim这两个参数固定了,他的返回值就确定了;
- * 		因此通过两个参数我们可以建立一个二维数组(即DP数组)-->index范围是[0,n] aim范围是[0,aim]; (通过分子参数的变化范围可以得到dp数组)
- * 		明确我们要求的位置;依据这个二维的数组表可以通过递归的截止条件得出,一些数据,然后通过逻辑推导出其余的位置
+ * 		因此通过两个参数我们可以建立一个二维数组(即DP数组)-->index范围是[0,n] aim范围是[0,aim]; (通过参数的变化范围可以得到dp数组)
+ * 		明确我们要求的位置;依据这个二维的数组表可以通过递归的截止条件得出,一些初始数据,然后通过逻辑推导出其余的位置,直到目标位置.
  * 		
  * 
  */ 
@@ -42,37 +42,46 @@ public class _02换钱的方法数 {
 	public void main() {
 		int[] arr = {5,10,25,1};
 		int aim = 15;
-		int num1 = baoli(arr,aim);
-		int num2 = baoliyouhua(arr,aim);
-		int num3 = pd(arr,aim);
+		int num1 = baoli(arr,aim);		//暴力递归解法
+		int num2 = baoliyouhua(arr,aim);//暴力递归优化解法
+		int num3 = pd(arr,aim);			//动态规划解法
 		System.out.println(num1);
 		System.out.println(num2);
 		System.out.println(num3);
 	}
 	
-	//递归解法
+	//动态规划解法
 	private int pd(int[] arr, int aim) {
 		if (arr == null || arr.length == 0 || aim < 0) {
 			return 0;
 		}
 		//创建dp数组
-		int[][] dp = new int[arr.length][aim+1]; //第一个参数表示从index位置起,第二各参数是拼出的aim,dp中丛芳的是结果
+		int[][] dp = new int[arr.length+1][aim+1]; //第一个参数表示从index位置起后所有金额,第二各参数是拼出的aim,dp中存放的是结果次数
 		//将已知结果添加到dp(不依赖其他位置就能得到的值)
-		//当aim为0时index为几都只有一种结果->填好
-		for (int i = 0; i < arr.length; i++) {
+		//当aim为0时无论用几张钱币,都是每一张钱币都不用时才能凑出aim=0元,故dp[i][0]=1->填好
+		for (int i = 0; i <= arr.length; i++) {
 			dp[i][0] = 1;
 		}
-		//只用第一个金额,可以拼出那些aim,并且只有一种结果->填好
-		for (int i = 1; arr[0] * i <= aim; i++) {
-			dp[0][arr[0] * i] = 1;
+		//当一张钱币也没有时,除了可以拼出aim=0的一种其他的都拼不出来->填好
+		for (int i = 1; i <= aim; i++) {
+			dp[arr.length][i] = 0;
 		}
-		for (int i = 1; i < arr.length; i++) {
+		
+		//已经填好已知,根据逻辑推导其他位置(目标是dp[0][aim])
+		for (int i = arr.length-1; i >= 0; i--) {
 			for (int j = 1; j <= aim; j++) {
-				dp[i][j] = dp[i-1][j];
-				dp[i][j] += j - arr[i] >= 0?dp[i][j-arr[i]] : 0 ;
+				//每一个位置的结果是它的下面dp[i+1][j](不包括此钱币所能拼出的结果)+dp[i][j-arr[i]](包含任意个数此金额时拼出的个数)
+				//dp[i][j] = dp[i+1][j];
+				//dp[i][j] += j - arr[i] >= 0?dp[i][j-arr[i]] : 0;
+				//每一个位置的结果是它的下面dp[i+1][j](包含任意个数此金额时拼出的个数)dp[i+1][j-arr[i]]是包含一个此金币,类推
+				int index = j;
+				while(index >= 0){
+					dp[i][j] += dp[i+1][index];
+					index -=  arr[i];
+				}
 			}
 		}
-		return dp[arr.length -1][aim];
+		return dp[0][aim];
 	}
 
 	//优化暴力解法
