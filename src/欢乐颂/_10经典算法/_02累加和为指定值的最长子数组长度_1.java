@@ -23,7 +23,7 @@ import org.junit.Test;
  * 		每次累加后将数据添加到map集合中,然后来判断sum-arm(即上面的1200)是否在集和Map中存在key,
  * 		如果存在则表明从它的下一个数到当前下标的数累加和为arm
  */
-public class _02累加和为指定值的最长子数组长度 {
+public class _02累加和为指定值的最长子数组长度_1 {
 	
 	@Test
 	public void main() {
