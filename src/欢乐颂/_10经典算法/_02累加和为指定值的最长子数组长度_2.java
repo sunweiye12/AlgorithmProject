@@ -1,4 +1,5 @@
 package 欢乐颂._10经典算法;
+
 import java.util.Map;
 import java.util.TreeMap;
 import org.junit.Test;
@@ -21,44 +22,45 @@ import org.junit.Test;
  * 
  * 升级思路:滑动窗口问题:设置一个滑动窗口,从数组的头部开始进图元素,当所有元素之和小于aim时,窗口进元素,当等于aim时记录长度
  * 		当大于aim时,窗口出元素,直到窗口右侧到达数组右边界  ( 时间复杂度为O(n) 空间复杂度为O(1) )
+ * 	(因为都是证书,所以只要扩元素sum一定增加,只要减元素,sum一定减小,所以可以利用双指针->滑动窗口来解决此问题)
  */
 public class _02累加和为指定值的最长子数组长度_2 {
-	
+
 	@Test
 	public void main() {
-		int[] arr = {7,3,2,1,1,7,7,7};
+		int[] arr = { 7, 3, 2, 1, 1, 7, 7, 7 };
 		int arm = 7;
-		int len = getMaxLong(arr,arm);
+		int len = getMaxLong(arr, arm);
 		System.out.println(len);
 	}
 
-	//滑动窗口解法
+	// 滑动窗口解法
 	private int getMaxLong(int[] arr, int arm) {
-		if(arr == null || arr.length == 0 || arm <= 0){
+		if (arr == null || arr.length == 0 || arm <= 0) {
 			return 0;
 		}
-		//左右边界初始位置
+		// 左右边界初始位置
 		int L = 0;
 		int R = 0;
-		//初始的窗口元素和
+		// 初始的窗口元素和
 		int sum = arr[0];
-		//初始长度
-		int len = 0; 
-		while(R < arr.length){
+		// 初始长度
+		int len = 0;
+		while (R < arr.length) {
 			if (sum == arm) {
-				//相等的时候记录长度 后左边界移动(进一个元素)
+				// 相等的时候记录长度 后左边界移动(进一个元素)
 				len = Math.max(len, R - L + 1);
-				sum -= arr[L++];  
-			} else if(sum > arm){
-				//sum > arm的时候窗口出元素
+				sum -= arr[L++];
+			} else if (sum > arm) {
+				// sum > arm的时候窗口出元素
 				sum -= arr[L++];
 			} else {
-				//sum < arm的时候窗口进元素
+				// sum < arm的时候窗口进元素
 				R++;
-				if (R ==  arr.length) {
+				if (R == arr.length) {
 					break;
 				}
-				sum += arr[R]; //如果R=arr.length时 , arr[R]就会发生越界(因此前面要判断一下)
+				sum += arr[R]; // 如果R=arr.length时 , arr[R]就会发生越界(因此前面要判断一下)
 			}
 		}
 		return len;
