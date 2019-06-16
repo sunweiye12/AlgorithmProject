@@ -4,10 +4,11 @@ import java.util.Scanner;
 import org.junit.Test;
 /**
  * 雨水累计问题
+ * 题目:给定一个数组,每一个数字代表一个水坑的高度,求当下雨时,水坑可以手机多少雨水
  * @author Administrator
  *
  */
-public class TestDemo {
+public class 雨水收集 {
     
 	@Test
     public void main() {
@@ -55,6 +56,5 @@ public class TestDemo {
 		}
 		return Math.min(leftnum, rightnum);
 	}
-    
 }
 
