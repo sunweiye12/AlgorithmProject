@@ -2,7 +2,11 @@ package _1字节跳动;
 import java.util.Scanner;
 
 import org.junit.Test;
-
+/**
+ * 雨水累计问题
+ * @author Administrator
+ *
+ */
 public class TestDemo {
     
 	@Test
@@ -14,7 +18,7 @@ public class TestDemo {
 //        for(int i = 0; i < n; i++){
 //        	arr[i] = sc.nextInt();
 //        } 
-        int[] arr = {5,2,1,4,3};
+        int[] arr = {4,0,2,4,3};
         int n = arr.length;
         getyushui(arr,n);
     }
