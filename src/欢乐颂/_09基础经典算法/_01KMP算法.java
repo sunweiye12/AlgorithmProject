@@ -1,7 +1,6 @@
 package 欢乐颂._09基础经典算法;
 
 import org.junit.Test;
-
 /**
  * 	(用于解决的原始问题)题目:给定两个数组str1 和 str2 判断str1中是否有与str2相等的子串
  * 						如果有相等则返回此子串在str1中第一次出现的位置,否则返回-1
@@ -22,8 +21,7 @@ import org.junit.Test;
  * 				*此处k所对应的值,也是i-1之前字符串,前缀的先一个字符
  * 			<2>如果i-1所对应的值,与i-1的next值(假设为k),即和k对应的值如果不相等,则k位置处的next值(假设为n),在与n位置的元素比较,如果相等
  * 				则则i处的next值为n+1,遇到next值为0时,i对应的next值也为0
- * 			
- * 
+ *
  * @author Administrator
  *
  */
