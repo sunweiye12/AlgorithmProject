@@ -37,7 +37,7 @@ public class _03之字形打印矩阵 {
 		int rp1 = 0;
 		int rp2 = 0;
 		//每次他俩同时走一步,每走一步都会调用打印方法
-		while(dp1<=rp1||dp1==0){
+		while(dp1<=rp1||dp1==0){  //dp1==0指的是在原地and情况下
 			//实现从zhi字打印
 			booleanPrint(arr,dp1,dp2,rp1,rp2);
 			//向下走的点向下移动,当移动到rows时向右移动
