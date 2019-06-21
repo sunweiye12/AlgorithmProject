@@ -21,7 +21,6 @@ public class _01数组中的逆序对 {
 		System.out.println(count(arr, arr.length));
 		for (int i = 0; i < arr.length; i++) {
 			System.out.print(arr[i]+" ");
-			String si = "";
 		}
 	}
     
