@@ -1,4 +1,4 @@
-package _1×Ö½ÚÌø¶¯;
+package _1bytedance;
 import java.util.Scanner;
 
 import org.junit.Test;
