@@ -122,7 +122,7 @@ public class _03二叉树的序列化与反序列化 {
 			return null;
 		}
 		//创建一个节点
-		Node head = new Node(Integer.valueOf(value));
+		Node head = new Node(Integer.parseInt(value));
 		head.left = reconPreOrder(queue);
 		head.right = reconPreOrder(queue);
 		return head;
