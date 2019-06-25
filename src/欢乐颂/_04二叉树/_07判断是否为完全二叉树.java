@@ -50,6 +50,7 @@ public class _07判断是否为完全二叉树 {
 		boolean flag=false; //判断是否遇到了情况3和4
 		while (!queue.isEmpty()) {
 			head = queue.poll();
+			
 			{//局部代码块中包含的是判断逻辑
 //				System.out.print(head.val+" ");
 				if (head.right!=null&&head.left!=null&&!flag) {
@@ -58,12 +59,14 @@ public class _07判断是否为完全二叉树 {
 				} else {
 					flag = true;
 				}
+				//遇到了三和四情况
 				if (flag) {
 					if (head.right!=null||head.left!=null) {
 						return false;
 					}
 				}
 			}
+			
 			if (head.left!=null) {
 				queue.add(head.left);
 			}
