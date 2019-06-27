@@ -52,9 +52,9 @@ public class _02RandomPool {
 			if (map1.containsKey(key)) {
 				throw new RuntimeException("已包含此元素-->"+key);
 			}
-			this.size++;
-			map1.put(key, this.size);
-			map2.put(this.size, key);
+			size++;
+			map1.put(key, size);
+			map2.put(size, key);
 		}
 		
 		//删除元素
@@ -63,7 +63,7 @@ public class _02RandomPool {
 				throw new RuntimeException("集合不存在此元素-->"+key);
 			}
 			int deleteIndex = this.map1.get(key);
-			int lastIndex = this.size--;
+			int lastIndex = size--;
 			String lastKey = map2.get(lastIndex);
 			map1.put(lastKey, deleteIndex);
 			map2.put(deleteIndex, lastKey);

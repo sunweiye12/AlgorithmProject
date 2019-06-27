@@ -83,7 +83,6 @@ public class _04_Manacher算法之算法解 {
 					break;
 				}
 			}
-			
 			//结束以上循环后便获得了i处的回文半径
 			//更新回文中心和最大回文右边界
 			if (i+pArr[i]>pR) {
@@ -92,8 +91,6 @@ public class _04_Manacher算法之算法解 {
 			}
 			
 			maxlength = maxlength>pArr[i]?maxlength:pArr[i]; //将较大的赋值给maxlength
-			
-			
 		}
 		return maxlength-1;
 	}
