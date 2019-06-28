@@ -1,4 +1,7 @@
 package _0工具箱类;
+
+import org.junit.Test;
+
 /**
  * 直观打印二叉树
  * @author Administrator
@@ -7,7 +10,8 @@ package _0工具箱类;
 
 public class _05直观打印二叉树 {
 	
-	public static void main(String[] args) {
+	@Test
+	public void main() {
 		
 		Node head = new Node(100);
 		head.left = new Node(21);
@@ -19,23 +23,22 @@ public class _05直观打印二叉树 {
 
 	}
 	
-	public static class Node {
+	public class Node {
 		public int value;
 		public Node left;
 		public Node right;
-
 		public Node(int data) {
 			this.value = data;
 		}
 	}
 
-	public static void printTree(Node head) {
+	public void printTree(Node head) {
 		System.out.println("Binary Tree:");
 		printInOrder(head, 0, "H", 17);
 		System.out.println();
 	}
 
-	public static void printInOrder(Node head, int height, String to, int len) {
+	public void printInOrder(Node head, int height, String to, int len) {
 		if (head == null) {
 			return;
 		}
@@ -49,7 +52,7 @@ public class _05直观打印二叉树 {
 		printInOrder(head.left, height + 1, "^", len);
 	}
 
-	public static String getSpace(int num) {
+	public String getSpace(int num) {
 		String space = " ";
 		StringBuffer buf = new StringBuffer("");
 		for (int i = 0; i < num; i++) {
