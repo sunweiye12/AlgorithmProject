@@ -2,22 +2,43 @@ package 剑指offer;
 
 import org.junit.Test;
 
+import com.sun.org.apache.regexp.internal.recompile;
+
 /*
  * 在一个二维数组中（每个一维数组的长度相同），每一行都按照从左到右递增的顺序排序，
  * 每一列都按照从上到下递增的顺序排序。请完成一个函数，输入这样的一个二维数组和一个整数，
  * 判断数组中是否含有该整数
+ * 
+ * 思路:从二维数组的右上角开始,只有两个选择,左面的比自己小,下面的比自己大
  */
-public class _1二维数组中的查找 {
+public class _01二维数组中的查找 {
 	
 	@Test
 	public void main() {
-		int[][] matr = getMatr(5,5);
+		int[][] matr = getMatr();
 		myPrint(matr);
+		System.out.println(Find(4, matr));
 	}
 	
 	
     public boolean Find(int target, int [][] array) {
-
+    	if (array==null) {
+    		return false;
+		}
+    	int line = array.length;
+    	int column = array[0].length;
+    	//起始点的下标
+    	int p1 = 0;
+    	int p2 = column-1;
+    	while(p1<line && p2 >= 0){
+    		if (array[p1][p2] < target) {
+    			p1++;
+			} else if(array[p1][p2] > target){
+				p2--;
+			} else {
+				return true;
+			}
+    	}
     	
     	return false;
     }
@@ -25,14 +46,10 @@ public class _1二维数组中的查找 {
     
 	
 	//获取一个m行n列的矩阵队列-----------------------------------------
-	private int[][] getMatr(int m,int n) {
-		int[][] matr = new int[m][n];
-		for (int i = 0; i < matr.length; i++) {
-			for (int j = 0; j < matr[i].length; j++) {
-				matr[i][j] = n*i+(j+1);			//生成的数为第几个数
-//				matr[i][j] = (int)(Math.random()+0.7);		//只存在0和1的矩阵
-			}
-		}
+	private int[][] getMatr() {
+		int[][] matr = {{1,2,3,5},
+				{3,5,9,10},
+				{7,8,13,14}};
 		return matr;
 	}
 		
