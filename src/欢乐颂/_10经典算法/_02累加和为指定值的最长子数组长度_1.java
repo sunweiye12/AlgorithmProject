@@ -1,7 +1,7 @@
 package »¶ÀÖËÌ._10¾­µäËã·¨;
 
 import java.util.Map;
-import java.util.TreeMap;
+import java.util.*;
 import org.junit.Test;
 
 /*
