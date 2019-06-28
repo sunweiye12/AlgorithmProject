@@ -12,31 +12,21 @@ public class _02Ìæ»»¿Õ¸ñ {
 
 	@Test
 	public void main() {
-		StringBuffer str1 = new StringBuffer(" Äã  ºÃ ºÃ ");
+		StringBuffer str1 = new StringBuffer("We Are Happy");
 		String str2 = replaceSpace(str1);
-//		System.out.println(str1);
-//		System.out.println(str2);
+		System.out.println(str1);
+		System.out.println(str2);
 	}
 	public String replaceSpace(StringBuffer str) {
-		if (str==null ) {
-			return null;
-		}
-		if (str.equals(" ")) {
-			return "%20";
-		}
-    	String[] strArr = str.toString().split(" ");
-    	System.out.println(strArr.length);
-    	for (int i = 0; i < strArr.length; i++) {
-			System.out.println(strArr[i]);
-		}
-    	String strTem = "";
-    	for (int i = 0; i < strArr.length; i++) {
-    		if (i==strArr.length-1) {
-    			strTem += strArr[i];
-			} else{
-				strTem += strArr[i] + "%20";
-			}
-		}
-		return strTem;
+		char[] strArr = str.toString().toCharArray();
+        String strReturn = "";
+        for(int i = 0;i < strArr.length;i++){
+            if(strArr[i] == ' '){
+                strReturn += "%20";
+            } else {
+                strReturn += strArr[i];
+            }
+        }
+        return strReturn;
     }
 }
