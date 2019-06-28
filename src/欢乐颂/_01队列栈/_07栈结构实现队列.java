@@ -54,7 +54,7 @@ class MyQueue2{
 		return tem;
 	}
 	
-	//去除队列头部元素
+	//获取队列头部元素
 	public int peek(){
 		if (pushStack.isEmpty()) {
 			throw new RuntimeException("the queue is empty");

@@ -43,9 +43,9 @@ class MyStack1{
 			MinStack.push(cur);
 		}
 		DataStack.push(cur);
-		//和栈顶比较那个最小那个最小压入哪个
+		//和栈顶比较哪个最小,哪个最小压入哪个****(min栈中不是存放的是一个元素)
 		Integer min = MinStack.peek();
-		cur = (cur<min?cur:min);
+		cur = cur < min? cur:min;
 		MinStack.push(cur);
 	}
 	

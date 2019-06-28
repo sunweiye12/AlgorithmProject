@@ -52,7 +52,6 @@ public class _02岛问题 {
 
 	//从i j的位置起,开始向上下左右遍历
 	private void traverIsland(int[][] arr, int i, int j) {
-		// TODO Auto-generated method stub
 		if (arr[i][j]==1) {
 			arr[i][j]=-1;	//将此值置为-1
 			//开始遍历其上下左右

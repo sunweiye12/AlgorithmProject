@@ -69,7 +69,6 @@ class MyQueue1{
 	}
 	
 	private void swap() {
-		// TODO Auto-generated method stub
 		Queue<Integer> tem = new DelayQueue();
 		tem = dataQueue;
 		dataQueue = helpQueue;

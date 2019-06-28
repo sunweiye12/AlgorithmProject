@@ -44,36 +44,36 @@ public class _04用数组实现队列和栈 {
 
 class Mystack {
 	int [] stack;
-	int index = 0;
+	int index = -1;
 	//因为是固定长度,因此创建时要规定好长度
 	public Mystack(int len){
 		stack = new int[len];
 	}
-
+	
 	//压栈
 	public void push(int cur){
-		if (index > stack.length) {
+		if (index == stack.length-1) {
 			throw new RuntimeException("栈内存已满");
 		}
-		stack[index++] = cur;
+		stack[++index] = cur;
 	}
 	
 	//删除并返回栈顶
 	public int pop(){
-		if (index <= 0) {
+		if (index == -1) {
 			throw new RuntimeException("栈中不存在元素");
 		}
-		return stack[--index];
+		return stack[index--];
 	}
 	
 	//返回栈顶元素
 	public int peek(){
-		if (index <= 0) {
+		if (index == -1) {
 			throw new RuntimeException("栈中不存在元素");
 		}
-		int tem = stack[--index];
-		index++;
-		return tem;
+//		int tem = stack[--index];
+//		index++;
+		return stack[index];
 	}
 }
 

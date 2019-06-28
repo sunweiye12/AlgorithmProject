@@ -65,7 +65,6 @@ public class _05两个单链表相交的问题 {
 
 	}
 	
-
 	//获取两个链表的相交结点,如果不相交则返回null
 	public static Node getIntersectNode(Node head1, Node head2) {
 		if (head1 == null || head2 == null) {

@@ -35,7 +35,6 @@ public class _03冒泡排序 {
 	
 	//元素交换的方法
 	private static void swap(int[] arr,int i, int j) {
-		// TODO Auto-generated method stub
 		arr[i]   = arr[i]^arr[j];
 		arr[j]   = arr[i]^arr[j];
 		arr[i]   = arr[i]^arr[j];

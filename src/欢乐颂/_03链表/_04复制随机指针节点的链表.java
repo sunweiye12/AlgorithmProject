@@ -14,15 +14,15 @@ import java.util.HashMap;
 	}
 	
 	Node类中的value是节点值，next指针和正常单链表中next指针的意义一 样，都指向下一个节点，
-	rand指针是Node类中新增的指针，这个指针可 能指向链表中的任意一个节点，也可能指向null。 
+	rand指针是Node类中新增的指针，这个指针可能指向链表中的任意一个节点，也可能指向null。 
 	给定一个由Node节点类型组成的无环单链表的头节点head，请实现一个 函数完成这个链表中所有结构的复制，并返回复制的新链表的头节点。 
 	【进阶题目】：
 	不使用额外的数据结构，只用有限几个变量，且在时间复杂度为 O(N)内完成原问题要实现的函数
 	
-	思路1:将链表依次存放到一个HashMap中Key为节点本身,Value为复制产生的新节点,
+	思路1:将链表依次存放到一个HashMap中,Key为节点本身,Value为复制产生的新节点,
 		也就是每一个原节点都对应着一个新节点,然后将新节点的下一个next指针指向其原节点next指针所对应的value值
 		即:map.get(cur).next = map.get(cur.next);
-		然后领rand指针同样执行  map.get(cur).rand = map.get(cur.rand); 
+		然后令rand指针同样执行  map.get(cur).rand = map.get(cur.rand); 
 		最后返回头结点所对应的value值
 	
 	进阶思路2:链表中将每个元素复制一份放到自己的next指针下,然后在通过next指针连接下一个元素,
