@@ -5,12 +5,10 @@ import java.util.Queue;
 
 /**
  * 二叉树的序列化与反序列化
-
 	扩展:所谓的序列化就是将二叉树转化为固定格式的字符串以用来进行存储
 	  	而反序列化则是将序列化的字符串转换成二叉树
 	  	(需要在一个值的结尾加!作为分隔符,在空位置用#代替)
  * @author Administrator
- *
  */
 public class _03二叉树的序列化与反序列化 {
 	
@@ -47,7 +45,7 @@ public class _03二叉树的序列化与反序列化 {
 		System.out.print("反序列化之后, ");
 		printTree(head);
 
-		System.out.println("====================================");
+		System.out.println("=================================");
 
 		head = new Node(1);
 		head.left = new Node(2);
