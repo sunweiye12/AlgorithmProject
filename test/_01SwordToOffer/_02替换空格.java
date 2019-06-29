@@ -15,7 +15,7 @@ public class _02Ìæ»»¿Õ¸ñ {
 	
 	@Test
 	public void main() {
-		StringBuffer str1 = new StringBuffer("We Are Happy");
+		StringBuffer str1 = new StringBuffer("We Are    Happy");
 		String str2 = replaceSpace(str1);
 		System.out.println(str1);
 		System.out.println(str2);
