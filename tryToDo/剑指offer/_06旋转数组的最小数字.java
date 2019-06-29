@@ -12,17 +12,13 @@ import org.junit.Test;
  * 		则旋转后的数组则会是先递增(或相等),然后知道遇到下雨个元素比自己还小,则说明下一个元素就是原数组的头元素,他最小     例如{3,4,5,1,2}
  * 		如果遍历完所有,都没有找到,说明,可能没有交换,第一个为最小的元素   O(n)
  * 思路2:设置一盒全局最小值遍历数组,返回最小值   O(n)
- * 优化思路:采用二分法解答这个问题，
-			mid = low + (high - low)/2
-			需要考虑三种情况：
-		(1)array[mid] > array[high]:出现这种情况的array类似[3,4,5,6,0,1,2]，此时最小数字一定在mid的右边。
-			low = mid + 1
+ * 优化思路3:采用二分法解答这个问题，low = 0,high = length-1,mid = low + (high - low)/2
+		需要考虑三种情况：
+		(1)array[mid] > array[high]:此时最小数字一定在mid的右边。low = mid + 1
 		(2)array[mid] == array[high]:出现这种情况的array类似 [1,0,1,1,1] 或者[1,1,1,0,1]，此时最小数字不好判断在mid左边
-			还是右边,这时只好一个一个试 ，
-			high = high - 1
-		(3)array[mid] < array[high]:出现这种情况的array类似[2,2,3,4,5,6,6],此时最小数字一定就是array[mid]或者在mid的左
-			边。因为右边必然都是递增的。
-			high = mid
+			还是右边,这时只好一个一个试 :high = high - 1
+		(3)array[mid] < array[high]:此时最小数字一定就是array[mid]或者在mid的左边。因为右边必然都是递增的。
+			故:high = mid
  */
 public class _06旋转数组的最小数字 {
 
