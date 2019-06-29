@@ -1,6 +1,5 @@
 package »¶ÀÖËÌ._09»ù´¡¾­µäËã·¨;
 
-import java.util.Random;
 import java.util.Stack;
 
 import org.junit.Test;

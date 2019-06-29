@@ -3,7 +3,6 @@ package 欢乐颂._06并查集和前缀树;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-
 import org.junit.Test;
 
 /**

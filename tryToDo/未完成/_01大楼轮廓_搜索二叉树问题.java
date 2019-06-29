@@ -19,6 +19,6 @@ package 未完成;
  */
 public class _01大楼轮廓_搜索二叉树问题 {
 	    public static void main(String[] args) {
-	    	
+	    	System.out.println("哈哈");
 	    }
 }
