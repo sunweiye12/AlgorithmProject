@@ -8,7 +8,7 @@ import org.junit.Test;
  * @author Administrator
  *
  */
-public class 雨水收集 {
+public class _02雨水收集 {
     
 	@Test
     public void main() {

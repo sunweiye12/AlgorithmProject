@@ -3,7 +3,7 @@ import org.junit.Test;
 /*
  * 题目:两个链表表示整数,每个节点表示一位数,冲头结点开始表示个位,编写一个函数,对着两个数求和,用链表的形式返回
  */
-public class Plus {
+public class _01Plus {
 
 	@Test
 	public void mian() {
