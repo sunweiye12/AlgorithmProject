@@ -7,30 +7,25 @@ package _1bytedance;
 	输入:0,1,0  -->  4
 		5,4,1,1  -->  7
 		
-	思路:构建一个help的数组和arr数组对应,表名此同学分得的糖数
-		求一个同学分得的糖数,要分别求两侧分数连续下降的个数,较大的呢个值加1,为此同学的糖数
+	思路:构建一个help的数组和arr数组对应,对应位置为此同学分得的糖数
+		求一个同学分得的糖数,要分别求两侧分数连续下降的个数,较大的那个值加1,为此同学的糖数
  */
 public class _04分糖果 {
 	public static void main(String[] args) {
-		int[] arr = {8,9,10,8,7};
+//		int[] arr = {1,2,3};
+//		int[] arr = {8,9,10,8,7};
 //		int[] arr = {2,3,3,4,5,2,1};
+		int[] arr = {2,3,4,1,5,6,2,1};
 		int num = getMinNum(arr);
-		
 		System.out.println(num);
 	}
 	
 	
 	private static int getMinNum(int[] arr){
-		int[] help = new int[arr.length]; //创建一个辅助数组
-
-		//分被求出每个位置的糖果个数
-		for (int index = 0; index < help.length; index++) {
-			help[index] = partion(arr , index);
-		}
-		
+		//分被求出每个同学的糖果个数,并将它们加起来
 		int su = 0;
-		for (int i = 0; i < help.length; i++) {
-			su += help[i];
+		for (int index = 0; index < arr.length; index++) {
+			su += partion(arr , index);
 		}
 		return su;
 	}
@@ -41,21 +36,21 @@ public class _04分糖果 {
 		int left = 0;	//左侧连续减小的个数
 		int right = 0;	//右侧连续减小的个数
 		int leftIndex = index-1; //左面的元素
-		int rightIndex = index+1;
+		int rightIndex = index+1; //右面的元素
 		while(leftIndex >= 0 && arr[leftIndex] <= arr[leftIndex+1] ){
-			if (arr[leftIndex] < arr[leftIndex+1]) { //如果小于就加一,如果等于就不变
+			if (arr[leftIndex] < arr[leftIndex+1]) { //如果小于就加一,如果等于就不计数
 				left++;
 			}
 			leftIndex--;
 		}
 		
 		while(rightIndex < arr.length && arr[rightIndex-1] >= arr[rightIndex] ){
-			if (arr[rightIndex-1] > arr[rightIndex]) { //如果小于就加一,如果等于就不变
+			if (arr[rightIndex-1] > arr[rightIndex]) { //如果小于就加一,如果等于就不计数
 				right++;
 			}
-			rightIndex++;
+			rightIndex++; 
 		}
 		
-		return Math.max(left, right) + 1;
+		return Math.max(left, right) + 1; //返回两侧减小的个数加1
 	}
 }
