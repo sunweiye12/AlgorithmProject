@@ -5,7 +5,7 @@ import com.sun.org.apache.regexp.internal.recompile;
 /*
  * 题目:公司成立的日期为2012年3月12日,随便给你一个日期,返回公司成立了多少天
  * 
- * 例如:2012 3 13    -->  2天
+ * 例如:2012 3 13    -->  1天
  *     2019 3 12   -->  2556天
  * 
  */
@@ -13,7 +13,7 @@ public class _07周年庆纪念 {
 
 	public static void main(String[] args) {
 		
-		String date = "2019 3 12"; //输入的日期
+		String date = "2019 3 13"; //输入的日期
 		String[] dateStr = date.split(" +");
 		int[] dateArr = new int[3];
 		dateArr[0] = Integer.parseInt(dateStr[0]);
@@ -44,7 +44,7 @@ public class _07周年庆纪念 {
 		count2 += dateArr[2];
 		//getDay()当前年初距离2012年初多少天
 		int count3 = getDay(dateArr[0]) + count2; //count3为距离2012年年初的天数
-		return count3 - count1 + 1;
+		return count3 - count1;
 	}
 	//输入一个年数,返回迎元旦时距离2012年的天数
 	private static int getDay(int year) {
@@ -53,7 +53,7 @@ public class _07周年庆纪念 {
 			return 0;
 		}else {
 			int i = (int)Math.ceil(tem/4); //为瑞年的个数
-			return i * 366 + (tem - i) * 365;
+			return i * 366 + (tem - i) * 365 + 1;
 		}
 	}
 }
