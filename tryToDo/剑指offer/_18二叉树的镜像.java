@@ -3,6 +3,15 @@ package 剑指offer;
 import org.junit.Test;
 
 import 剑指offer._17树的字结构.TreeNode;
+/*
+ * 题目:将一颗二叉树进行镜像反转
+ * 
+ * 思路:递归思路:
+ * 	1首先如果传入的节点为空,或者没有子节点,则直接return结束
+ *	2否则就交换其左右节点
+ *	3然后递归调用左孩子
+ *	4递归调用右孩子
+ */
 
 public class _18二叉树的镜像 {
 

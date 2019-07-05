@@ -20,6 +20,7 @@ public class _01三个线程循环打印 implements Runnable {
 	
     private ReentrantLock lock = new ReentrantLock();
     private Condition condition = lock.newCondition();
+    //为true代表执行完成
     private volatile Boolean a = false;
     private volatile Boolean b = false;
     private volatile Boolean c = true;
@@ -29,24 +30,22 @@ public class _01三个线程循环打印 implements Runnable {
         String name = Thread.currentThread().getName();
         lock.lock();
         try {
-            for (int i = 0; i < 100 ; i++) {
+            for (int i = 0; i < 40 ; i++) {
             	if (name.equals("a")) {
             		//只要c线程没有执行,其他线程来就阻塞,只有c线程执行完了才会跳过
                     if ( !c ) condition.await(); 
-                    //开始执行a线程
+                    //a线程执行结束
                     a = true;
-                    b = false;
+                    //c线程没有执行
                     c = false;
                 } else if (name.equals("l")) {
-                    //只有a1和a2同时为true时才打印B，否则阻塞当前线程
+                	//只要a线程没有执行,其他线程来就阻塞,只有a线程执行完了才会跳过
                     if ( !a ) condition.await();
                     b = true;
                     a = false;
-                    c = false;
                 } else if (name.equals("i")) {
                     if ( !b ) condition.await();
                     c = true;
-                    a = false;
                     b = false;
                 }
                 System.out.print(name);
