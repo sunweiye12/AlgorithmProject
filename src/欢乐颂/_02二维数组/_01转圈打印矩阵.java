@@ -21,7 +21,7 @@ package 欢乐颂._02二维数组;
  */
 public class _01转圈打印矩阵 {
 	public static void main(String[] args) {
-		int[][] matr = getMatr(5,3);
+		int[][] matr = getMatr(3,3);
 		myPrint(matr);
 		System.out.println("-----------------------");
 		printMatr(matr);

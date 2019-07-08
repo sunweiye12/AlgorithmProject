@@ -32,5 +32,4 @@ public class _07单向链表的直观打印 {
 			this.val = elem;
 		}
 	}
-	
 }
