@@ -32,7 +32,7 @@ public class _17树的字结构$$ {
 	
 	public static boolean HasSubtree(TreeNode root1, TreeNode root2) {
         boolean result = false;
-        //当Tree1和Tree2都不为零的时候，才进行比较。否则直接返回false
+        //当Tree1和Tree2都不为空的时候，才进行比较。否则直接返回false
         if (root2 != null && root1 != null) {
             //如果找到了对应Tree2的根节点的点
             //以这个根节点为为起点判断是否包含Tree2
