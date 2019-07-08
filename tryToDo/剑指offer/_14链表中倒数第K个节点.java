@@ -24,7 +24,7 @@ public class _14链表中倒数第K个节点 {
 			return null;
 		}
 		int count = 0; //用于统计一共有多少各节点
-		ListNode tem = head; //为了宝石head的索引不变,以后还要用
+		ListNode tem = head; //为了保持head的索引不变,以后还要用
 		while (tem != null) {
 			count++;
 			tem = tem.next;
