@@ -24,10 +24,24 @@ public class _24二叉树中和为某一值的路径__ {
 		head.right.right = new TreeNode(4);
 		printTree(head);
 		
-		ArrayList<ArrayList<Integer>> findPath = FindPath(head, 8);
+		ArrayList<ArrayList<Integer>> findPath = FindPath(head, 8); //得到的数组,按照长度进行排序
+		for (int i = 0; i < findPath.size() - 1; i++) {
+			for (int j = 0; j < findPath.size() - 1 - i; j++) {
+				if (findPath.get(j).size() < findPath.get(j+1).size()) {
+					swap(findPath,j,j+1);
+				}
+			}
+		}
+		
 		for (ArrayList<Integer> arrayList : findPath) {
 			System.out.println(arrayList);
 		}
+	}
+
+	private void swap(ArrayList<ArrayList<Integer>> findPath, int i, int j) {
+		ArrayList<Integer> tem = findPath.get(i);
+		findPath.add(i, findPath.get(j)); //增加了元素
+		findPath.add(j, tem);
 	}
 
 	ArrayList<ArrayList<Integer>> reList = new ArrayList<ArrayList<Integer>>();
