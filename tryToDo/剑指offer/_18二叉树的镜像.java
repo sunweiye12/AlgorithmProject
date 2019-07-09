@@ -2,7 +2,7 @@ package 剑指offer;
 
 import org.junit.Test;
 
-import 剑指offer._17树的字结构$$.TreeNode;
+import 剑指offer._17树的字结构__.TreeNode;
 /*
  * 题目:将一颗二叉树进行镜像反转
  * 

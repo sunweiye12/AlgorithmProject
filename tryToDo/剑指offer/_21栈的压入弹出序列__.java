@@ -14,8 +14,8 @@ import org.junit.Test;
  * 		每次压栈都判断栈顶是否与指针指向的出栈数组数相同,如果相同则弹栈,指针向右移动,在此判断.
  * 		直到不相等则据需往栈中添加元素,如果结束后指针没有指向数组尾部说明失败
  */
-public class _21栈的压入弹出序列$$ {
-
+public class _21栈的压入弹出序列__ {
+	
 	@Test
 	public void main() {
 		int[] pushA = {1,2,3,4,5};

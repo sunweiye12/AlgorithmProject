@@ -11,7 +11,7 @@ import org.junit.Test;
  * 		同时也可以将先序数组分成两部分,分别为左面的先序和右面的先序
  * 		然后在求出左子结点和右子节点对应的数组,利用相同原则,返回个上一级
  */
-public class _04重建二叉树$$ {
+public class _04重建二叉树__ {
 	
 	@Test
 	public void main() {

@@ -10,7 +10,7 @@ import _0工具箱类._05直观打印二叉树.TreeNode;
  * 
  * 思路:以root1为头结点开始遍历,直到找到一个节点与root2相等,则以这两个节点为头分别判断
  */
-public class _17树的字结构$$ {
+public class _17树的字结构__ {
 
 	@Test
 	public void main() {
