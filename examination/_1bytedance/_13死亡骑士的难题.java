@@ -12,29 +12,32 @@ import java.util.*;
 	输入:2                输出       40
 		340			0
 		900
+	思路:虽然地精有三种商品，但其实我们只需考虑血瓶和魔法药，因为无敌药水=血瓶+魔法药。先买尽量多的血瓶，若有剩余则用血瓶+50换购魔法药。
  */
 public class _13死亡骑士的难题 {
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        int n = Integer.parseInt(in.nextLine());
-        for(int i = 0;i < n;i++){
-            int num = Integer.parseInt(in.nextLine());
-            partion(num);
-        }
+//        Scanner in = new Scanner(System.in);
+//        int n = Integer.parseInt(in.nextLine());
+//        for(int i = 0;i < n;i++){
+//            int num = Integer.parseInt(in.nextLine());
+//            partion(num);
+//        }
+            partion1(500);
     }
     
-    public static void partion(int num){
-        if(num<150){
-            System.out.println(num);
-            return;
-        }
-        if(num%150 == 0 || num%200 == 0 || num%350 == 0){
-            System.out.println(0);
-            return;        
-        }
-        int min = num%350;
-        min = Math.min(min,num%200);
-        min = Math.min(min,num%150);
-        System.out.println(min);
-    }
+    private static void partion1(int num) {
+    	int xueping = 150;
+    	int mofa = 200;
+    	int wudi = 350;
+		int al = 0;//购买的血瓶数量
+		int ex = 0; //剩余数量钱数
+		
+		al = num / xueping; //血瓶的数量
+		ex = num % xueping; //卖完血瓶剩余的钱数	
+		while(ex >= 50 && al >= 1){
+			ex -= 50;
+			al--;
+		}
+		System.out.println(ex);
+	}
 }
