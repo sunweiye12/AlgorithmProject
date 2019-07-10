@@ -1,6 +1,8 @@
 package 剑指offer;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
 import org.junit.Test;
 
@@ -25,13 +27,12 @@ public class _24二叉树中和为某一值的路径__ {
 		printTree(head);
 		
 		ArrayList<ArrayList<Integer>> findPath = FindPath(head, 8); //得到的数组,按照长度进行排序
-		for (int i = 0; i < findPath.size() - 1; i++) {
-			for (int j = 0; j < findPath.size() - 1 - i; j++) {
-				if (findPath.get(j).size() < findPath.get(j+1).size()) {
-					swap(findPath,j,j+1);
-				}
-			}
-		}
+
+//		Collections.sort(findPath,new Comparator<ArrayList<Integer>>() {
+//			public int compare(ArrayList<Integer> o1, ArrayList<Integer> o2) {
+//				return o1.size() - o2.size();  //字符串内置的比较方法compareTo
+//			}
+//		});
 		
 		for (ArrayList<Integer> arrayList : findPath) {
 			System.out.println(arrayList);

@@ -13,6 +13,7 @@ import java.util.Scanner;
  * 第二行是二维数组的列数
  * 接下来两行是信息
  */
+
 public class _2处理多行输入 {
 
 	public static void main(String[] args) {
@@ -27,6 +28,7 @@ public class _2处理多行输入 {
 	        //3.放到对应行的相应位置上
 	        for (int j = 0; j < sArr.length; j++) {
 	            arr[i][j] = Integer.parseInt(sArr[j]); // 将数字字符串转换成数字
+	            System.out.println(arr[i][j]);
 	        }
 		}
 	}
