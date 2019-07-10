@@ -1,7 +1,8 @@
 package 剑指offer;
 
 import java.util.ArrayList;
-
+import java.util.Collections;
+import java.util.List;
 import org.junit.Test;
 
 import _0工具箱类._05直观打印二叉树.TreeNode;
@@ -18,14 +19,14 @@ public class _24二叉树中和为某一值的路径__ {
 	public void main() {
 		TreeNode head = new TreeNode(1);
 		head.left = new TreeNode(7);
-//		head.left.left = new TreeNode(4);
+		head.left.left = new TreeNode(4);
 		head.right = new TreeNode(2);
 		head.right.left = new TreeNode(5);
 		head.right.right = new TreeNode(4);
 		printTree(head);
 		
 		ArrayList<ArrayList<Integer>> findPath = FindPath(head, 8); //得到的数组,按照长度进行排序
-		
+
 		for (ArrayList<Integer> arrayList : findPath) {
 			System.out.println(arrayList);
 		}
