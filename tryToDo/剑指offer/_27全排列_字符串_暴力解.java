@@ -23,7 +23,7 @@ public class _27全排列_字符串_暴力解 {
 
 	@Test
 	public void main() {
-		String str = "abb";
+		String str = "abcc";
 		ArrayList<String> list = Permutation(str);
 		for (String string : list) {
 			System.out.println(string);
