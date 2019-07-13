@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
-
 import org.junit.Test;
 
 import _0工具箱类._05直观打印二叉树.TreeNode;
@@ -21,7 +20,7 @@ public class _24二叉树中和为某一值的路径__ {
 	public void main() {
 		TreeNode head = new TreeNode(1);
 		head.left = new TreeNode(7);
-//		head.left.left = new TreeNode(4);
+		head.left.left = new TreeNode(4);
 		head.right = new TreeNode(2);
 		head.right.left = new TreeNode(5);
 		head.right.right = new TreeNode(4);
@@ -35,16 +34,12 @@ public class _24二叉树中和为某一值的路径__ {
 			}
 		});
 		
+
 		for (ArrayList<Integer> arrayList : findPath) {
 			System.out.println(arrayList);
 		}
 	}
 
-	private void swap(ArrayList<ArrayList<Integer>> findPath, int i, int j) {
-		ArrayList<Integer> tem = findPath.get(i);
-		findPath.add(i, findPath.get(j)); //增加了元素
-		findPath.add(j, tem);
-	}
 
 	ArrayList<ArrayList<Integer>> reList = new ArrayList<ArrayList<Integer>>();
 	ArrayList<Integer> list = new ArrayList<Integer>();
@@ -66,7 +61,6 @@ public class _24二叉树中和为某一值的路径__ {
 		return reList;
     }
 	
-
 //-----------------------------------------------------------------------------------------------------	
 	public class TreeNode {
 		public int val;

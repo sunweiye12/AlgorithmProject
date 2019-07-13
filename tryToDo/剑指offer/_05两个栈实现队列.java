@@ -47,5 +47,10 @@ public class _05两个栈实现队列 {
 	    	}
 	    	return result;
 	    }
+	    
+	    public int count(){
+	    	return stack.size();
+	    }
+	    
 	}
 }
