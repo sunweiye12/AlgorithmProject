@@ -1,4 +1,4 @@
-package _1byt edance;
+package _1bytedance;
 
 import java.util.Scanner;
 

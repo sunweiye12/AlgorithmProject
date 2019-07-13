@@ -10,6 +10,7 @@ public class _11分割等和子集 {
 		int[] arr = {1,2,3,4,1};
 		System.out.println(canPartition(arr));
 	}
+	
     public boolean canPartition(int[] nums) {
         int sum=0;
         for(int n:nums)
@@ -18,6 +19,7 @@ public class _11分割等和子集 {
             return false;
         return subsetSum(nums,sum>>>1);
     }
+    
     public boolean subsetSum(int[] nums, int s) {
         boolean[] dp = new boolean[s + 1]; 
         dp[0] = true;
