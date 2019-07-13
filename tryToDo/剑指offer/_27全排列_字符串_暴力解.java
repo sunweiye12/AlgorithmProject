@@ -23,7 +23,7 @@ public class _27全排列_字符串_暴力解 {
 
 	@Test
 	public void main() {
-		String str = "abcc";
+		String str = "123";
 		ArrayList<String> list = Permutation(str);
 		for (String string : list) {
 			System.out.println(string);
@@ -32,12 +32,12 @@ public class _27全排列_字符串_暴力解 {
 	
 	
 	public ArrayList<String> Permutation(String str){
+		//生成一个用于返回的list集合
+		ArrayList<String> list = new ArrayList<String>();
         //basecase
         if(str == null || str.length() == 0){
-             return new ArrayList<String>();
+             return list;
         }
-        //生成一个用于返回的list集合
-        ArrayList<String> list = new ArrayList<String>();
         //调用方法,将所有全排列放入list集合中
         partion(str.toCharArray(),0,list);
         //默认根据字典序进行,对集合进行排序
@@ -45,7 +45,7 @@ public class _27全排列_字符串_暴力解 {
         return list;
     }
 	    
-	//将全排列放入集合中
+	//将全排列放入集合中(递归)
 	private void partion(char[] chars,int i,ArrayList<String> list){
 	    //如果到达最后一个元素时,将字符数组转换成字符串,装到list中
 	    if(i == chars.length-1){
@@ -58,7 +58,7 @@ public class _27全排列_字符串_暴力解 {
 	            charSet.add(chars[j]);//将元素放到缓存里
 	            swap(chars,i,j);      //开始交换元素
 	            partion(chars,i+1,list); //从下一位开始判断
-	            swap(chars,i,j);      //再换回来
+	            swap(chars,i,j);      //再换回来 ,以便不影响后面的顺序
 	        }
 	    }
 	}

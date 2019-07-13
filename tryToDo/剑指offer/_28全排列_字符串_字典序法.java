@@ -2,7 +2,6 @@ package 剑指offer;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 
 import org.junit.Test;
 
@@ -48,19 +47,19 @@ public class _28全排列_字符串_字典序法 {
         
         int len = chars.length;
         while(true){
-            int lIndex = len-1; //最右索引
-            int rIndex;
+            int lIndex = len-1; //左索引
+            int rIndex;			//右索引
             //从后向前查询,找到第一个下降的字符(为lIndex-1的位置)
-            while(lIndex>=1 && chars[lIndex-1]>=chars[lIndex]){
+            while(lIndex > 0 && chars[lIndex-1] >= chars[lIndex]){
                 lIndex--;
             }
             //如果第一个下降的位置在0以前,就说明已经查到了最大全排列,没有比他还大的全排列(直接退出)
-            //目的时找出比当前大一的全排列,并返回,依次最大的这个应该在前面已经返回了
+            //目的是找出比当前大一的全排列,并返回,因此最大的这个应该在前面已经返回了
             if(lIndex == 0)
                 break;
             //找到它后面最后一个比它大的元素(返回坐标为rIndex-1)
             rIndex = lIndex;
-            while(rIndex<len && chars[rIndex]>chars[lIndex-1]){
+            while(rIndex < len && chars[lIndex - 1] < chars[rIndex]){
                 rIndex++;
             }
             //将两个元素交换
@@ -78,7 +77,7 @@ public class _28全排列_字符串_字典序法 {
             return;
         int len = chars.length;
         //相当于找到对称中心然后反转
-        for(int i=0;i<(len-k)/2;i++){
+        for(int i=0;i<((len-k)/2);i++){
             int m = k+i;
             int n = len-1-i;
             if(m<=n){
