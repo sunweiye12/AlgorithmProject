@@ -2,7 +2,7 @@ package 欢乐颂._04二叉树;
 
 /**
  * 在二叉树中找到一个节点的后继节点
-	【题目】 现在有一种新的二叉树节点类型如下：
+	【题目】  
 	public class Node { 
 		public int value; 
 		public Node left;
