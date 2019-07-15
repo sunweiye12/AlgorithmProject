@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
 
-import 剑指offer._17树的字结构__.TreeNode;
+import 剑指offer._17树的字结构88.TreeNode;
 
 /*
  * 题目:从上往下打印出二叉树的每个节点，同层节点从左至右打印。

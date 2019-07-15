@@ -15,7 +15,7 @@ import org.junit.Test;
  *		3.如果sum小于等于0,那就将left和right同时指向right的下一位
  *		4.直到right到达最右端以后,left依次相向右移动,直到最右端结束
  */
-public class _31连续子数组的最大和__ {
+public class _31连续子数组的最大和88 {
 
 	@Test
 	public void main() {

@@ -17,7 +17,7 @@ import org.junit.Test;
     	提交代码时，主要的问题出在，需要加入条件判断，防止出现单行或者单列的情况。(要单列情况下,从那边开始打印)
  */
 
-public class _19顺时针打印矩阵__ {
+public class _19顺时针打印矩阵88 {
 	
 	@Test
 	public void main() {

@@ -11,7 +11,7 @@ import org.junit.Test;
  * 		可以将后序遍历的最后一个节点去掉,则剩下的部分可以利用头结点分成左右两部分,左右两部分满足左部分都小于root,右部分都大于root
  * 		然后依次递归
  */
-public class _23二叉搜索树的后序遍历__ {
+public class _23二叉搜索树的后序遍历88 {
 
 	@Test
 	public void main() {

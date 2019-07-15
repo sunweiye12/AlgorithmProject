@@ -14,7 +14,7 @@ import _0工具箱类._05直观打印二叉树.TreeNode;
  * 
  * 思路:遍历每一条路径,并为每一条路径创建一个list,如果和为
  */
-public class _24二叉树中和为某一值的路径__ {
+public class _24二叉树中和为某一值的路径88 {
 
 	@Test
 	public void main() {

@@ -17,7 +17,7 @@ import org.junit.Test;
 	如果小于 1，则结果为 a。
 	如果等于 1，则取第 i 位右边（低位）数字，设为 b，最后结果为 a+b+1。
  */
-public class _32整数中1出现的次数__ {
+public class _32整数中1出现的次数88 {
 
 	@Test
 	public void main() {
