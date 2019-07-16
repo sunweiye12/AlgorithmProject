@@ -21,7 +21,7 @@ public class _32整数中1出现的次数88 {
 
 	@Test
 	public void main() {
-		int solution = NumberOf1Between1AndN_Solution(13);
+		int solution = NumberOf1Between1AndN_Solution(1);
 		System.out.println(solution);
 	}
 	
@@ -33,5 +33,5 @@ public class _32整数中1出现的次数88 {
             count += (a + 8) / 10 * i + ((a % 10 == 1) ? b + 1 : 0);
         }
        return count;
-  }
+	}
 }

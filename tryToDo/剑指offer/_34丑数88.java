@@ -19,7 +19,7 @@ import org.junit.Test;
  * 		同理,i为之前的所有丑数都乘5得到刚好大于i位的那个数min3,则i为的下一个丑数一定为min1,min2,min3中最小的那个
  * 		实际在运算的时候没有必要将i之前的所有丑数都和2相乘,因为之前的丑数是排序的,因此我们可以一直找到这个临界位
  */
-public class _34丑数 {
+public class _34丑数88 {
 	
 	@Test
 	public void main() {
