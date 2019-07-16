@@ -38,7 +38,7 @@ public class _34丑数88 {
 		dp[0] = 1; //第一个丑数位1
 		int nextIndex = 1; //指向下一个丑数的指针
 		//设置三个临界值(指向dp数组想下表)
-		int intMut2 = 0;
+		int intMut2 = 0; //当2乘以intMut2指向的丑数刚好大于目前最大是丑数
 		int intMut3 = 0;
 		int intMut5 = 0;
 		while(nextIndex < size){
@@ -51,7 +51,6 @@ public class _34丑数88 {
 		}
 		return dp[size-1];
 	}
-
 
 	//暴力解
 	public int GetUglyNumber_Solution_baoli(int size) {
