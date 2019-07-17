@@ -110,17 +110,17 @@ public class _01java内置的数据结构 {
 			}
 		});
 
-        Student p1=new Student(95,"张三");
-        Student p2=new Student(89,"李四");
-        Student p3=new Student(89,"李四");
-        Student p4=new Student(67,"王五");
-        Student p5=new Student(92,"赵六");
-        queue1.add(p1);
-        queue1.add(p2);
-        queue1.add(p3);   //add 和offer效果一样。
-        queue1.offer(p4); //add 方法实现，其实就是调用了offer
-        queue1.offer(p5);
-        
+//        Student p1=new Student(95,"张三");
+//        Student p2=new Student(89,"李四");
+//        Student p3=new Student(89,"李四");
+//        Student p4=new Student(67,"王五");
+//        Student p5=new Student(92,"赵六");
+//        queue1.add(p1);
+//        queue1.add(p2);
+//        queue1.add(p3);   //add 和offer效果一样。
+//        queue1.offer(p4); //add 方法实现，其实就是调用了offer
+//        queue1.offer(p5);
+//        
         System.out.println("------------堆(放对象)----------------");
         while(!queue1.isEmpty()){
             System.out.println(queue1.poll());
@@ -132,7 +132,6 @@ public class _01java内置的数据结构 {
 	class Student{
 	    private int score;
 	    private String name;
-	    
 	    public Student(int age,String name){
 	        this.score=age;
 	        this.name=name;
