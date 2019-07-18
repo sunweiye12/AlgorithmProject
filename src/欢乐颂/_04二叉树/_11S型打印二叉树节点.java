@@ -1,8 +1,7 @@
 package 欢乐颂._04二叉树;
 
-import java.util.LinkedList;
-import java.util.Queue;
 import java.util.Stack;
+
 
 /*
  * 题目:设计S型层次遍历树的算法，比如根节点是第一层，第二层从左至右遍历，第三层从右至左遍历，第四层再从左至右遍历，以此类推。 
@@ -12,31 +11,31 @@ public class _11S型打印二叉树节点 {
 
 	public static void printSTree(TreeNode root) {
 		
-        Queue<TreeNode> queue1 = new LinkedList<TreeNode>(); //存放奇数层节点
-        Queue<TreeNode> queue2 = new LinkedList<TreeNode>();
+        Stack<TreeNode> stack1 = new Stack<TreeNode>(); //存放奇数层节点
+        Stack<TreeNode> stack2 = new Stack<TreeNode>();
         int currentLevel = 1;//第一层开始
-        queue1.add(root);	 //将根节点放入第一层
+        stack1.add(root);	 //将根节点放入第一层
         
-        while (!queue1.isEmpty() || !queue2.isEmpty()) { 
+        while (!stack1.isEmpty() || !stack2.isEmpty()) { 
             if (currentLevel % 2 == 1) {
-                TreeNode tempNode = queue1.poll();
+                TreeNode tempNode = stack1.pop();
                 System.out.println(tempNode.val);
                 if (tempNode.right != null)
-                    queue2.add(tempNode.right);
+                    stack2.add(tempNode.right);
                 if (tempNode.left != null)
-                    queue2.add(tempNode.left);
-                if (queue1.isEmpty()) {
-                    currentLevel++;
+                    stack2.add(tempNode.left);
+                if (stack1.isEmpty()) {
+                    currentLevel++;    //此层空了就层数加一
                 }
             }
             else {
-                TreeNode tempNode = queue2.poll();
+                TreeNode tempNode = stack2.pop();
                 System.out.println(tempNode.val);
-                if (tempNode.right != null)
-                	queue1.add(tempNode.right);
                 if (tempNode.left != null)
-                    queue1.add(tempNode.left);
-                if (queue2.isEmpty()) {
+                	stack1.add(tempNode.left);
+                if (tempNode.right != null)
+                    stack1.add(tempNode.right);
+                if (stack2.isEmpty()) {
                     currentLevel++;
                 }
             }

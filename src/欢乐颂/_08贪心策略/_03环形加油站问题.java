@@ -32,7 +32,7 @@ public class _03环形加油站问题 {
 	}
 	public int canCompleteCircuit(int[] gas, int[] cost) {
 		//basecase
-        if(gas == null||gas.length==0){
+        if(gas == null||gas.length == 0){
             return -1;
         }
         int start = 0; //开始的位置
@@ -43,7 +43,7 @@ public class _03环形加油站问题 {
             remain += gas[i] - cost[i];
             if(remain < 0){
                 remain = 0;
-                start = i + 1;
+                start = i + 1; //从下一个站点开始
             }
         }
         return total < 0 ? -1 : start;
