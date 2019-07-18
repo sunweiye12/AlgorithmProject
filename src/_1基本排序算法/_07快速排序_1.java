@@ -16,10 +16,8 @@ public class _07快速排序_1 {
 		}
 	}
 	
-	
 	//快速排序
 	public static void fastSort (int[] arr,int first,int last){
-		
 		if (first >= last) { //递归截止的条件(当数组只有一个元素第)
 			return;
 		}
