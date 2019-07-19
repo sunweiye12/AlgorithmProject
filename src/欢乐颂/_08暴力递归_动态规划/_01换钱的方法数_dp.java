@@ -6,35 +6,23 @@ import java.util.Map;
 import org.junit.Test;
 
 /*
- * 【题目】给定数组arr，arr中所有的值都为正数且不重复。每个值代表一种面值的货币，每种面值的货币可以使用任意张，再给定一个整数aim代表要找的钱数，
+ *【题目】给定数组arr，arr中所有的值都为正数且不重复。每个值代表一种面值的货币，每种面值的货币可以使用任意张，再给定一个整数aim代表要找的钱数，
  * 		求换钱有多少种方法。
- *【举例】arr=[5,10,25,1]，aim=0。
- *		组成0元的方法有1种，就是所有面值的货币都不用。所以返回1。
- *	arr=[5,10,25,1]，aim=15。
- *		组成15元的方法有6种，分别为3张5元、1张10元+1张5元、1张10元+5张1元、10张1元+1张5元、2张5元+5张1元和15张1元。所以返回6。
- *	arr=[3,5]，aim=2。
- *		任何方法都无法组成2元。所以返回0。
- *
- * 暴力递归解法:以[5,10,25,1]，aim=15。为例此枚举
- * 			使用0个5: 10,25,1 组成  15 的方法数为 - a
- * 			使用1个5: 10,25,1 组成  10 的方法数为 - b
- * 			使用2个5: 10,25,1 组成  5  的方法数为 - c
- * 			使用3个5: 10,25,1 组成  0  的方法数为 - d
- * 		然后依次将 a b c d 加起来.
- * 优化解决方案->(记忆化搜索):由于上面的解法计算了大量的重复操作,因此可以通过创建一个缓存结构来将每次计算的结果进行存储,然后在
- * 		需求时,在缓存结构中查找.
- * DP解决方案:通过一个二维数组结构dp来存放所有的结果集,通过basecase来设置已知的位置,然后通过以来关系推导出其它的结果.直到最后的结果可以得出
+ * DP解决方案:通过一个二维数组结构dp[][]来存放所有的结果集,
+ * 		1.其中dp[x][y]表示使用前x张钱,凑出y元所用的方法数
+ * 		2.可以得出dp[x][0]=1,因为凑出一张钱只有一种方法
+ * 		3.对于任意dp[x][y] 为
+ * 			dp[x-1][y] 不适用这张前,组出y元的方法.加上
+ * 			dp[x-1][y - 1 * arr[x]] 使用一张此钱币,组出y - 1 * arr[x]的方法书,加上 ..
+ *			定义count = y/arr[x]为做多可以使用此钱的个数
  */
 public class _01换钱的方法数_dp {
 	@Test
 	public void main() {
 		int[] arr = {5,10,25,1};
 		int aim = 15;
-		int num1 = baoli(arr,aim);
-		int num2 = baoliyouhua(arr,aim);
 		int num3 = dppartion(arr,aim);
-		System.out.println(num1);
-		System.out.println(num2);
+		System.out.println(num3);
 	}
 
 	//利用动态规划来解决此问题
@@ -42,60 +30,22 @@ public class _01换钱的方法数_dp {
 		if (arr == null || arr.length == 0 || aim <= 0) {
 			return 0;
 		}
-		return 0;
-	}
-
-	//优化解决方案
-	private int baoliyouhua(int[] arr, int aim) {
-		if (arr == null || arr.length == 0 || aim <= 0) {
-			return 0;
+		//创建dp数组 dp[x][y]实用前x张钱组出y员的次数
+		int[][] dp = new int[arr.length+1][aim+1];
+		//初始化dp[x][0]=0,组出0元只有一种方法
+		for (int i = 0; i < dp.length; i++) {
+			dp[i][0] = 1;
 		}
-		return baoliyouhuaPartion(arr,0,aim);
-	}
-
-	//暴力方法的优化解决方案
-	private int baoliyouhuaPartion(int[] arr, int index, int arm) {
-		Map<String, Integer> map = new HashMap<String, Integer>();
-		int res = 0; //定义返回结果
-		if (index == arr.length) {
-			return res = arm == 0 ? 1 : 0;
-		}
-		for (int i = 0; arr[index] * i <= arm; i++) { //依次计算第一个位置为不同值时返回的方法数的和
-			String key = String.valueOf(index+1)
-					+"_"+String.valueOf(arm - arr[index] * i);
-			if(map.containsKey(key)){
-				res += map.get(key);
-			} else{
-				res += baoliPartion(arr, index + 1, arm - arr[index] * i);
-				map.put(key, res);
+		for (int x = 1; x < dp.length; x++) {
+			for (int y = 1; y < dp[0].length; y++) {
+				//判断当前x张钱时,组出y员的方法
+				int count = y/arr[x-1]; //arr[x-1]代表x张硬币的面值,count代表可以用的最大是张数
+				for (int i = 0; i <= count; i++) {
+					//当使用i张此钱币时,前x-1个硬币应该组成y- i * arr[x-1]元
+					dp[x][y] += dp[x-1][y- i * arr[x-1]]; 
+				}
 			}
 		}
-		return res;
-	}
-
-	//暴力解法
-	private int baoli(int[] arr, int aim) {
-		if (arr == null || arr.length == 0 || aim <= 0) {
-			return 0;
-		}
-		return baoliPartion(arr,0,aim);
-	}
-	
-	/*
-	 * 暴力递归过程
-	 * arr:是原始数组,不变
-	 * index:是指从index位置开始后面的前可以随便用
-	 * aim :代表要拼出的目的钱数
-	 * 返回值时方法数
-	 */
-	private int baoliPartion(int[] arr, int index, int aim) {
-		int res = 0; 	//定义返回结果
-		if (index == arr.length) {
-			return res = aim == 0 ? 1 : 0;
-		}
-		for (int i = 0; arr[index] * i <= aim; i++) { //依次计算第一个位置为不同值时返回的方法数的和
-			res += baoliPartion(arr, index + 1, aim - arr[index] * i);
-		}
-		return res;
+		return dp[arr.length][aim];
 	}
 }
