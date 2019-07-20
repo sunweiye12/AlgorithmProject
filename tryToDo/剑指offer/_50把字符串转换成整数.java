@@ -44,7 +44,7 @@ public class _50把字符串转换成整数 {
 				return 0;
 			}
 		}
-		int res = 0; //数字
+		int res = 0; //返回的数字
 		int ind = 1; //每次的进制
 		for (int i = arrInt.length-1; i >= 0; i-- ) {
 			int tem = arrInt[i] * ind;
