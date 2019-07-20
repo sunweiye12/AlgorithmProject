@@ -11,21 +11,23 @@ public class _10最长递增子序列_暴力 {
 	
     public static void maxAscLen(int [] arr){
         int n = arr.length;
-        int [] lens = new int[n];	//保存以元素i结尾的递增子序列长度
+        int [] dp = new int[n];			//保存以元素i结尾的递增子序列长度
         int [][] lensArr = new int[n][n];	//保存以每个元素i结尾的递增子序列
         for(int i = 0; i <= n - 1; i++){	//初始化辅助空间
-        	lens[i] = 1;
+        	dp[i] = 1;
             lensArr[i][0] = arr[i];
         }
        
         for(int i = 0; i < n; i++){
-           for(int j = i - 1; j >= 0; j--){	//从后往前寻找
-             if(arr[i] > arr[j] && lens[j] + 1 > lens[i]){
-            	 lens[i] = lens[j] + 1;	//更新以元素i结尾的最长递增子序列长度
-                 for(int k = 0; k <= lens[j]; k++){	//把以元素j结尾的最长递增子序列拷贝到以元素i结尾的最长递增子序列中
-                     lensArr[i][k] = lensArr[j][k];
+           for(int j = 0; j < i; j++){	//查找i之前的元素
+             if(arr[j] < arr[i] && dp[j] + 1 > dp[i]){
+            	 dp[i] = dp[j] + 1;		//更新以元素i结尾的最长递增子序列长度
+            	 //把以元素j结尾的最长递增子序列拷贝到以元素i结尾的最长递增子序列中
+                 for(int k = 0; k <= dp[j]; k++){	
+                     lensArr[i][k] = lensArr[j][k];  
                  }
-                 lensArr[i][lens[i] - 1] = arr[i];
+                 //然后在添加上第i个元素元素
+                 lensArr[i][dp[i] - 1] = arr[i]; 
               }
            }
        }
@@ -34,14 +36,14 @@ public class _10最长递增子序列_暴力 {
         //也即这里只能返回9的下标
         int index = 0;
         for(int i = 0; i <= n - 1; i++){
-           if(lens[index] < lens[i]){
+           if(dp[index] < dp[i]){
              index = i;
           }
         }
         //这里只能输出一个最长递增子序列
-        System.out.println("最大递增子序列长度：" + lens[index]);
+        System.out.println("最大递增子序列长度：" + dp[index]);
         System.out.print("最大递增子序列为：");
-        for(int i = 0; i < lens[index]; i++){
+        for(int i = 0; i < dp[index]; i++){
         	System.out.print(lensArr[index][i] + " ");
         }
         System.out.println();
