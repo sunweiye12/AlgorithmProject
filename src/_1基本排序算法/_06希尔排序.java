@@ -27,8 +27,7 @@ public class _06希尔排序 {
 		
 		//设置步长
 		int gap = 3;
-		
-		while(gap > 0){
+                                                             		while(gap > 0){
 			for(int i=gap; i<arr.length; i++){ //从第二行开始,一直走到头
 				
 				for(int j=i; j >= gap; j=j-gap){ //设置每一个数所比较的次数

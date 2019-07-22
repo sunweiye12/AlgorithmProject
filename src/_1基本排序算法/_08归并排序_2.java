@@ -1,5 +1,4 @@
 package _1基本排序算法;
-import java.util.Arrays;
 
 
 public class _08归并排序_2 {
@@ -25,7 +24,8 @@ public class _08归并排序_2 {
 	       return;
 	    }
 	    
-	    int mid = right+(( left - right) >> 1);  //向右移动一位代表除以2
+	    //获取中间值
+	    int mid = left+(( right - left) >> 1);  //向右移动一位代表除以2
 	    
 	    //调用递归来进行切分
 	    mergeSort(arr, left, mid);

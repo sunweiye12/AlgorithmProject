@@ -23,19 +23,32 @@ import org.junit.Test;
  *	第一次循环用于打印最外层元素,分别让1->4,4->16,16->13,13->1
  *	然后在让2和3按照上面的思路进行面
  *	当进行玩最外层的时候逐层向内部打印
+ *
+ *	思路2:逐层移动
  */
 public class _02升级版旋转矩阵 {
 	
 	@Test
 	public void main() {
-		int[][] matr = getMatr(2,4);
+		int[][] matr = getMatr(5,5);
 		myPrint(matr);
 		System.out.println("------------------------");
-		int[][] matr1 = rotateMatr(matr);
+		int[][] matr1 = rotateMatr1(matr);
 		myPrint(matr1);
 		
 	}
 	
+	private int[][] rotateMatr1(int[][] arr) {
+		int[][] arr1 = new int[arr[0].length][arr.length]; //创建一个转移后的矩阵用于填充
+		for (int i = 0; i < arr.length; i++) {
+			for (int j = 0; j < arr[0].length; j++) {
+				swap(arr,arr1, i, j, j, arr.length-i-1);
+			}
+		}
+		return arr1;
+	}
+	
+	//此方法有误
 	private int[][] rotateMatr(int[][] arr) {
 		int[][] arr1 = new int[arr[0].length][arr.length]; //创建一个转移后的矩阵用于填充
 		int p1 = 0;

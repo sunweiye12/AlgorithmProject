@@ -42,8 +42,8 @@ public class _07随机快排_2 {
 	//返回相等部分的下标值   ---> 参数为 数组,左边界,右边界,要比较的数
 	public int[] fast(int[] arr, int L ,int R ,int num){
 
-		int less =L - 1;	//小于num的指针
-		int more =R + 1;	//大于num的
+		int less =L - 1;	//小于num的指针 (当前以及左面都是小于num的数)
+		int more =R + 1;	//大于num的	 (当前和右面都是大于num的数)
 		int cur = L;		//等于num的指针
 		
 		while (cur < more) { 		//只要cur与more没有相遇就一直循环

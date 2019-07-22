@@ -47,14 +47,15 @@ public class _07判断是否为完全二叉树 {
 		}
 		Queue<Node> queue = new LinkedList<Node>();
 		queue.add(head);
-		boolean flag=false; //判断是否遇到了情况3和4
+		boolean flag=false; //判断是否遇到了情况3和4(当flag=true时后面就只能为叶子结点)
 		while (!queue.isEmpty()) {
 			head = queue.poll();
 			
 			{//局部代码块中包含的是判断逻辑
 //				System.out.print(head.val+" ");
-				if (head.right!=null&&head.left!=null&&!flag) {
-				} else if (head.right!=null&&head.left==null&&!flag) {
+				if (head.right!=null&&head.left!=null&&!flag) {	//左右孩子都存在
+					
+				} else if (head.right!=null&&head.left==null&&!flag) { //右孩子为空左孩子不为空
 					return false;
 				} else {
 					flag = true;

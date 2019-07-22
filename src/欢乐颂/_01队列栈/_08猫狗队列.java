@@ -1,5 +1,6 @@
 package 欢乐颂._01队列栈;
 
+import java.util.LinkedList;
 import java.util.Queue;
 import java.util.concurrent.DelayQueue;
 import java.util.concurrent.LinkedBlockingDeque;
@@ -100,10 +101,10 @@ class PetQueue{
 	Queue<Integer> DogCount;
 	Queue<Integer> CatCount;
 	public PetQueue(){
-		DogQueue = new LinkedBlockingDeque();
-		CatQueue = new LinkedBlockingDeque();
-		DogCount = new LinkedBlockingDeque();
-		CatCount = new LinkedBlockingDeque();
+		DogQueue = new LinkedList<Pet>();
+		CatQueue = new LinkedList<Pet>();
+		DogCount = new LinkedList<Integer>();
+		CatCount = new LinkedList<Integer>();
 	}
 	
 	//添加宠物队列

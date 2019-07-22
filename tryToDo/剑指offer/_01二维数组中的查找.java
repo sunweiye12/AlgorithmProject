@@ -24,9 +24,9 @@ public class _01二维数组中的查找 {
     	if (array==null) {
     		return false;
 		}
-    	int line = array.length;
-    	int column = array[0].length;
-    	//起始点的下标
+    	int line = array.length; //行数
+    	int column = array[0].length; //列数
+    	//起始点的下标(第一行最后一列)
     	int p1 = 0;
     	int p2 = column-1;
     	while(p1<line && p2 >= 0){

@@ -101,11 +101,11 @@ class MySingleLinkList{
 		 MyNode cur = head;
 		 int i = 0;
 		 if(index <= 0){		
-			 add(item);
+			 add(item); //头部添加
 			 return;
 		 }
 		 if(index >= Length()-1){		
-			 addLast(item);
+			 addLast(item);	//尾部添加
 			 return;
 		 }
 		 while(i < index-1){
@@ -157,7 +157,6 @@ class MySingleLinkList{
 			 cur = cur.next;
 			 i++;
 		 }
-		 
 		 cur.next = cur.next.next;
 	 }	 
  }

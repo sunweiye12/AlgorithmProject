@@ -142,7 +142,7 @@ public class _00二叉树 {
 			        	stack.push(head.right); 	//在头部添加元素
 			        }
 			        if(head.left != null) {
-			        	stack.push(head.left); 	//在头部添加元素
+			        	stack.push(head.left); 		//在头部添加元素
 			        }
 			    }
 			}
@@ -188,9 +188,5 @@ public class _00二叉树 {
 	           System.out.print(output.pop().val + " ");
 	        }
 		}
-}
-
-
-
-	
+	}
 }

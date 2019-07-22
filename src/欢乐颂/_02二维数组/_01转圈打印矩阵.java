@@ -29,7 +29,7 @@ public class _01转圈打印矩阵 {
 	}
 
 	
-	//转圈的方式打印二维数组
+	//转圈的方式打印二维数组(错误解法)
 	private static void printMatr(int[][] arr) {
 		int p1 = 0;
 		int p2 = 0;

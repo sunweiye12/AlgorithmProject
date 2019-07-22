@@ -9,7 +9,7 @@ import org.junit.Test;
 思路:如果给定的数组长度为N,则创建N+1个桶,找到这N个数的最小值和最大值分别放到第一个和最后一个桶中
 	然后将最小值和最大值做差分成N+1段,每段分别对应一个桶,然后遍历将每个元素分别放到对应的桶中
 	则其中必然会有一个桶是空的(----),这就可以保证,在一个桶内不会最大的相邻两个数,然后遍历每个桶
-	让每个桶的最小值与左面非空桶的最大值做差,最大的差就是返回的在大相邻值
+	让每个桶的最大值与右面非空桶的最小值做差,最大的差就是返回的在大相邻值
 (每个桶值存三个变量,是否有值,最大值,最小值)
  * @author Administrator
  */
@@ -76,7 +76,7 @@ public class _03排序相邻最大差值 {
 			} else if(hasNum[i]) {	
 			//然后我去寻找他的下一个非空的桶,取到他的最小值,与上一个桶的最大值作比较,然后在取到这个桶中的最大值用于下一次比较
 				min = buketMin[i];
-				result = result > (min-max)? result: (min-max);
+				result = Math.max( result, (min-max));
 				max = buketMax[i];
 			} 
 		}
@@ -90,15 +90,15 @@ public class _03排序相邻最大差值 {
 	}
 
 	//将数组中的每一个数放到对应的桶中
-	private void addBuket(int i, int cur, boolean[] hasNum, int[] buketMax,
+	private void addBuket(int index, int cur, boolean[] hasNum, int[] buketMax,
 			int[] buketMin) {
-		if (!hasNum[i]) {
-			hasNum[i] = true;
-			buketMax[i] = cur;
-			buketMin[i] = cur;
+		if (!hasNum[index]) {
+			hasNum[index] = true;
+			buketMax[index] = cur;
+			buketMin[index] = cur;
 		} else {
-			buketMax[i] = cur > buketMax[i] ? cur:buketMax[i];
-			buketMin[i] = cur < buketMin[i] ? cur:buketMin[i];
+			buketMax[index] = Math.max(cur , buketMax[index]);
+			buketMin[index] = Math.min(cur , buketMin[index]);
 		}
 	}
 	

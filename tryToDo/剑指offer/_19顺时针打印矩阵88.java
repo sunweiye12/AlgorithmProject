@@ -45,7 +45,7 @@ public class _19顺时针打印矩阵88 {
 			int p3, int p4, int p5, int p6) {
 		if (p1 <= p3 && p2 <= p4) { //进入循环的条件
 			//只有一列时,需要判断向左打印还是向右打印
-			if (p2 == p4) {	
+			if (p2 == p4) {
 				if (p6 % 2 == 0) {
 					for (int i = 0; i < p3 - p1 + 1; i++) {
 						System.out.print(arr[p1 + i][p4]+" ");

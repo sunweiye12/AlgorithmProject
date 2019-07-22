@@ -51,14 +51,14 @@ public class _09堆排序 {
 	//改变堆中一个值,重新成堆
 	public static void heapify(int[] arr, int index, int size) {
 		int left = index * 2 + 1;  //左子节点
-		while (left < size) {
+		while (left < size) { //如果左节点没有越界
 			int largest = left + 1 < size && arr[left + 1] > arr[left] ? left + 1 : left;
 			largest = arr[largest] > arr[index] ? largest : index;
 			if (largest == index) {
 				break;
 			}
-			swap(arr, largest, index);
-			index = largest;
+			swap(arr, largest, index); //交换然后从新判断
+			index = largest; 
 			left = index * 2 + 1;
 		}
 	}

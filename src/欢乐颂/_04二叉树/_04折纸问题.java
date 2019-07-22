@@ -99,10 +99,8 @@ public class _04折纸问题 {
 		if (i > N) {
 			return;
 		}
-		printProcess(i + 1, N, true);
+		printProcess(i + 1, N, true);  //左边为down
 		System.out.print(down ? "down " : "up " +" ");
-		printProcess(i + 1, N, false);
+		printProcess(i + 1, N, false);	//右边为up
 	}
-
-	
 }

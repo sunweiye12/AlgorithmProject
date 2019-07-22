@@ -24,9 +24,8 @@ public class _05插入排序 {
 	 */
 	public static void insertSort(int[] arr){
 		for(int i = 1;i < arr.length; i++){ //从第一个节点开始想前插入
-			
 			for(int j = i; j > 0; j--){		//每个节点最多交换的次数
-				if(arr[j] < arr[j-1]){	   //如果后面的这个比前面的小就交换位置
+				if(arr[j] < arr[j-1]){	    //如果后面的这个比前面的小就交换位置
 					swap(arr,j,j-1);
 				} else{						//否则结束循环
 					break;

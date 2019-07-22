@@ -21,7 +21,7 @@ public class _02荷兰国旗问题 {
 	@Test
 	public  void main() {
 		int[] arr = {-34 ,-19, 33, 62, 85, -31, -70, -57, -68};
-		int num = 33;
+		int num = 3300;
 		int[] test = test(arr, 0, arr.length-1, num);
 		
 		for (int i = 0; i < arr.length; i++) {
@@ -51,7 +51,7 @@ public class _02荷兰国旗问题 {
 		}
 		
 		if(less+1>more-1){  //如果输入的num不存在数组中,则返回一个数
-			return new int[]{0000};
+			return new int[]{0};
 		}
 		//若数组中存在num则返回存在num的下标范围
 		return new int[] {less+1,more-1};

@@ -30,13 +30,13 @@ public class _01打印两个有序链表的公共部分 {
 	}
 	
 	public void printLinklist(MyNode head1,MyNode head2){
-		while(head1!=null&&head2!=null){
+		while(head1!=null && head2!=null){
 			if (head1.elem>head2.elem) {
 				head2=head2.next;
 			} else if(head1.elem<head2.elem) {
 				head1=head1.next;
 			} else {
-				System.out.print(head1.elem);
+				System.out.print(head1.elem+" ");
 				head1=head1.next;
 			}
 		}
