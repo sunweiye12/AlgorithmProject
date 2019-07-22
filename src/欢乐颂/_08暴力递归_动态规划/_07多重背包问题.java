@@ -33,7 +33,7 @@ public class _07多重背包问题 {
 				int temCount = y/wight[x-1]; //**此背包可以盛放多少个第x个物品
 				temCount = Math.min(temCount, count[x-1]); //与x物品的数目,取小值
 				for (int i = 0; i <= temCount; i++) { //从放0个到放count个,得出最大的
-					dp[x][y] = Math.max(dp[x-1][y], 
+					dp[x][y] = Math.max(dp[x][y], 
 							dp[x-1][y - i * wight[x-1]] + i * value[x-1]);
 				}
 			}

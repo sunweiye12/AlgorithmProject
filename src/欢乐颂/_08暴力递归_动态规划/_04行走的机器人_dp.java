@@ -28,6 +28,7 @@ public class _04行走的机器人_dp {
 		dp[0][aim] = 1; 
 		for (int i = 1; i <= step; i++) {
 			for (int j = 1; j <= len; j++) { // 杨辉三角形逻辑
+				//如果dp没有挨着边界的话,则他可以从左面来也可以从右面来
 				dp[i][j] += j - 1 < 1 ? 0 : dp[i - 1][j - 1];
 				dp[i][j] += j + 1 > len ? 0 : dp[i - 1][j + 1];
 			}

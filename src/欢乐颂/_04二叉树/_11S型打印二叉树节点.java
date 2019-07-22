@@ -18,26 +18,26 @@ public class _11S型打印二叉树节点 {
         
         while (!stack1.isEmpty() || !stack2.isEmpty()) { 
             if (currentLevel % 2 == 1) {
-                TreeNode tempNode = stack1.pop();
-                System.out.println(tempNode.val);
-                if (tempNode.right != null)
-                    stack2.add(tempNode.right);
-                if (tempNode.left != null)
-                    stack2.add(tempNode.left);
-                if (stack1.isEmpty()) {
-                    currentLevel++;    //此层空了就层数加一
-                }
+            	while(!stack1.isEmpty()){
+            		TreeNode tempNode = stack1.pop();
+            		System.out.println(tempNode.val);
+            		if (tempNode.right != null)
+            			stack2.add(tempNode.right);
+            		if (tempNode.left != null)
+            			stack2.add(tempNode.left);
+            	}
+                currentLevel++;    //此层空了就层数加一
             }
             else {
-                TreeNode tempNode = stack2.pop();
-                System.out.println(tempNode.val);
-                if (tempNode.left != null)
-                	stack1.add(tempNode.left);
-                if (tempNode.right != null)
-                    stack1.add(tempNode.right);
-                if (stack2.isEmpty()) {
-                    currentLevel++;
-                }
+            	while(!stack2.isEmpty()){
+            		TreeNode tempNode = stack2.pop();
+            		System.out.println(tempNode.val);
+            		if (tempNode.left != null)
+            			stack1.add(tempNode.left);
+            		if (tempNode.right != null)
+            			stack1.add(tempNode.right);
+            	}
+                currentLevel++;
             }
  
         }

@@ -11,7 +11,7 @@ package 欢乐颂._08暴力递归_动态规划;
 public class _11输出子数组的最大和{ 
 	
 	public static void main(String[] args) {
-		//输入
+		//输入若都为负数
 		int[] arr = {-1,5,4,-1,-2,10,-1,100};
 		
 		int max = Integer.MIN_VALUE;

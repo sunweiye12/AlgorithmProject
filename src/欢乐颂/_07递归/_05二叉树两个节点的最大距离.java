@@ -45,8 +45,8 @@ public class _05二叉树两个节点的最大距离 {
 	
 	//创建一个返回值类型的类
 	public class ReturnDate{
-		public int maxLen;
-		public int h;
+		public int maxLen; //此树中的最大距离
+		public int h;		//此树的高度
 		public ReturnDate(int maxLen, int h) {
 			this.maxLen = maxLen;
 			this.h = h;
@@ -65,10 +65,11 @@ public class _05二叉树两个节点的最大距离 {
 		
 		//得到左右两边的返回值以后开始找出当前节点的信息返回给父
 		
-		int curh = Math.max(leftReturnDate.h, rightReturnDate.h) + 1;
+		int curh = Math.max(leftReturnDate.h, rightReturnDate.h) + 1; //得到当前树的高度
+		//最大距离有可能是两个子树高度和加一
 		int curmaxLen = leftReturnDate.h + rightReturnDate.h + 1;
+		//也有可能是两个子树的最大高度(在这三者中选择最大达那个)
 		curmaxLen = Math.max(Math.max(leftReturnDate.maxLen,rightReturnDate.maxLen), curmaxLen);
-		
 		//返回给自己的父调用
 		return new ReturnDate(curmaxLen,curh);
 	}

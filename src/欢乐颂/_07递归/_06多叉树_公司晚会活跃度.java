@@ -15,7 +15,7 @@ import org.junit.Test;
  * 
  * 用于解决所有二叉树的问题:
  * 	将问题分解:假如说给你一个头结点可能会存在一下情况
- * 		1.头结点来,如果头节点来的话所有子节点都不来,做大活跃值是头结点加上所有子节点不来的活跃值
+ * 		1.头结点来,如果头节点来的话所有子节点都不来,最大活跃值是头结点加上所有子节点不来的活跃值
  * 		2.头结点不来,子节点有可能来 也有可能不来,先判断每个子节点来与不来那个活跃值更高,选择高的那个将每个子节点累加起来
  * 	区分上面的情况所需要的信息:
  * 		1.当前节点来的活跃度
@@ -33,7 +33,6 @@ public class _06多叉树_公司晚会活跃度 {
 		head.list.add(new Node(3));
 		head.list.add(new Node(2));
 		head.list.add(new Node(4));
-		
 		System.out.println(Math.max(patition(head).bu_lai_huo, patition(head).lai_huo));
 	}
 	
@@ -50,7 +49,7 @@ public class _06多叉树_公司晚会活跃度 {
 	
 	public ReturnDate patition(Node head){
 		//截止条件    //基础可能性分析
-		if(head==null){return new ReturnDate(0, 0);}	
+		if(head==null){return new ReturnDate(0, 0);}
 		
 		int cur_lai_huo = head.value;
 		int cur_bu_lai_huo = 0;
@@ -61,7 +60,7 @@ public class _06多叉树_公司晚会活跃度 {
 			ReturnDate returnDate = patition(node);
 			//由子节点来推导出当前节点,用来返回
 			cur_lai_huo += returnDate.bu_lai_huo;	//领导来的话下属肯定不会来,因此加上他们都不来的活跃值
-			cur_bu_lai_huo += Math.max(returnDate.lai_huo, returnDate.bu_lai_huo);
+			cur_bu_lai_huo += Math.max(returnDate.lai_huo, returnDate.bu_lai_huo);//领导不来则下属可能来,也可能不来
 		}
 		//返回给自己的父调用
 		return new ReturnDate(cur_lai_huo,cur_bu_lai_huo);

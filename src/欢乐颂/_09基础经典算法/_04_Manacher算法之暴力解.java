@@ -66,22 +66,22 @@ public class _04_Manacher算法之暴力解 {
 		//然后从每个元素为中心判断时回文的长度
 		for (int i = 0; i < strArray.length; i++) {
 			int size = getLength(i,strArray); //调用方法获取该下标对应字符的长度
-			maxlength = maxlength>size?maxlength:size; //将较大的赋值给maxlength
+			maxlength = Math.max(maxlength,size); //将较大的赋值给maxlength
 		}
 		return maxlength/2;
 	}
 	
 	//给定下标即字符列表,返回此下标为中心的回文长度
 	private int getLength(int i, char[] strArray) {
-		int len = 1;
-		int index = 1;	//判断处距离会玩中心的长度
-		while(i-index >= 0 && i+index < strArray.length){
-			if (strArray[i-index]==strArray[i+index]) {
-				len= len+2;
-				index++;
-			} else {
-				break;
-			}
+		int len = 1; //回文的长度
+		int index = 1;	//判断处距离回文中心的长度
+		//只要没有越界,并且还对称则左右延长
+		while(i-index >= 0 && 
+				i+index < strArray.length &&
+				strArray[i-index]==strArray[i+index]){
+			
+				len= len+2; //每次长度加2
+				index++;	//向外扩一位
 		}
 		return len;
 	}

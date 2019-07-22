@@ -73,7 +73,7 @@ public class _03得到一棵树的最大搜岁二叉子树 {
 		
 		//得到左右两边的返回值以后开始找出当前节点的信息返回给父
 		//如果是第三种情况(得到最大搜索二叉树的大小)
-		int includeItSelf = 0;
+		int includeItSelf = 0; //当前节点为平衡二叉树时的大小
 		if (head.left == leftReturnDate.head 
 				&& head.right == rightReturnDate.head
 				&& leftReturnDate.max < head.value

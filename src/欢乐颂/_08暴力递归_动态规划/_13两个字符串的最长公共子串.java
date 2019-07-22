@@ -40,6 +40,7 @@ public class _13两个字符串的最长公共子串 {
 				}
 			}
 		}
+		//dp表中最大的数即为所求,将其返回
 		int ret = 0; //全局最大值,将其返回
 		for (int i = 0; i < dp.length; i++) {
 			for (int j = 0; j < dp[0].length; j++) {

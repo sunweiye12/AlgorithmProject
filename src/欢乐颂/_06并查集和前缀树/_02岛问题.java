@@ -4,7 +4,7 @@ import org.junit.Test;
 
 /**
  * 此问题如果涉及到分治思维可以用并查集来解决
- * 但此处可以用地鬼调用来解决
+ * 但此处可以用递归调用来解决
  * 问题:	一个矩阵中只有0和1两种值，每个位置都可以和自己的上、下、左、右四个位置相连(斜着不算)，如果有一片1连在一起，这个部分叫做一个岛，
  * 		求一个矩阵中有多少个岛？
  * 例如:
@@ -42,7 +42,7 @@ public class _02岛问题 {
 		for (int i = 0; i < arr.length; i++) {
 			for (int j = 0; j < arr[i].length; j++) {
 				if (arr[i][j]==1) {
-					num++;		//岛个数加一
+					num++;					//岛个数加一
 					traverIsland(arr,i,j);	//遍历此岛,将所有的数都变为-1
 				}
 			}
@@ -67,7 +67,6 @@ public class _02岛问题 {
 			if (i<arr.length-1) {
 				traverIsland(arr, i+1, j);
 			}
-			
 		}
 	}
 
