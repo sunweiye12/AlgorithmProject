@@ -20,21 +20,27 @@ public class 循环打印线程 {
     public static class Thread1 implements Runnable{
         @Override
         public void run() {
-            System.out.println("Thread1");
+        	while(true){
+        		System.out.println("Thread1");
+        	}
         }
     }
 
     public static class Thread2 implements Runnable{
         @Override
         public void run() {
-            System.out.println("Thread2");
+        	while(true){
+        		System.out.println("Thread2");
+        	}
         }
     }
 
     public static class Thread3 implements Runnable{
         @Override
         public void run() {
-            System.out.println("Thread3");
+        	while(true){
+        		System.out.println("Thread3");
+        	}
         }
     }
 
