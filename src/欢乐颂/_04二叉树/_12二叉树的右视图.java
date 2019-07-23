@@ -1,20 +1,14 @@
-package _1bytedance;
-
+package 欢乐颂._04二叉树;
 import java.util.ArrayList;
-import java.util.List;
+import java.util.LinkedList;
+import java.util.Queue;
 
 import org.junit.Test;
 
-import _0工具箱类._05直观打印二叉树.TreeNode;
-
 /*
- *题目: 二叉树的节点按照从上到下，从左到右，从1开始编号，其中空着的节点用“#”表示。输出树的左视图，如：
-		输入：1 2 3 # 4 5 6 # # # # 7 8
-		输出：1 2 4 7
- * 思路:左视图就是:打印每一层的第一个节点
+ * 思路:利用双队列来实现
  */
-public class _14二叉树的左视图_0 {
-	
+public class _12二叉树的右视图 {
 	@Test
 	public void main() {
 		TreeNode head = new TreeNode(1);
@@ -24,29 +18,54 @@ public class _14二叉树的左视图_0 {
 		head.right.left = new TreeNode(5);
 		head.right.right = new TreeNode(6);
 		printTree(head);
-		List<Integer> leftSideView = leftSideView(head);
-		System.out.println(leftSideView);
+		rightSideView(head);
 	}
 	
+	private void rightSideView(TreeNode head) {
+	 	if (head == null) {
+	        return;
+	    }
+	 	ArrayList<Integer> list = new ArrayList<Integer>();
+	 	list.size();
+	 	//创建两个队列用来存储奇数和单数行
+	 	Queue<TreeNode> queue1 = new LinkedList<TreeNode>();
+	 	Queue<TreeNode> queue2 = new LinkedList<TreeNode>();
+	 	boolean isJi = true;
+	 	queue1.add(head);
+	 	while(!queue1.isEmpty() || !queue2.isEmpty()){
+	 		if (isJi) { //如果是奇数行
+				while(!queue1.isEmpty()){
+					head = queue1.poll();
+					if (queue1.size() == 0) {
+						System.out.println(head.val);
+					}
+					if (head.left  != null) {
+						queue2.add(head.left);
+					}
+					if (head.right  != null) {
+						queue2.add(head.right);
+					}
+				}
+				isJi = false;
+			} else{
+				while(!queue2.isEmpty()){
+					head = queue2.poll();
+					if (queue2.size() == 0) {
+						System.out.println(head.val);
+					}
+					if (head.left  != null) {
+						queue1.add(head.left);
+					}
+					if (head.right  != null) {
+						queue1.add(head.right);
+					}
+				}
+				isJi = true;
+			}
+	 	}
+	 	
+	}
 
-	public List<Integer> leftSideView(TreeNode root) {
-       List<Integer> list = new ArrayList<Integer>(); //创建用于返回是左视图节点
-       leftSideView(root,list,0);
-       return list;
-    }
-    public void leftSideView(TreeNode root, List<Integer> list ,int level) {
-        if (root == null) {
-            return;
-        }
-        //从第0层开始,每次将此层的最左面元素天剑到list,当添加一个以后此层就没办法在添加了
-        if (level == list.size()) { 
-            list.add(root.val);
-        }
-        leftSideView(root.left,list,level + 1);
-        leftSideView(root.right,list,level + 1);
-     }
-     
-    
     //--------------------------------------------------------------
      public class TreeNode {
  		public int val;
