@@ -27,7 +27,7 @@ public class _64数据流中的中位数 {
 	});
 	
 	//加入一个元素
-	public void Insert(int num){
+	public void Insert(Integer num){
 		//维持两个堆的大小不会相差超过1(一直使maxHeap的size大于minHeap)
 		//当两个堆元素相等时,新插入的value,如果它大于minHeap的最大值，把它插入到minHeap。
 		//并且把minHeap的最小值移动到maxHeap。否则插入到maxHeap
@@ -49,7 +49,7 @@ public class _64数据流中的中位数 {
 	}
 	
 	//获取中位数
-	public double GetMedian(){
+	public Double GetMedian(){
 		if (maxHeap.isEmpty()) {
 		     return (double)-1; 
 		}

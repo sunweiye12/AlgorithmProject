@@ -22,7 +22,7 @@ public class _04分糖果 {
 	
 	
 	private static int getMinNum(int[] arr){
-		//分被求出每个同学的糖果个数,并将它们加起来
+		//分别求出每个同学的糖果个数,并将它们加起来
 		int su = 0;
 		for (int index = 0; index < arr.length; index++) {
 			su += partion(arr , index);
@@ -45,7 +45,7 @@ public class _04分糖果 {
 		}
 		
 		while(rightIndex < arr.length && arr[rightIndex-1] >= arr[rightIndex] ){
-			if (arr[rightIndex-1] > arr[rightIndex]) { //如果小于就加一,如果等于就不计数
+			if (arr[rightIndex-1] > arr[rightIndex]) { //如果小于就加一,如果等于就不计数(求连续下降的个数)
 				right++;
 			}
 			rightIndex++; 
