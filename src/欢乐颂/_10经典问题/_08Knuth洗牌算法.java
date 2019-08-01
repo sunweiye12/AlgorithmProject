@@ -1,4 +1,4 @@
-package 欢乐颂._10经典算法;
+package 欢乐颂._10经典问题;
 
 import org.junit.Test;
 
