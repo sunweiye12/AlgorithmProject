@@ -38,7 +38,7 @@ public class _09N皇后问题 {
 	@Test
 	public void main() {
 		// n皇后问题的解决方案
-		solveNQueens(8);
+		solveNQueens(4);
 	}
 	
 	public void solveNQueens(int n)	{
@@ -58,11 +58,12 @@ public class _09N皇后问题 {
 
 	// 深度优先遍历
 	private void DFS(int row, int n, Set<Integer> cols, Set<Integer> pie,
-			Set<Integer> na,Map reMap) {
+			Set<Integer> na,Map<Integer,Integer> reMap) {
 		
 		// 如果到达最后一列则这组数据表示成功
 		if (row >= n) {
 			System.out.println(reMap);
+			
 		}
 		
 		// 从第一行开始遍历
