@@ -38,7 +38,7 @@ public class _09N皇后问题 {
 	@Test
 	public void main() {
 		// n皇后问题的解决方案
-		solveNQueens(4);
+		solveNQueens(8);
 	}
 	
 	public void solveNQueens(int n)	{
@@ -71,13 +71,15 @@ public class _09N皇后问题 {
 			if (cols.contains(col) ||  pie.contains(col+row) || na.contains(col-row)) {
 				continue;
 			}
+			// 此皇后占有此位置
 			cols.add(col);
 			pie.add(col+row);
 			na.add(col-row);
 			reMap.put(row, col);
-			
+			// 递归寻找下一行
 			DFS(row+1, n, cols, pie, na,reMap);
 			
+			// 恢复现场
 			reMap.remove(row);
 			cols.remove(col);
 			pie.remove(col+row);
