@@ -50,7 +50,6 @@ public class _04分糖果 {
 			}
 			rightIndex++; 
 		}
-		
 		return Math.max(left, right) + 1; //返回两侧减小的个数加1
 	}
 }
