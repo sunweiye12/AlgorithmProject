@@ -29,7 +29,7 @@ import org.junit.Test;
  * 		对于i行 j列 的元素如果存在皇后,则pie[i+j]=1代表左对角线 . na[i-j]=1代表右对角线
  * DFS按照每一层进行遍历,遍历到每一层的时候循环他的列,并判断当前位置是否可以放置皇后,如果不可以直接跳过,如果可以,则直接进行下一行
  */
-public class _09N皇后问题 {
+public class _10N皇后问题_位运算解法 {
 
 	@Test
 	public void main() {
