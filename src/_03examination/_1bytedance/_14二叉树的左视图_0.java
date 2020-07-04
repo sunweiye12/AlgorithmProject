@@ -1,0 +1,85 @@
+package _03examination._1bytedance;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.junit.Test;
+
+/*
+ *题目: 二叉树的节点按照从上到下，从左到右，从1开始编号，其中空着的节点用“#”表示。输出树的左视图，如：
+		输入：1 2 3 # 4 5 6 # # # # 7 8
+		输出：1 2 4 7
+ * 思路:左视图就是:打印每一层的第一个节点
+ */
+public class _14二叉树的左视图_0 {
+	
+	@Test
+	public void main() {
+		TreeNode head = new TreeNode(1);
+		head.left = new TreeNode(2);
+		head.left.left = new TreeNode(3);
+		head.right = new TreeNode(4);
+		head.right.left = new TreeNode(5);
+		head.right.right = new TreeNode(6);
+		printTree(head);
+		List<Integer> leftSideView = leftSideView(head);
+		System.out.println(leftSideView);
+	}
+	
+
+	public List<Integer> leftSideView(TreeNode root) {
+       List<Integer> list = new ArrayList<Integer>(); //创建用于返回是左视图节点
+       leftSideView(root,list,0);
+       return list;
+    }
+    public void leftSideView(TreeNode root, List<Integer> list ,int level) {
+        if (root == null) {
+            return;
+        }
+        //从第0层开始,每次将此层的最左面元素天剑到list,当添加一个以后此层就没办法在添加了
+        if (level == list.size()) { 
+            list.add(root.val);
+        }
+        leftSideView(root.left,list,level + 1);
+        leftSideView(root.right,list,level + 1);
+     }
+     
+    
+    //--------------------------------------------------------------
+     public class TreeNode {
+ 		public int val;
+ 		public TreeNode left;
+ 		public TreeNode right;
+ 		public TreeNode(int data) {
+ 			this.val = data;
+ 		}
+ 	}
+     public void printTree(TreeNode head) {
+ 		System.out.println("Binary Tree:");
+ 		printInOrder(head, 0, "H", 17);
+ 		System.out.println();
+ 	}
+
+ 	public void printInOrder(TreeNode head, int height, String to, int len) {
+ 		if (head == null) {
+ 			return;
+ 		}
+ 		printInOrder(head.right, height + 1, "v", len);
+ 		String val = to + head.val + to;
+ 		int lenM = val.length();
+ 		int lenL = (len - lenM) / 2;
+ 		int lenR = len - lenM - lenL;
+ 		val = getSpace(lenL) + val + getSpace(lenR);
+ 		System.out.println(getSpace(height * len) + val);
+ 		printInOrder(head.left, height + 1, "^", len);
+ 	}
+
+ 	public String getSpace(int num) {
+ 		String space = " ";
+ 		StringBuffer buf = new StringBuffer("");
+ 		for (int i = 0; i < num; i++) {
+ 			buf.append(space);
+ 		}
+ 		return buf.toString();
+ 	}
+}
