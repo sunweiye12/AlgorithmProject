@@ -19,584 +19,357 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6720297-5358-4297-9325-79733ca68e82" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/junitgenerator-prj-settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/com_btmatthews_selenium_junit4_selenium_junit4_runner_1_0_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/_0工具箱类/_01java内置的数据结构$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/_0工具箱类/_01java内置的数据结构$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/_0工具箱类/_01java内置的数据结构$Student.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/_0工具箱类/_01java内置的数据结构.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/_0工具箱类/_02对数器.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/_0工具箱类/_03二维数组随机生成器.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/_0工具箱类/_04一维数组随机生成器.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/_0工具箱类/_05直观打印二叉树$TreeNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/_0工具箱类/_05直观打印二叉树.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/_0工具箱类/_06找出一个字符串的所有子串.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/_0工具箱类/_07单向链表的直观打印$ListNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/_0工具箱类/_07单向链表的直观打印.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/_1基本排序算法/MyNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/_1基本排序算法/MySingleLinkList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/_1基本排序算法/_00对数器.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/_1基本排序算法/_01单链表.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/_1基本排序算法/_02二叉树_直观打印$Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/_1基本排序算法/_02二叉树_直观打印.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/_1基本排序算法/_03冒泡排序.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/_1基本排序算法/_04选择排序.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/_1基本排序算法/_05插入排序.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/_1基本排序算法/_06希尔排序.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/_1基本排序算法/_07快速排序_1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/_1基本排序算法/_07随机快排_2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/_1基本排序算法/_08归并排序_1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/_1基本排序算法/_08归并排序_2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/_1基本排序算法/_09堆排序.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/examination/_0niuke/_1处理单行输入_空格.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/examination/_0niuke/_1处理单行输入_逗号.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/examination/_0niuke/_2处理多行输入.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/examination/_1bytedance/_01Plus$ListNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/examination/_1bytedance/_01Plus.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/examination/_1bytedance/_02雨水收集.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/examination/_1bytedance/_03距离单链表终点为k的节点.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/examination/_1bytedance/_04分糖果.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/examination/_1bytedance/_05马里奥弹跳.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/examination/_1bytedance/_06开火车纸牌游戏.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/examination/_1bytedance/_07周年庆纪念.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/examination/_1bytedance/_08数组对折找中位数.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/examination/_1bytedance/_09摊牌找顺序.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/examination/_1bytedance/_10n乘m的方块中从左上走到右下的方法数.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/examination/_1bytedance/_11分割等和子集.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/examination/_1bytedance/_12上学之路.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/examination/_1bytedance/_13死亡骑士的难题.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/examination/_1bytedance/_14二叉树的左视图_0$TreeNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/examination/_1bytedance/_14二叉树的左视图_0.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/examination/_1bytedance/_14二叉树的左视图_1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/examination/_1bytedance/_15利用堆结构来实现中位树的查找$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/examination/_1bytedance/_15利用堆结构来实现中位树的查找.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/examination/_2baidu/_01升级版旋转矩阵.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/examination/_2baidu/_02大数相乘.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/examination/_3alibaba/_01三个线程循环打印.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/examination/_3alibaba/_02输出子数组的最大和.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/examination/_3alibaba/循环打印线程$Thread1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/examination/_3alibaba/循环打印线程$Thread2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/examination/_3alibaba/循环打印线程$Thread3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/examination/_3alibaba/循环打印线程.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/examination/_4pinduoduo/_1严格升序排列.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/examination/_4pinduoduo/_2首尾相接是否成环.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/examination/_4pinduoduo/_3积木搭铁塔.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/examination/_5anquan360/_0test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/examination/_6_58tongcheng/_0左上到右下的最短路程.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/test/test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/test/test1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_01二维数组中的查找.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_02替换空格.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_03从尾到头打印链表$ListNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_03从尾到头打印链表.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_04重建二叉树88$Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_04重建二叉树88.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_05两个栈实现队列$Solution.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_05两个栈实现队列.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_06旋转数组的最小数字.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_07斐波那契数列.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_08跳台阶.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_09变态跳台阶.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_10矩形覆盖.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_11二进制中1的个数88.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_12数值整数次方.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_13调整数组顺序使得奇数在偶数前面.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_14链表中倒数第K个节点$ListNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_14链表中倒数第K个节点.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_15反转链表$ListNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_15反转链表.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_16合并两个排序的链表$ListNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_16合并两个排序的链表.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_17树的字结构88$TreeNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_17树的字结构88.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_18二叉树的镜像$TreeNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_18二叉树的镜像.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_19顺时针打印矩阵88.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_20包含min函数的栈$MyStack.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_20包含min函数的栈.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_21栈的压入弹出序列88.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_22从上往下打印二叉树.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_23二叉搜索树的后序遍历88.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_24二叉树中和为某一值的路径88$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_24二叉树中和为某一值的路径88$TreeNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_24二叉树中和为某一值的路径88.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_25复杂链表的复制$RandomListNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_25复杂链表的复制.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_26二叉搜索树与双向链表$TreeNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_26二叉搜索树与双向链表.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_27全排列_字符串_暴力解.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_28全排列_字符串_字典序法.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_29数组中出现次数超过一半的数字.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_30最小的K个数.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_31连续子数组的最大和88.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_32整数中1出现的次数88.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_33把数组排成最小的数$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_33把数组排成最小的数.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_34丑数88.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_35第一个只出现一次的字符.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_36数组中的逆序对88.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_37链表的第一个交点$ListNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_37链表的第一个交点.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_38数字在排序数组中出现的次数88.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_39二叉树的深度$TreeNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_39二叉树的深度.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_40平衡二叉树$Result.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_40平衡二叉树$TreeNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_40平衡二叉树.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_41数组中只出现一次的数字.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_42和为S的连续正数序列.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_43和为S的两个数字.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_44左旋转字符串.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_45翻转单词顺序列.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_46扑克牌顺子.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_47孩子们的游戏_圆圈中最后剩下的数88.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_48求连续累加88.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_49不用加减乘除做加法88.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_50把字符串转换成整数.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_51数组中重复的数字.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_52构建成绩数组.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_53正则表达式匹配88.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_54表示数值的字符串.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_55字符流中第一个不重复的字符.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_56链表中环的入口结点$ListNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_56链表中环的入口结点.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_57删除链表中重复的结点$ListNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_57删除链表中重复的结点.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_58二叉树的下一个结点88$Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_58二叉树的下一个结点88.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_59对称的二叉树88$TreeNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_59对称的二叉树88.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_60按之字形顺序打印二叉树$TreeNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_60按之字形顺序打印二叉树.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_61把二叉树打印成多行$TreeNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_61把二叉树打印成多行.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_62序列化二叉树_先序$TreeNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_62序列化二叉树_先序.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_62序列化二叉树_层次$TreeNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_62序列化二叉树_层次.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_63二叉搜索树的第k个结点$TreeNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_63二叉搜索树的第k个结点.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_64数据流中的中位数$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_64数据流中的中位数.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_65滑动窗口中的最大值.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/参考/Code_01_KMP.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/参考/Code_02_KMP_ShortestHaveTwice.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/参考/Code_03_KMP_T1SubtreeEqualsT2$Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/参考/Code_03_KMP_T1SubtreeEqualsT2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/参考/Code_04_Manacher.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/参考/Code_05_Manacher_ShortestEnd.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/参考/Code_06_BFPRT.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/未完成/_01大楼轮廓_搜索二叉树问题.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/未完成/_02单调栈结构应用之环形山问题.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/未完成/_03二叉树的Morris遍历$Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/未完成/_03二叉树的Morris遍历.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/未完成/_04数组_公司晚会活跃度.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/未完成/_05异或为0划分子数组.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/未完成/_06页面缓存算法FIFO$LFUCache.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/未完成/_06页面缓存算法FIFO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/未完成/_07页面缓存算法LRU$LRUCache.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/未完成/_07页面缓存算法LRU.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/未完成/_08页面缓存算法LFU$LFUCache.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/未完成/_08页面缓存算法LFU.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/未完成/_09给定一个字符串公式返回结果.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/未完成/_10跳表结构.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/未完成/_11子数组最大异或和.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_01队列栈/Cat.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_01队列栈/Dog.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_01队列栈/MyQueue.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_01队列栈/MyQueue1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_01队列栈/MyQueue2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_01队列栈/MyStack1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_01队列栈/Mystack.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_01队列栈/Pet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_01队列栈/PetQueue.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_01队列栈/_00栈_队列_堆.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_01队列栈/_01数组中的逆序对.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_01队列栈/_02荷兰国旗问题.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_01队列栈/_03排序相邻最大差值.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_01队列栈/_04用数组实现队列和栈.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_01队列栈/_05实现一个特殊的栈.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_01队列栈/_06队列结构实现栈.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_01队列栈/_07栈结构实现队列.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_01队列栈/_08猫狗队列.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_02二维数组/_01转圈打印矩阵.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_02二维数组/_02升级版旋转矩阵.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_02二维数组/_02旋转正方形矩阵.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_02二维数组/_03之字形打印矩阵.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_02二维数组/_04排好序的矩阵中找数.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_03链表/MyNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_03链表/MySingleLinkList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_03链表/_01打印两个有序链表的公共部分.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_03链表/_02判断链表是否为回文$Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_03链表/_02判断链表是否为回文.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_03链表/_03单向链表的荷兰国旗问题$Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_03链表/_03单向链表的荷兰国旗问题.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_03链表/_04复制随机指针节点的链表$Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_03链表/_04复制随机指针节点的链表.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_03链表/_05两个单链表相交的问题$Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_03链表/_05两个单链表相交的问题.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_04二叉树/Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_04二叉树/Tree.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_04二叉树/_00二叉树$Tree.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_04二叉树/_00二叉树$TreeNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_04二叉树/_00二叉树.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_04二叉树/_00直观打印二叉树$Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_04二叉树/_00直观打印二叉树.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_04二叉树/_01查找二叉树的后继节点$Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_04二叉树/_01查找二叉树的后继节点.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_04二叉树/_02查找二叉树的前驱节点$Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_04二叉树/_02查找二叉树的前驱节点.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_04二叉树/_03二叉树的序列化与反序列化$Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_04二叉树/_03二叉树的序列化与反序列化.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_04二叉树/_04折纸问题$Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_04二叉树/_04折纸问题.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_04二叉树/_05判断是否为平衡二叉树$ReturnDate.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_04二叉树/_05判断是否为平衡二叉树.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_04二叉树/_06判断是否为搜索二叉树.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_04二叉树/_07判断是否为完全二叉树$Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_04二叉树/_07判断是否为完全二叉树.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_04二叉树/_08求完全二叉树节点数.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_04二叉树/_09二叉树的Morris遍历$Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_04二叉树/_09二叉树的Morris遍历.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_04二叉树/_10获取二叉树的高度.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_04二叉树/_11S型打印二叉树节点$TreeNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_04二叉树/_11S型打印二叉树节点.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_04二叉树/_12二叉树的右视图$TreeNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_04二叉树/_12二叉树的右视图.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_05哈希/_01MyHashMap.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_05哈希/_02RandomPool$RandomPool.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_05哈希/_02RandomPool.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_06并查集和前缀树/_01并查集$Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_06并查集和前缀树/_01并查集$UnionFindSet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_06并查集和前缀树/_01并查集.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_06并查集和前缀树/_02岛问题.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_06并查集和前缀树/_03前缀树$TrieNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_06并查集和前缀树/_03前缀树$TrieTree.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_06并查集和前缀树/_03前缀树.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_07递归/_01异或为0划分子数组.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_07递归/_02棵树的最大值和最小值_递归法$Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_07递归/_02棵树的最大值和最小值_递归法$ReturnDate.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_07递归/_02棵树的最大值和最小值_递归法$Tree.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_07递归/_02棵树的最大值和最小值_递归法.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_07递归/_03得到一棵树的最大搜岁二叉子树$Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_07递归/_03得到一棵树的最大搜岁二叉子树$ReturnDate.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_07递归/_03得到一棵树的最大搜岁二叉子树$Tree.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_07递归/_03得到一棵树的最大搜岁二叉子树.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_07递归/_04判断是否为平衡二叉树$Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_07递归/_04判断是否为平衡二叉树$ReturnDate.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_07递归/_04判断是否为平衡二叉树$Tree.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_07递归/_04判断是否为平衡二叉树.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_07递归/_05二叉树两个节点的最大距离$Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_07递归/_05二叉树两个节点的最大距离$ReturnDate.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_07递归/_05二叉树两个节点的最大距离$Tree.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_07递归/_05二叉树两个节点的最大距离.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_07递归/_06多叉树_公司晚会活跃度$Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_07递归/_06多叉树_公司晚会活跃度$ReturnDate.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_07递归/_06多叉树_公司晚会活跃度.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_07递归/_07数组_公司晚会活跃度.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_08暴力递归_动态规划/_01换钱的方法数_dp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_08暴力递归_动态规划/_01换钱的方法数_暴力.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_08暴力递归_动态规划/_01换钱的方法数_记忆化搜索.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_08暴力递归_动态规划/_02子数组最大异或和.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_08暴力递归_动态规划/_03纸牌博弈问题_dp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_08暴力递归_动态规划/_03纸牌博弈问题_暴力.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_08暴力递归_动态规划/_04行走的机器人_dp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_08暴力递归_动态规划/_04行走的机器人_暴力.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_08暴力递归_动态规划/_05不相邻最大和.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_08暴力递归_动态规划/_07_01背包问题.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_08暴力递归_动态规划/_07多重背包问题.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_08暴力递归_动态规划/_07完全背包问题.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_08暴力递归_动态规划/_08_n乘m的方块中从左上走到右下的方法数.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_08暴力递归_动态规划/_09_n乘m的方块中的最小路径和.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_08暴力递归_动态规划/_10最长递增子序列_dp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_08暴力递归_动态规划/_10最长递增子序列_暴力.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_08暴力递归_动态规划/_11输出子数组的最大和.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_08暴力递归_动态规划/_12两个字符串的最长公共子序列.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_08暴力递归_动态规划/_12两个字符串的最长公共子序列_升级.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_08暴力递归_动态规划/_13两个字符串的最长公共子串.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_08暴力递归_动态规划/_13两个字符串的最长公共子串_升级.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_08暴力递归_动态规划/_14最长不重复子序列的个数.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_08暴力递归_动态规划/_15最长不重复子串.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_08贪心策略/_01一个字符串中包含的另一个字符串的字符.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_08贪心策略/_02字符串的最小字典序$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_08贪心策略/_02字符串的最小字典序.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_08贪心策略/_03环形加油站问题.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_08贪心策略/_04不相邻最大和.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_09基础经典算法/_01KMP算法.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_09基础经典算法/_02KMP应用之_添加字符串.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_09基础经典算法/_03KMP应用之_判断二叉树包含关系.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_09基础经典算法/_04_Manacher算法之暴力解.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_09基础经典算法/_04_Manacher算法之算法解.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_09基础经典算法/_05_Manacher应用之_添加字符串使成回文.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_09基础经典算法/_06_BFPRT算法$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_09基础经典算法/_06_BFPRT算法.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_09基础经典算法/_07滑动窗口问题.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_09基础经典算法/_08滑动窗口之应用子数组最大值与最小值.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_09基础经典算法/_09单调栈结构.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_09基础经典算法/_10单调栈结构应用之生成二叉树$Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_09基础经典算法/_10单调栈结构应用之生成二叉树.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_09基础经典算法/_11单调栈结构应用之求最大子矩阵.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_09基础经典算法/_12单调栈结构应用之环形山问题.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_10经典问题/_01大楼轮廓_搜索二叉树问题.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_10经典问题/_02累加和为指定值的最长子数组长度_1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_10经典问题/_02累加和为指定值的最长子数组长度_2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_10经典问题/_02累加和小于等于指定值的最长子数组长度_3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_10经典问题/_03页面缓存算法FIFO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_10经典问题/_04页面缓存算法LRU.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_10经典问题/_05页面缓存算法LFU.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_10经典问题/_06环形单链表的约瑟夫问题$MyNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_10经典问题/_06环形单链表的约瑟夫问题.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_10经典问题/_07字符串匹配问题_正则表达式.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_10经典问题/_08Knuth洗牌算法.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_10经典问题/_09N皇后问题.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_10经典问题/_10N皇后问题_位运算解法.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_03examination/_5anquan360/_0test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_04剑指offer/_32整数中1出现的次数88.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="a6720297-5358-4297-9325-79733ca68e82" name="Default Changelist" comment="12">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmProject/META-INF/AlgorithmProject.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05LeetCode/_01两数相加.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05LeetCode/_02无重复字符的最长子串.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_99Test/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_99Test/CalculatorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/com.genuitec.eclipse.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examination/_0niuke/_1处理单行输入_空格.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_03examination/_0niuke/_1处理单行输入_空格.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examination/_0niuke/_1处理单行输入_逗号.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_03examination/_0niuke/_1处理单行输入_逗号.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examination/_0niuke/_2处理多行输入.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_03examination/_0niuke/_2处理多行输入.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examination/_1bytedance/_01Plus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_03examination/_1bytedance/_01Plus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examination/_1bytedance/_02雨水收集.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_03examination/_1bytedance/_02雨水收集.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examination/_1bytedance/_03距离单链表终点为k的节点.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_03examination/_1bytedance/_03距离单链表终点为k的节点.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examination/_1bytedance/_04分糖果.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_03examination/_1bytedance/_04分糖果.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examination/_1bytedance/_05马里奥弹跳.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_03examination/_1bytedance/_05马里奥弹跳.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examination/_1bytedance/_06开火车纸牌游戏.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_03examination/_1bytedance/_06开火车纸牌游戏.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examination/_1bytedance/_07周年庆纪念.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_03examination/_1bytedance/_07周年庆纪念.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examination/_1bytedance/_08数组对折找中位数.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_03examination/_1bytedance/_08数组对折找中位数.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examination/_1bytedance/_09摊牌找顺序.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_03examination/_1bytedance/_09摊牌找顺序.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examination/_1bytedance/_10n乘m的方块中从左上走到右下的方法数.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_03examination/_1bytedance/_10n乘m的方块中从左上走到右下的方法数.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examination/_1bytedance/_11分割等和子集.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_03examination/_1bytedance/_11分割等和子集.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examination/_1bytedance/_12上学之路.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_03examination/_1bytedance/_12上学之路.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examination/_1bytedance/_13死亡骑士的难题.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_03examination/_1bytedance/_13死亡骑士的难题.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examination/_1bytedance/_14二叉树的左视图_0.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_03examination/_1bytedance/_14二叉树的左视图_0.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examination/_1bytedance/_14二叉树的左视图_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_03examination/_1bytedance/_14二叉树的左视图_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examination/_1bytedance/_15利用堆结构来实现中位树的查找.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_03examination/_1bytedance/_15利用堆结构来实现中位树的查找.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examination/_2baidu/_01升级版旋转矩阵.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_03examination/_2baidu/_01升级版旋转矩阵.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examination/_2baidu/_02大数相乘.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_03examination/_2baidu/_02大数相乘.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examination/_3alibaba/_01三个线程循环打印.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_03examination/_3alibaba/_01三个线程循环打印.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examination/_3alibaba/_02输出子数组的最大和.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_03examination/_3alibaba/_02输出子数组的最大和.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examination/_3alibaba/循环打印线程.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_03examination/_3alibaba/循环打印线程.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examination/_4pinduoduo/_1严格升序排列.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_03examination/_4pinduoduo/_1严格升序排列.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examination/_4pinduoduo/_2首尾相接是否成环.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_03examination/_4pinduoduo/_2首尾相接是否成环.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examination/_4pinduoduo/_3积木搭铁塔.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_03examination/_4pinduoduo/_3积木搭铁塔.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examination/_5anquan360/_0test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examination/_6_58tongcheng/_0左上到右下的最短路程.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_03examination/_6_58tongcheng/_0左上到右下的最短路程.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0工具箱类/_01java内置的数据结构.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_00工具箱类/_01java内置的数据结构.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0工具箱类/_02对数器.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_00工具箱类/_02对数器.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0工具箱类/_03二维数组随机生成器.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_00工具箱类/_03二维数组随机生成器.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0工具箱类/_04一维数组随机生成器.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_00工具箱类/_04一维数组随机生成器.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0工具箱类/_05直观打印二叉树.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_00工具箱类/_05直观打印二叉树.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0工具箱类/_06找出一个字符串的所有子串.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_00工具箱类/_06找出一个字符串的所有子串.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0工具箱类/_07单向链表的直观打印.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_00工具箱类/_07单向链表的直观打印.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_1基本排序算法/_00对数器.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_01基本排序算法/_00对数器.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_1基本排序算法/_01单链表.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_01基本排序算法/_01单链表.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_1基本排序算法/_02二叉树_直观打印.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_01基本排序算法/_02二叉树_直观打印.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_1基本排序算法/_03冒泡排序.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_01基本排序算法/_03冒泡排序.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_1基本排序算法/_04选择排序.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_01基本排序算法/_04选择排序.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_1基本排序算法/_05插入排序.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_01基本排序算法/_05插入排序.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_1基本排序算法/_06希尔排序.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_01基本排序算法/_06希尔排序.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_1基本排序算法/_07快速排序_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_01基本排序算法/_07快速排序_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_1基本排序算法/_07随机快排_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_01基本排序算法/_07随机快排_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_1基本排序算法/_08归并排序_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_01基本排序算法/_08归并排序_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_1基本排序算法/_08归并排序_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_01基本排序算法/_08归并排序_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_1基本排序算法/_09堆排序.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_01基本排序算法/_09堆排序.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_01队列栈/_00栈_队列_堆.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_01队列栈/_00栈_队列_堆.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_01队列栈/_01数组中的逆序对.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_01队列栈/_01数组中的逆序对.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_01队列栈/_02荷兰国旗问题.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_01队列栈/_02荷兰国旗问题.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_01队列栈/_03排序相邻最大差值.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_01队列栈/_03排序相邻最大差值.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_01队列栈/_04用数组实现队列和栈.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_01队列栈/_04用数组实现队列和栈.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_01队列栈/_05实现一个特殊的栈.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_01队列栈/_05实现一个特殊的栈.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_01队列栈/_06队列结构实现栈.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_01队列栈/_06队列结构实现栈.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_01队列栈/_07栈结构实现队列.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_01队列栈/_07栈结构实现队列.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_01队列栈/_08猫狗队列.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_01队列栈/_08猫狗队列.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_02二维数组/_01转圈打印矩阵.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_02二维数组/_01转圈打印矩阵.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_02二维数组/_02升级版旋转矩阵.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_02二维数组/_02升级版旋转矩阵.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_02二维数组/_02旋转正方形矩阵.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_02二维数组/_02旋转正方形矩阵.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_02二维数组/_03之字形打印矩阵.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_02二维数组/_03之字形打印矩阵.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_02二维数组/_04排好序的矩阵中找数.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_02二维数组/_04排好序的矩阵中找数.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_03链表/_01打印两个有序链表的公共部分.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_03链表/_01打印两个有序链表的公共部分.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_03链表/_02判断链表是否为回文.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_03链表/_02判断链表是否为回文.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_03链表/_03单向链表的荷兰国旗问题.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_03链表/_03单向链表的荷兰国旗问题.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_03链表/_04复制随机指针节点的链表.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_03链表/_04复制随机指针节点的链表.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_03链表/_05两个单链表相交的问题.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_03链表/_05两个单链表相交的问题.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_04二叉树/_00二叉树.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_04二叉树/_00二叉树.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_04二叉树/_00直观打印二叉树.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_04二叉树/_00直观打印二叉树.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_04二叉树/_01查找二叉树的后继节点.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_04二叉树/_01查找二叉树的后继节点.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_04二叉树/_02查找二叉树的前驱节点.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_04二叉树/_02查找二叉树的前驱节点.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_04二叉树/_03二叉树的序列化与反序列化.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_04二叉树/_03二叉树的序列化与反序列化.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_04二叉树/_04折纸问题.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_04二叉树/_04折纸问题.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_04二叉树/_05判断是否为平衡二叉树.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_04二叉树/_05判断是否为平衡二叉树.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_04二叉树/_06判断是否为搜索二叉树.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_04二叉树/_06判断是否为搜索二叉树.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_04二叉树/_07判断是否为完全二叉树.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_04二叉树/_07判断是否为完全二叉树.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_04二叉树/_08求完全二叉树节点数.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_04二叉树/_08求完全二叉树节点数.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_04二叉树/_09二叉树的Morris遍历.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_04二叉树/_09二叉树的Morris遍历.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_04二叉树/_10获取二叉树的高度.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_04二叉树/_10获取二叉树的高度.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_04二叉树/_11S型打印二叉树节点.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_04二叉树/_11S型打印二叉树节点.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_04二叉树/_12二叉树的右视图.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_04二叉树/_12二叉树的右视图.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_05哈希/_01MyHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_05哈希/_01MyHashMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_05哈希/_02RandomPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_05哈希/_02RandomPool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_06并查集和前缀树/_01并查集.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_06并查集和前缀树/_01并查集.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_06并查集和前缀树/_02岛问题.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_06并查集和前缀树/_02岛问题.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_06并查集和前缀树/_03前缀树.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_06并查集和前缀树/_03前缀树.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_07递归/_01异或为0划分子数组.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_07递归/_01异或为0划分子数组.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_07递归/_02棵树的最大值和最小值_递归法.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_07递归/_02棵树的最大值和最小值_递归法.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_07递归/_03得到一棵树的最大搜岁二叉子树.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_07递归/_03得到一棵树的最大搜岁二叉子树.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_07递归/_04判断是否为平衡二叉树.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_07递归/_04判断是否为平衡二叉树.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_07递归/_05二叉树两个节点的最大距离.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_07递归/_05二叉树两个节点的最大距离.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_07递归/_06多叉树_公司晚会活跃度.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_07递归/_06多叉树_公司晚会活跃度.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_07递归/_07数组_公司晚会活跃度.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_07递归/_07数组_公司晚会活跃度.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_08暴力递归_动态规划/_01换钱的方法数_dp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_08暴力递归_动态规划/_01换钱的方法数_dp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_08暴力递归_动态规划/_01换钱的方法数_暴力.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_08暴力递归_动态规划/_01换钱的方法数_暴力.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_08暴力递归_动态规划/_01换钱的方法数_记忆化搜索.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_08暴力递归_动态规划/_01换钱的方法数_记忆化搜索.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_08暴力递归_动态规划/_02子数组最大异或和.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_08暴力递归_动态规划/_02子数组最大异或和.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_08暴力递归_动态规划/_03纸牌博弈问题_dp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_08暴力递归_动态规划/_03纸牌博弈问题_dp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_08暴力递归_动态规划/_03纸牌博弈问题_暴力.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_08暴力递归_动态规划/_03纸牌博弈问题_暴力.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_08暴力递归_动态规划/_04行走的机器人_dp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_08暴力递归_动态规划/_04行走的机器人_dp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_08暴力递归_动态规划/_04行走的机器人_暴力.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_08暴力递归_动态规划/_04行走的机器人_暴力.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_08暴力递归_动态规划/_05不相邻最大和.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_08暴力递归_动态规划/_05不相邻最大和.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_08暴力递归_动态规划/_07_01背包问题.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_08暴力递归_动态规划/_07_01背包问题.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_08暴力递归_动态规划/_07多重背包问题.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_08暴力递归_动态规划/_07多重背包问题.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_08暴力递归_动态规划/_07完全背包问题.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_08暴力递归_动态规划/_07完全背包问题.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_08暴力递归_动态规划/_08_n乘m的方块中从左上走到右下的方法数.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_08暴力递归_动态规划/_08_n乘m的方块中从左上走到右下的方法数.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_08暴力递归_动态规划/_09_n乘m的方块中的最小路径和.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_08暴力递归_动态规划/_09_n乘m的方块中的最小路径和.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_08暴力递归_动态规划/_10最长递增子序列_dp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_08暴力递归_动态规划/_10最长递增子序列_dp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_08暴力递归_动态规划/_10最长递增子序列_暴力.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_08暴力递归_动态规划/_10最长递增子序列_暴力.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_08暴力递归_动态规划/_11输出子数组的最大和.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_08暴力递归_动态规划/_11输出子数组的最大和.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_08暴力递归_动态规划/_12两个字符串的最长公共子序列.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_08暴力递归_动态规划/_12两个字符串的最长公共子序列.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_08暴力递归_动态规划/_12两个字符串的最长公共子序列_升级.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_08暴力递归_动态规划/_12两个字符串的最长公共子序列_升级.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_08暴力递归_动态规划/_13两个字符串的最长公共子串.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_08暴力递归_动态规划/_13两个字符串的最长公共子串.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_08暴力递归_动态规划/_13两个字符串的最长公共子串_升级.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_08暴力递归_动态规划/_13两个字符串的最长公共子串_升级.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_08暴力递归_动态规划/_14最长不重复子序列的个数.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_08暴力递归_动态规划/_14最长不重复子序列的个数.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_08暴力递归_动态规划/_15最长不重复子串.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_08暴力递归_动态规划/_15最长不重复子串.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_08贪心策略/_01一个字符串中包含的另一个字符串的字符.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_08贪心策略/_01一个字符串中包含的另一个字符串的字符.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_08贪心策略/_02字符串的最小字典序.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_08贪心策略/_02字符串的最小字典序.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_08贪心策略/_03环形加油站问题.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_08贪心策略/_03环形加油站问题.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_08贪心策略/_04不相邻最大和.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_08贪心策略/_04不相邻最大和.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_09基础经典算法/_01KMP算法.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_09基础经典算法/_01KMP算法.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_09基础经典算法/_02KMP应用之_添加字符串.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_09基础经典算法/_02KMP应用之_添加字符串.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_09基础经典算法/_03KMP应用之_判断二叉树包含关系.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_09基础经典算法/_03KMP应用之_判断二叉树包含关系.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_09基础经典算法/_04_Manacher算法之暴力解.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_09基础经典算法/_04_Manacher算法之暴力解.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_09基础经典算法/_04_Manacher算法之算法解.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_09基础经典算法/_04_Manacher算法之算法解.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_09基础经典算法/_05_Manacher应用之_添加字符串使成回文.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_09基础经典算法/_05_Manacher应用之_添加字符串使成回文.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_09基础经典算法/_06_BFPRT算法.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_09基础经典算法/_06_BFPRT算法.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_09基础经典算法/_07滑动窗口问题.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_09基础经典算法/_07滑动窗口问题.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_09基础经典算法/_08滑动窗口之应用子数组最大值与最小值.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_09基础经典算法/_08滑动窗口之应用子数组最大值与最小值.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_09基础经典算法/_09单调栈结构.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_09基础经典算法/_09单调栈结构.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_09基础经典算法/_10单调栈结构应用之生成二叉树.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_09基础经典算法/_10单调栈结构应用之生成二叉树.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_09基础经典算法/_11单调栈结构应用之求最大子矩阵.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_09基础经典算法/_11单调栈结构应用之求最大子矩阵.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_09基础经典算法/_12单调栈结构应用之环形山问题.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_09基础经典算法/_12单调栈结构应用之环形山问题.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_10经典问题/_01大楼轮廓_搜索二叉树问题.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_10经典问题/_01大楼轮廓_搜索二叉树问题.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_10经典问题/_02累加和为指定值的最长子数组长度_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_10经典问题/_02累加和为指定值的最长子数组长度_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_10经典问题/_02累加和为指定值的最长子数组长度_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_10经典问题/_02累加和为指定值的最长子数组长度_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_10经典问题/_02累加和小于等于指定值的最长子数组长度_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_10经典问题/_02累加和小于等于指定值的最长子数组长度_3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_10经典问题/_03页面缓存算法FIFO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_10经典问题/_03页面缓存算法FIFO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_10经典问题/_04页面缓存算法LRU.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_10经典问题/_04页面缓存算法LRU.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_10经典问题/_05页面缓存算法LFU.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_10经典问题/_05页面缓存算法LFU.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_10经典问题/_06环形单链表的约瑟夫问题.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_10经典问题/_06环形单链表的约瑟夫问题.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_10经典问题/_07字符串匹配问题_正则表达式.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_10经典问题/_07字符串匹配问题_正则表达式.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_10经典问题/_08Knuth洗牌算法.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_10经典问题/_08Knuth洗牌算法.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_10经典问题/_09N皇后问题.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_10经典问题/_09N皇后问题.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/欢乐颂/_10经典问题/_10N皇后问题_位运算解法.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/_10经典问题/_10N皇后问题_位运算解法.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/com/test/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/com/test/test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/剑指offer/_01二维数组中的查找.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_04剑指offer/_01二维数组中的查找.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/剑指offer/_02替换空格.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_04剑指offer/_02替换空格.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/剑指offer/_03从尾到头打印链表.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_04剑指offer/_03从尾到头打印链表.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/剑指offer/_04重建二叉树88.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_04剑指offer/_04重建二叉树88.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/剑指offer/_05两个栈实现队列.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_04剑指offer/_05两个栈实现队列.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/剑指offer/_06旋转数组的最小数字.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_04剑指offer/_06旋转数组的最小数字.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/剑指offer/_07斐波那契数列.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_04剑指offer/_07斐波那契数列.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/剑指offer/_08跳台阶.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_04剑指offer/_08跳台阶.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/剑指offer/_09变态跳台阶.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_04剑指offer/_09变态跳台阶.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/剑指offer/_10矩形覆盖.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_04剑指offer/_10矩形覆盖.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/剑指offer/_11二进制中1的个数88.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_04剑指offer/_11二进制中1的个数88.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/剑指offer/_12数值整数次方.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_04剑指offer/_12数值整数次方.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/剑指offer/_13调整数组顺序使得奇数在偶数前面.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_04剑指offer/_13调整数组顺序使得奇数在偶数前面.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/剑指offer/_14链表中倒数第K个节点.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_04剑指offer/_14链表中倒数第K个节点.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/剑指offer/_15反转链表.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_04剑指offer/_15反转链表.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/剑指offer/_16合并两个排序的链表.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_04剑指offer/_16合并两个排序的链表.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/剑指offer/_17树的字结构88.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_04剑指offer/_17树的字结构88.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/剑指offer/_18二叉树的镜像.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_04剑指offer/_18二叉树的镜像.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/剑指offer/_19顺时针打印矩阵88.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_04剑指offer/_19顺时针打印矩阵88.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/剑指offer/_20包含min函数的栈.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_04剑指offer/_20包含min函数的栈.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/剑指offer/_21栈的压入弹出序列88.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_04剑指offer/_21栈的压入弹出序列88.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/剑指offer/_22从上往下打印二叉树.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_04剑指offer/_22从上往下打印二叉树.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/剑指offer/_23二叉搜索树的后序遍历88.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_04剑指offer/_23二叉搜索树的后序遍历88.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/剑指offer/_24二叉树中和为某一值的路径88.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_04剑指offer/_24二叉树中和为某一值的路径88.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/剑指offer/_25复杂链表的复制.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_04剑指offer/_25复杂链表的复制.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/剑指offer/_26二叉搜索树与双向链表.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_04剑指offer/_26二叉搜索树与双向链表.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/剑指offer/_27全排列_字符串_暴力解.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_04剑指offer/_27全排列_字符串_暴力解.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/剑指offer/_28全排列_字符串_字典序法.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_04剑指offer/_28全排列_字符串_字典序法.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/剑指offer/_29数组中出现次数超过一半的数字.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_04剑指offer/_29数组中出现次数超过一半的数字.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/剑指offer/_30最小的K个数.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_04剑指offer/_30最小的K个数.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/剑指offer/_31连续子数组的最大和88.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_04剑指offer/_31连续子数组的最大和88.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/剑指offer/_32整数中1出现的次数88.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/剑指offer/_33把数组排成最小的数.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_04剑指offer/_33把数组排成最小的数.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/剑指offer/_34丑数88.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_04剑指offer/_34丑数88.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/剑指offer/_35第一个只出现一次的字符.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_04剑指offer/_35第一个只出现一次的字符.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/剑指offer/_36数组中的逆序对88.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_04剑指offer/_36数组中的逆序对88.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/剑指offer/_37链表的第一个交点.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_04剑指offer/_37链表的第一个交点.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/剑指offer/_38数字在排序数组中出现的次数88.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_04剑指offer/_38数字在排序数组中出现的次数88.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/剑指offer/_39二叉树的深度.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_04剑指offer/_39二叉树的深度.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/剑指offer/_40平衡二叉树.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_04剑指offer/_40平衡二叉树.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/剑指offer/_41数组中只出现一次的数字.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_04剑指offer/_41数组中只出现一次的数字.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/剑指offer/_42和为S的连续正数序列.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_04剑指offer/_42和为S的连续正数序列.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/剑指offer/_43和为S的两个数字.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_04剑指offer/_43和为S的两个数字.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/剑指offer/_44左旋转字符串.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_04剑指offer/_44左旋转字符串.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/剑指offer/_45翻转单词顺序列.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_04剑指offer/_45翻转单词顺序列.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/剑指offer/_46扑克牌顺子.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_04剑指offer/_46扑克牌顺子.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/剑指offer/_47孩子们的游戏_圆圈中最后剩下的数88.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_04剑指offer/_47孩子们的游戏_圆圈中最后剩下的数88.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/剑指offer/_48求连续累加88.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_04剑指offer/_48求连续累加88.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/剑指offer/_49不用加减乘除做加法88.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_04剑指offer/_49不用加减乘除做加法88.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/剑指offer/_50把字符串转换成整数.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_04剑指offer/_50把字符串转换成整数.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/剑指offer/_51数组中重复的数字.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_04剑指offer/_51数组中重复的数字.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/剑指offer/_52构建成绩数组.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_04剑指offer/_52构建成绩数组.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/剑指offer/_53正则表达式匹配88.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_04剑指offer/_53正则表达式匹配88.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/剑指offer/_54表示数值的字符串.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_04剑指offer/_54表示数值的字符串.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/剑指offer/_55字符流中第一个不重复的字符.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_04剑指offer/_55字符流中第一个不重复的字符.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/剑指offer/_56链表中环的入口结点.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_04剑指offer/_56链表中环的入口结点.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/剑指offer/_57删除链表中重复的结点.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_04剑指offer/_57删除链表中重复的结点.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/剑指offer/_58二叉树的下一个结点88.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_04剑指offer/_58二叉树的下一个结点88.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/剑指offer/_59对称的二叉树88.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_04剑指offer/_59对称的二叉树88.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/剑指offer/_60按之字形顺序打印二叉树.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_04剑指offer/_60按之字形顺序打印二叉树.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/剑指offer/_61把二叉树打印成多行.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_04剑指offer/_61把二叉树打印成多行.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/剑指offer/_62序列化二叉树_先序.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_04剑指offer/_62序列化二叉树_先序.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/剑指offer/_62序列化二叉树_层次.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_04剑指offer/_62序列化二叉树_层次.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/剑指offer/_63二叉搜索树的第k个结点.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_04剑指offer/_63二叉搜索树的第k个结点.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/剑指offer/_64数据流中的中位数.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_04剑指offer/_64数据流中的中位数.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/剑指offer/_65滑动窗口中的最大值.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_04剑指offer/_65滑动窗口中的最大值.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/参考/Code_01_KMP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/参考/Code_01_KMP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/参考/Code_02_KMP_ShortestHaveTwice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/参考/Code_02_KMP_ShortestHaveTwice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/参考/Code_03_KMP_T1SubtreeEqualsT2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/参考/Code_03_KMP_T1SubtreeEqualsT2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/参考/Code_04_Manacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/参考/Code_04_Manacher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/参考/Code_05_Manacher_ShortestEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/参考/Code_05_Manacher_ShortestEnd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/参考/Code_06_BFPRT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02分类算法/参考/Code_06_BFPRT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/未完成/_01大楼轮廓_搜索二叉树问题.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/未完成/_01大楼轮廓_搜索二叉树问题.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/未完成/_02单调栈结构应用之环形山问题.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/未完成/_02单调栈结构应用之环形山问题.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/未完成/_03二叉树的Morris遍历.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/未完成/_03二叉树的Morris遍历.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/未完成/_04数组_公司晚会活跃度.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/未完成/_04数组_公司晚会活跃度.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/未完成/_05异或为0划分子数组.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/未完成/_05异或为0划分子数组.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/未完成/_06页面缓存算法FIFO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/未完成/_06页面缓存算法FIFO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/未完成/_07页面缓存算法LRU.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/未完成/_07页面缓存算法LRU.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/未完成/_08页面缓存算法LFU.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/未完成/_08页面缓存算法LFU.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/未完成/_09给定一个字符串公式返回结果.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/未完成/_09给定一个字符串公式返回结果.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/未完成/_10跳表结构.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/未完成/_10跳表结构.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryToDo/未完成/_11子数组最大异或和.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/未完成/_11子数组最大异或和.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据结构与算法.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorithmProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/_0工具箱类/_01java内置的数据结构$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/_0工具箱类/_01java内置的数据结构$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/_0工具箱类/_01java内置的数据结构$Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/_0工具箱类/_01java内置的数据结构.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/_0工具箱类/_02对数器.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/_0工具箱类/_03二维数组随机生成器.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/_0工具箱类/_04一维数组随机生成器.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/_0工具箱类/_05直观打印二叉树$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/_0工具箱类/_05直观打印二叉树.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/_0工具箱类/_06找出一个字符串的所有子串.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/_0工具箱类/_07单向链表的直观打印$ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/_0工具箱类/_07单向链表的直观打印.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/_1基本排序算法/MyNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/_1基本排序算法/MySingleLinkList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/_1基本排序算法/_00对数器.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/_1基本排序算法/_01单链表.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/_1基本排序算法/_02二叉树_直观打印$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/_1基本排序算法/_02二叉树_直观打印.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/_1基本排序算法/_03冒泡排序.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/_1基本排序算法/_04选择排序.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/_1基本排序算法/_05插入排序.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/_1基本排序算法/_06希尔排序.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/_1基本排序算法/_07快速排序_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/_1基本排序算法/_07随机快排_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/_1基本排序算法/_08归并排序_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/_1基本排序算法/_08归并排序_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/_1基本排序算法/_09堆排序.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/examination/_0niuke/_1处理单行输入_空格.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/examination/_0niuke/_1处理单行输入_逗号.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/examination/_0niuke/_2处理多行输入.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/examination/_1bytedance/_01Plus$ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/examination/_1bytedance/_01Plus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/examination/_1bytedance/_02雨水收集.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/examination/_1bytedance/_03距离单链表终点为k的节点.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/examination/_1bytedance/_04分糖果.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/examination/_1bytedance/_05马里奥弹跳.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/examination/_1bytedance/_06开火车纸牌游戏.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/examination/_1bytedance/_07周年庆纪念.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/examination/_1bytedance/_08数组对折找中位数.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/examination/_1bytedance/_09摊牌找顺序.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/examination/_1bytedance/_10n乘m的方块中从左上走到右下的方法数.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/examination/_1bytedance/_11分割等和子集.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/examination/_1bytedance/_12上学之路.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/examination/_1bytedance/_13死亡骑士的难题.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/examination/_1bytedance/_14二叉树的左视图_0$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/examination/_1bytedance/_14二叉树的左视图_0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/examination/_1bytedance/_14二叉树的左视图_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/examination/_1bytedance/_15利用堆结构来实现中位树的查找$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/examination/_1bytedance/_15利用堆结构来实现中位树的查找.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/examination/_2baidu/_01升级版旋转矩阵.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/examination/_2baidu/_02大数相乘.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/examination/_3alibaba/_01三个线程循环打印.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/examination/_3alibaba/_02输出子数组的最大和.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/examination/_3alibaba/循环打印线程$Thread1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/examination/_3alibaba/循环打印线程$Thread2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/examination/_3alibaba/循环打印线程$Thread3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/examination/_3alibaba/循环打印线程.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/examination/_4pinduoduo/_1严格升序排列.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/examination/_4pinduoduo/_2首尾相接是否成环.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/examination/_4pinduoduo/_3积木搭铁塔.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/examination/_5anquan360/_0test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/examination/_6_58tongcheng/_0左上到右下的最短路程.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/test/test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/test/test1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_01二维数组中的查找.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_02替换空格.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_03从尾到头打印链表$ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_03从尾到头打印链表.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_04重建二叉树88$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_04重建二叉树88.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_05两个栈实现队列$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_05两个栈实现队列.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_06旋转数组的最小数字.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_07斐波那契数列.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_08跳台阶.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_09变态跳台阶.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_10矩形覆盖.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_11二进制中1的个数88.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_12数值整数次方.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_13调整数组顺序使得奇数在偶数前面.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_14链表中倒数第K个节点$ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_14链表中倒数第K个节点.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_15反转链表$ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_15反转链表.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_16合并两个排序的链表$ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_16合并两个排序的链表.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_17树的字结构88$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_17树的字结构88.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_18二叉树的镜像$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_18二叉树的镜像.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_19顺时针打印矩阵88.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_20包含min函数的栈$MyStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_20包含min函数的栈.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_21栈的压入弹出序列88.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_22从上往下打印二叉树.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_23二叉搜索树的后序遍历88.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_24二叉树中和为某一值的路径88$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_24二叉树中和为某一值的路径88$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_24二叉树中和为某一值的路径88.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_25复杂链表的复制$RandomListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_25复杂链表的复制.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_26二叉搜索树与双向链表$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_26二叉搜索树与双向链表.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_27全排列_字符串_暴力解.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_28全排列_字符串_字典序法.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_29数组中出现次数超过一半的数字.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_30最小的K个数.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_31连续子数组的最大和88.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_32整数中1出现的次数88.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_33把数组排成最小的数$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_33把数组排成最小的数.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_34丑数88.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_35第一个只出现一次的字符.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_36数组中的逆序对88.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_37链表的第一个交点$ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_37链表的第一个交点.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_38数字在排序数组中出现的次数88.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_39二叉树的深度$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_39二叉树的深度.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_40平衡二叉树$Result.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_40平衡二叉树$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_40平衡二叉树.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_41数组中只出现一次的数字.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_42和为S的连续正数序列.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_43和为S的两个数字.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_44左旋转字符串.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_45翻转单词顺序列.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_46扑克牌顺子.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_47孩子们的游戏_圆圈中最后剩下的数88.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_48求连续累加88.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_49不用加减乘除做加法88.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_50把字符串转换成整数.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_51数组中重复的数字.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_52构建成绩数组.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_53正则表达式匹配88.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_54表示数值的字符串.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_55字符流中第一个不重复的字符.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_56链表中环的入口结点$ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_56链表中环的入口结点.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_57删除链表中重复的结点$ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_57删除链表中重复的结点.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_58二叉树的下一个结点88$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_58二叉树的下一个结点88.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_59对称的二叉树88$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_59对称的二叉树88.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_60按之字形顺序打印二叉树$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_60按之字形顺序打印二叉树.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_61把二叉树打印成多行$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_61把二叉树打印成多行.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_62序列化二叉树_先序$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_62序列化二叉树_先序.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_62序列化二叉树_层次$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_62序列化二叉树_层次.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_63二叉搜索树的第k个结点$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_63二叉搜索树的第k个结点.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_64数据流中的中位数$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_64数据流中的中位数.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/剑指offer/_65滑动窗口中的最大值.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/参考/Code_01_KMP.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/参考/Code_02_KMP_ShortestHaveTwice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/参考/Code_03_KMP_T1SubtreeEqualsT2$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/参考/Code_03_KMP_T1SubtreeEqualsT2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/参考/Code_04_Manacher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/参考/Code_05_Manacher_ShortestEnd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/参考/Code_06_BFPRT.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/未完成/_01大楼轮廓_搜索二叉树问题.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/未完成/_02单调栈结构应用之环形山问题.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/未完成/_03二叉树的Morris遍历$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/未完成/_03二叉树的Morris遍历.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/未完成/_04数组_公司晚会活跃度.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/未完成/_05异或为0划分子数组.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/未完成/_06页面缓存算法FIFO$LFUCache.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/未完成/_06页面缓存算法FIFO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/未完成/_07页面缓存算法LRU$LRUCache.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/未完成/_07页面缓存算法LRU.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/未完成/_08页面缓存算法LFU$LFUCache.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/未完成/_08页面缓存算法LFU.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/未完成/_09给定一个字符串公式返回结果.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/未完成/_10跳表结构.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/未完成/_11子数组最大异或和.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_01队列栈/Cat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_01队列栈/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_01队列栈/MyQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_01队列栈/MyQueue1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_01队列栈/MyQueue2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_01队列栈/MyStack1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_01队列栈/Mystack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_01队列栈/Pet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_01队列栈/PetQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_01队列栈/_00栈_队列_堆.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_01队列栈/_01数组中的逆序对.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_01队列栈/_02荷兰国旗问题.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_01队列栈/_03排序相邻最大差值.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_01队列栈/_04用数组实现队列和栈.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_01队列栈/_05实现一个特殊的栈.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_01队列栈/_06队列结构实现栈.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_01队列栈/_07栈结构实现队列.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_01队列栈/_08猫狗队列.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_02二维数组/_01转圈打印矩阵.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_02二维数组/_02升级版旋转矩阵.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_02二维数组/_02旋转正方形矩阵.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_02二维数组/_03之字形打印矩阵.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_02二维数组/_04排好序的矩阵中找数.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_03链表/MyNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_03链表/MySingleLinkList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_03链表/_01打印两个有序链表的公共部分.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_03链表/_02判断链表是否为回文$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_03链表/_02判断链表是否为回文.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_03链表/_03单向链表的荷兰国旗问题$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_03链表/_03单向链表的荷兰国旗问题.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_03链表/_04复制随机指针节点的链表$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_03链表/_04复制随机指针节点的链表.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_03链表/_05两个单链表相交的问题$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_03链表/_05两个单链表相交的问题.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_04二叉树/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_04二叉树/Tree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_04二叉树/_00二叉树$Tree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_04二叉树/_00二叉树$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_04二叉树/_00二叉树.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_04二叉树/_00直观打印二叉树$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_04二叉树/_00直观打印二叉树.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_04二叉树/_01查找二叉树的后继节点$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_04二叉树/_01查找二叉树的后继节点.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_04二叉树/_02查找二叉树的前驱节点$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_04二叉树/_02查找二叉树的前驱节点.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_04二叉树/_03二叉树的序列化与反序列化$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_04二叉树/_03二叉树的序列化与反序列化.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_04二叉树/_04折纸问题$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_04二叉树/_04折纸问题.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_04二叉树/_05判断是否为平衡二叉树$ReturnDate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_04二叉树/_05判断是否为平衡二叉树.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_04二叉树/_06判断是否为搜索二叉树.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_04二叉树/_07判断是否为完全二叉树$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_04二叉树/_07判断是否为完全二叉树.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_04二叉树/_08求完全二叉树节点数.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_04二叉树/_09二叉树的Morris遍历$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_04二叉树/_09二叉树的Morris遍历.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_04二叉树/_10获取二叉树的高度.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_04二叉树/_11S型打印二叉树节点$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_04二叉树/_11S型打印二叉树节点.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_04二叉树/_12二叉树的右视图$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_04二叉树/_12二叉树的右视图.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_05哈希/_01MyHashMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_05哈希/_02RandomPool$RandomPool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_05哈希/_02RandomPool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_06并查集和前缀树/_01并查集$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_06并查集和前缀树/_01并查集$UnionFindSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_06并查集和前缀树/_01并查集.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_06并查集和前缀树/_02岛问题.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_06并查集和前缀树/_03前缀树$TrieNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_06并查集和前缀树/_03前缀树$TrieTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_06并查集和前缀树/_03前缀树.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_07递归/_01异或为0划分子数组.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_07递归/_02棵树的最大值和最小值_递归法$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_07递归/_02棵树的最大值和最小值_递归法$ReturnDate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_07递归/_02棵树的最大值和最小值_递归法$Tree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_07递归/_02棵树的最大值和最小值_递归法.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_07递归/_03得到一棵树的最大搜岁二叉子树$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_07递归/_03得到一棵树的最大搜岁二叉子树$ReturnDate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_07递归/_03得到一棵树的最大搜岁二叉子树$Tree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_07递归/_03得到一棵树的最大搜岁二叉子树.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_07递归/_04判断是否为平衡二叉树$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_07递归/_04判断是否为平衡二叉树$ReturnDate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_07递归/_04判断是否为平衡二叉树$Tree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_07递归/_04判断是否为平衡二叉树.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_07递归/_05二叉树两个节点的最大距离$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_07递归/_05二叉树两个节点的最大距离$ReturnDate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_07递归/_05二叉树两个节点的最大距离$Tree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_07递归/_05二叉树两个节点的最大距离.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_07递归/_06多叉树_公司晚会活跃度$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_07递归/_06多叉树_公司晚会活跃度$ReturnDate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_07递归/_06多叉树_公司晚会活跃度.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_07递归/_07数组_公司晚会活跃度.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_08暴力递归_动态规划/_01换钱的方法数_dp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_08暴力递归_动态规划/_01换钱的方法数_暴力.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_08暴力递归_动态规划/_01换钱的方法数_记忆化搜索.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_08暴力递归_动态规划/_02子数组最大异或和.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_08暴力递归_动态规划/_03纸牌博弈问题_dp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_08暴力递归_动态规划/_03纸牌博弈问题_暴力.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_08暴力递归_动态规划/_04行走的机器人_dp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_08暴力递归_动态规划/_04行走的机器人_暴力.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_08暴力递归_动态规划/_05不相邻最大和.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_08暴力递归_动态规划/_07_01背包问题.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_08暴力递归_动态规划/_07多重背包问题.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_08暴力递归_动态规划/_07完全背包问题.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_08暴力递归_动态规划/_08_n乘m的方块中从左上走到右下的方法数.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_08暴力递归_动态规划/_09_n乘m的方块中的最小路径和.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_08暴力递归_动态规划/_10最长递增子序列_dp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_08暴力递归_动态规划/_10最长递增子序列_暴力.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_08暴力递归_动态规划/_11输出子数组的最大和.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_08暴力递归_动态规划/_12两个字符串的最长公共子序列.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_08暴力递归_动态规划/_12两个字符串的最长公共子序列_升级.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_08暴力递归_动态规划/_13两个字符串的最长公共子串.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_08暴力递归_动态规划/_13两个字符串的最长公共子串_升级.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_08暴力递归_动态规划/_14最长不重复子序列的个数.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_08暴力递归_动态规划/_15最长不重复子串.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_08贪心策略/_01一个字符串中包含的另一个字符串的字符.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_08贪心策略/_02字符串的最小字典序$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_08贪心策略/_02字符串的最小字典序.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_08贪心策略/_03环形加油站问题.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_08贪心策略/_04不相邻最大和.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_09基础经典算法/_01KMP算法.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_09基础经典算法/_02KMP应用之_添加字符串.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_09基础经典算法/_03KMP应用之_判断二叉树包含关系.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_09基础经典算法/_04_Manacher算法之暴力解.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_09基础经典算法/_04_Manacher算法之算法解.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_09基础经典算法/_05_Manacher应用之_添加字符串使成回文.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_09基础经典算法/_06_BFPRT算法$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_09基础经典算法/_06_BFPRT算法.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_09基础经典算法/_07滑动窗口问题.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_09基础经典算法/_08滑动窗口之应用子数组最大值与最小值.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_09基础经典算法/_09单调栈结构.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_09基础经典算法/_10单调栈结构应用之生成二叉树$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_09基础经典算法/_10单调栈结构应用之生成二叉树.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_09基础经典算法/_11单调栈结构应用之求最大子矩阵.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_09基础经典算法/_12单调栈结构应用之环形山问题.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_10经典问题/_01大楼轮廓_搜索二叉树问题.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_10经典问题/_02累加和为指定值的最长子数组长度_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_10经典问题/_02累加和为指定值的最长子数组长度_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_10经典问题/_02累加和小于等于指定值的最长子数组长度_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_10经典问题/_03页面缓存算法FIFO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_10经典问题/_04页面缓存算法LRU.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_10经典问题/_05页面缓存算法LFU.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_10经典问题/_06环形单链表的约瑟夫问题$MyNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_10经典问题/_06环形单链表的约瑟夫问题.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_10经典问题/_07字符串匹配问题_正则表达式.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_10经典问题/_08Knuth洗牌算法.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_10经典问题/_09N皇后问题.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/欢乐颂/_10经典问题/_10N皇后问题_位运算解法.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_00工具箱类/_07单向链表的直观打印.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_00工具箱类/_07单向链表.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/test1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/未完成/_01大楼轮廓_搜索二叉树问题.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_09未完成/_01大楼轮廓_搜索二叉树问题.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/未完成/_02单调栈结构应用之环形山问题.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_09未完成/_02单调栈结构应用之环形山问题.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/未完成/_03二叉树的Morris遍历.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_09未完成/_03二叉树的Morris遍历.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/未完成/_04数组_公司晚会活跃度.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_09未完成/_04数组_公司晚会活跃度.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/未完成/_05异或为0划分子数组.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_09未完成/_05异或为0划分子数组.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/未完成/_06页面缓存算法FIFO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_09未完成/_06页面缓存算法FIFO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/未完成/_07页面缓存算法LRU.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_09未完成/_07页面缓存算法LRU.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/未完成/_08页面缓存算法LFU.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_09未完成/_08页面缓存算法LFU.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/未完成/_09给定一个字符串公式返回结果.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_09未完成/_09给定一个字符串公式返回结果.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/未完成/_10跳表结构.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_09未完成/_10跳表结构.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/未完成/_11子数组最大异或和.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_09未完成/_11子数组最大异或和.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -612,6 +385,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit4 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -636,12 +410,16 @@
     </option>
   </component>
   <component name="ProjectId" id="1eEDnHwsNrBV24bnsWk1DwcSbgK" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
@@ -650,7 +428,10 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../2_commonproject/love/.project" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -659,51 +440,80 @@
     <property name="settings.editor.selected.configurable" value="plugins.junitgenerator.application" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="_99Test" />
+      <recent name="_00工具箱类" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\AlgorithmProject\src" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\IdeaProjects\AlgorithmProject\src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit._01二维数组中的查找Test.testMain">
-    <configuration name="_65滑动窗口中的最大值" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_04剑指offer._65滑动窗口中的最大值" />
+  <component name="RunManager" selected="JUnit._02无重复字符的最长子串">
+    <configuration name="CalculatorTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AlgorithmProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_04剑指offer.*" />
+          <option name="PATTERN" value="_99Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="_99Test" />
+      <option name="MAIN_CLASS_NAME" value="_99Test.CalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_01二维数组中的查找Test.testMain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculatorTest.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AlgorithmProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_04剑指offer.*" />
+          <option name="PATTERN" value="_99Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.剑指offer" />
-      <option name="MAIN_CLASS_NAME" value="剑指offer._01二维数组中的查找Test" />
-      <option name="METHOD_NAME" value="testMain" />
+      <option name="PACKAGE_NAME" value="_99Test" />
+      <option name="MAIN_CLASS_NAME" value="_99Test.CalculatorTest" />
+      <option name="METHOD_NAME" value="add" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BSP.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_01二维数组中的查找.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="_01两数相加" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AlgorithmProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_04剑指offer.*" />
+          <option name="PATTERN" value="_05LeetCode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="_04剑指offer" />
-      <option name="MAIN_CLASS_NAME" value="_04剑指offer._01二维数组中的查找" />
+      <option name="PACKAGE_NAME" value="_05LeetCode" />
+      <option name="MAIN_CLASS_NAME" value="_05LeetCode._01两数相加" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_01两数相加.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AlgorithmProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_05LeetCode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="_05LeetCode" />
+      <option name="MAIN_CLASS_NAME" value="_05LeetCode._01两数相加" />
       <option name="METHOD_NAME" value="main" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -711,35 +521,17 @@
         <option name="BSP.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_02荷兰国旗问题.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="_02无重复字符的最长子串" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AlgorithmProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_02分类算法._01队列栈.*" />
+          <option name="PATTERN" value="_05LeetCode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="_02分类算法._01队列栈" />
-      <option name="MAIN_CLASS_NAME" value="_02分类算法._01队列栈._02荷兰国旗问题" />
-      <option name="METHOD_NAME" value="main" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BSP.BeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_02替换空格.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AlgorithmProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_04剑指offer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="_04剑指offer" />
-      <option name="MAIN_CLASS_NAME" value="_04剑指offer._02替换空格" />
-      <option name="METHOD_NAME" value="main" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="_05LeetCode" />
+      <option name="MAIN_CLASS_NAME" value="_05LeetCode._02无重复字符的最长子串" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BSP.BeforeRunTask" enabled="true" />
@@ -754,11 +546,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit._01二维数组中的查找Test.testMain" />
-        <item itemvalue="JUnit._02替换空格.main" />
-        <item itemvalue="JUnit._01二维数组中的查找.main" />
-        <item itemvalue="Application._65滑动窗口中的最大值" />
-        <item itemvalue="JUnit._02荷兰国旗问题.main" />
+        <item itemvalue="JUnit._02无重复字符的最长子串" />
+        <item itemvalue="JUnit._01两数相加.main" />
+        <item itemvalue="JUnit._01两数相加" />
+        <item itemvalue="JUnit.CalculatorTest.add" />
+        <item itemvalue="JUnit.CalculatorTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -776,6 +568,14 @@
       <workItem from="1560519463352" duration="1104000" />
       <workItem from="1560581445995" duration="81000" />
     </task>
+    <task id="LOCAL-00001" summary="12">
+      <created>1593884739285</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1593884739285</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -806,11 +606,23 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="12" />
+    <option name="LAST_COMMIT_MESSAGE" value="12" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="329" y="54" key="#File_and_Code_Templates" timestamp="1593885032483">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="329" y="54" key="#File_and_Code_Templates/0.0.1366.728/1366.-148.1920.1040@0.0.1366.728" timestamp="1593885032483" />
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593879410204">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/1366.-148.1920.1040@0.0.1366.728" timestamp="1593879410204" />
+    <state x="413" y="124" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1593886124258">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="124" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1366.728/1366.-148.1920.1040@0.0.1366.728" timestamp="1593886124258" />
     <state x="456" y="47" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1593883464691">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -819,6 +631,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="374" y="287" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728/1366.-148.1920.1040@0.0.1366.728" timestamp="1593884394009" />
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1593885720457">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728/1366.-148.1920.1040@0.0.1366.728" timestamp="1593885720457" />
     <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1593882764924">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -827,22 +643,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="484" y="119" key="FileChooserDialogImpl/0.0.1366.728/1366.-148.1920.1040@0.0.1366.728" timestamp="1593882380377" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1593884020974">
+    <state width="1306" height="173" key="GridCell.Tab.0.bottom" timestamp="1593923501449">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-148.1920.1040@0.0.1366.728" timestamp="1593884020974" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1593884020973">
+    <state width="1306" height="173" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-148.1920.1040@0.0.1366.728" timestamp="1593923501449" />
+    <state width="1306" height="173" key="GridCell.Tab.0.center" timestamp="1593923501449">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728/1366.-148.1920.1040@0.0.1366.728" timestamp="1593884020973" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1593884020973">
+    <state width="1306" height="173" key="GridCell.Tab.0.center/0.0.1366.728/1366.-148.1920.1040@0.0.1366.728" timestamp="1593923501449" />
+    <state width="1306" height="173" key="GridCell.Tab.0.left" timestamp="1593923501449">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728/1366.-148.1920.1040@0.0.1366.728" timestamp="1593884020973" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1593884020974">
+    <state width="1306" height="173" key="GridCell.Tab.0.left/0.0.1366.728/1366.-148.1920.1040@0.0.1366.728" timestamp="1593923501449" />
+    <state width="1306" height="173" key="GridCell.Tab.0.right" timestamp="1593923501449">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/1366.-148.1920.1040@0.0.1366.728" timestamp="1593884020974" />
+    <state width="1306" height="173" key="GridCell.Tab.0.right/0.0.1366.728/1366.-148.1920.1040@0.0.1366.728" timestamp="1593923501449" />
     <state x="441" y="65" key="RollbackChangesDialog" timestamp="1593881600757">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -859,13 +675,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="476" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/1366.-148.1920.1040@0.0.1366.728" timestamp="1593882694491" />
+    <state x="454" y="118" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1593886665255">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="454" y="118" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728/1366.-148.1920.1040@0.0.1366.728" timestamp="1593886665255" />
     <state x="33" y="0" key="new project wizard" timestamp="1593882675392">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="33" y="0" key="new project wizard/0.0.1366.728/1366.-148.1920.1040@0.0.1366.728" timestamp="1593882675392" />
-    <state x="346" y="49" key="search.everywhere.popup" timestamp="1593879278151">
+    <state x="313" y="170" key="run.anything.popup" timestamp="1593918960880">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" key="search.everywhere.popup/0.0.1366.728/1366.-148.1920.1040@0.0.1366.728" timestamp="1593879278151" />
+    <state x="313" y="170" key="run.anything.popup/0.0.1366.728/1366.-148.1920.1040@0.0.1366.728" timestamp="1593918960880" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1593922520463">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.-148.1920.1040@0.0.1366.728" timestamp="1593922520463" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/AlgorithmProject$CalculatorTest_add.ic" NAME="CalculatorTest.add Coverage Results" MODIFIED="1593886791706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>_99Test.*</FILTER>
+    </SUITE>
   </component>
 </project>
