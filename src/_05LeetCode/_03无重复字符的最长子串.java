@@ -10,7 +10,7 @@ import java.util.Set;
  * 1.记录当前的长度为len=0,forward,behind别为前后指针
  * 2.前面指针如果没有越界就向下走,判断hashset中是否含有当前元素,如果含有就添加,
  * */
-public class _02无重复字符的最长子串<lengthOfLongestSubstring1> {
+public class _03无重复字符的最长子串<lengthOfLongestSubstring1> {
 
     @Test
     public void test() {

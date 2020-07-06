@@ -11,7 +11,7 @@ import org.junit.Test;
 
 注:因为链表可以无限长,因此不能将其转变为int后处理,因为可能会存在越界异常
 */
-public class _01两数相加 {
+public class _02两数相加 {
 
     //定义节点
     class ListNode {
