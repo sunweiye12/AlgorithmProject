@@ -20,10 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6720297-5358-4297-9325-79733ca68e82" name="Default Changelist" comment="day02">
-      <change afterPath="$PROJECT_DIR$/src/_05LeetCode/_04两个有序数组的中位数.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_05LeetCode/_01两数相加.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_05LeetCode/_02两数相加.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_05LeetCode/_02无重复字符的最长子串.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_05LeetCode/_03无重复字符的最长子串.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlgorithmProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorithmProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmProject/META-INF/AlgorithmProject.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_99Test/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_99Test/CalculatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +80,8 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -88,7 +91,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="plugins.junitgenerator.application" />
@@ -108,13 +111,13 @@
       <recent name="D:\IdeaProjects\AlgorithmProject\src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit._04两个有序数组的中位数.main">
-    <configuration name="_08归并排序_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_01基本排序算法._08归并排序_2" />
+  <component name="RunManager" selected="JUnit._02两数相加">
+    <configuration name="_01java内置的数据结构" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_00工具箱类._01java内置的数据结构" />
       <module name="AlgorithmProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_01基本排序算法.*" />
+          <option name="PATTERN" value="_00工具箱类.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,7 +125,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_03无重复字符的最长子串" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="_02两数相加" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AlgorithmProject" />
       <extension name="coverage">
         <pattern>
@@ -131,25 +134,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="_05LeetCode" />
-      <option name="MAIN_CLASS_NAME" value="_05LeetCode._03无重复字符的最长子串" />
+      <option name="MAIN_CLASS_NAME" value="_05LeetCode._02两数相加" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BSP.BeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_03无重复字符的最长子串.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AlgorithmProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_05LeetCode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="_05LeetCode" />
-      <option name="MAIN_CLASS_NAME" value="_05LeetCode._03无重复字符的最长子串" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BSP.BeforeRunTask" enabled="true" />
@@ -188,6 +174,22 @@
         <option name="BSP.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_07单向链表" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AlgorithmProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_00工具箱类.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="_00工具箱类" />
+      <option name="MAIN_CLASS_NAME" value="_00工具箱类._07单向链表" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
@@ -197,14 +199,15 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit._02两数相加" />
+        <item itemvalue="JUnit._07单向链表" />
+        <item itemvalue="Application._01java内置的数据结构" />
         <item itemvalue="JUnit._04两个有序数组的中位数.main" />
         <item itemvalue="JUnit._04两个有序数组的中位数" />
-        <item itemvalue="Application._08归并排序_2" />
-        <item itemvalue="JUnit._03无重复字符的最长子串" />
-        <item itemvalue="JUnit._03无重复字符的最长子串.test" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -275,104 +278,6 @@
     <MESSAGE value="12" />
     <MESSAGE value="day02" />
     <option name="LAST_COMMIT_MESSAGE" value="day02" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="329" y="54" key="#File_and_Code_Templates" timestamp="1593885032483">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="329" y="54" key="#File_and_Code_Templates/0.0.1366.728/1366.-148.1920.1040@0.0.1366.728" timestamp="1593885032483" />
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593879410204">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/1366.-148.1920.1040@0.0.1366.728" timestamp="1593879410204" />
-    <state x="413" y="124" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1593886124258">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="413" y="124" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1366.728/1366.-148.1920.1040@0.0.1366.728" timestamp="1593886124258" />
-    <state x="456" y="47" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1593883464691">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="456" y="47" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1366.728/1366.-148.1920.1040@0.0.1366.728" timestamp="1593883464691" />
-    <state x="374" y="287" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1593884394009">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="374" y="287" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728/1366.-148.1920.1040@0.0.1366.728" timestamp="1593884394009" />
-    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1593885720457">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728/1366.-148.1920.1040@0.0.1366.728" timestamp="1593885720457" />
-    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1593882764924">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728/1366.-148.1920.1040@0.0.1366.728" timestamp="1593882764924" />
-    <state x="484" y="119" key="FileChooserDialogImpl" timestamp="1593882380377">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="484" y="119" key="FileChooserDialogImpl/0.0.1366.728/1366.-148.1920.1040@0.0.1366.728" timestamp="1593882380377" />
-    <state width="1306" height="123" key="GridCell.Tab.0.bottom" timestamp="1594057449077">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1306" height="123" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-148.1920.1040@0.0.1366.728" timestamp="1594057449077" />
-    <state width="1306" height="123" key="GridCell.Tab.0.center" timestamp="1594057449077">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1306" height="123" key="GridCell.Tab.0.center/0.0.1366.728/1366.-148.1920.1040@0.0.1366.728" timestamp="1594057449077" />
-    <state width="1306" height="123" key="GridCell.Tab.0.left" timestamp="1594057449077">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1306" height="123" key="GridCell.Tab.0.left/0.0.1366.728/1366.-148.1920.1040@0.0.1366.728" timestamp="1594057449077" />
-    <state width="1306" height="123" key="GridCell.Tab.0.right" timestamp="1594057449077">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1306" height="123" key="GridCell.Tab.0.right/0.0.1366.728/1366.-148.1920.1040@0.0.1366.728" timestamp="1594057449077" />
-    <state width="653" height="220" key="GridCell.Tab.1.bottom" timestamp="1593966288415">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="653" height="220" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.-148.1920.1040@0.0.1366.728" timestamp="1593966288415" />
-    <state width="653" height="220" key="GridCell.Tab.1.center" timestamp="1593966288415">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="653" height="220" key="GridCell.Tab.1.center/0.0.1366.728/1366.-148.1920.1040@0.0.1366.728" timestamp="1593966288415" />
-    <state width="653" height="220" key="GridCell.Tab.1.left" timestamp="1593966288415">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="653" height="220" key="GridCell.Tab.1.left/0.0.1366.728/1366.-148.1920.1040@0.0.1366.728" timestamp="1593966288415" />
-    <state width="653" height="220" key="GridCell.Tab.1.right" timestamp="1593966288415">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="653" height="220" key="GridCell.Tab.1.right/0.0.1366.728/1366.-148.1920.1040@0.0.1366.728" timestamp="1593966288415" />
-    <state x="441" y="65" key="RollbackChangesDialog" timestamp="1593881600757">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="441" y="65" key="RollbackChangesDialog/0.0.1366.728/1366.-148.1920.1040@0.0.1366.728" timestamp="1593881600757" />
-    <state x="163" y="0" key="SettingsEditor" timestamp="1593883711018">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="163" y="0" key="SettingsEditor/0.0.1366.728/1366.-148.1920.1040@0.0.1366.728" timestamp="1593883711018" />
-    <state x="381" y="255" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1593883236500">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="381" y="255" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1366.728/1366.-148.1920.1040@0.0.1366.728" timestamp="1593883236500" />
-    <state x="476" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593882694491">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="476" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/1366.-148.1920.1040@0.0.1366.728" timestamp="1593882694491" />
-    <state x="454" y="118" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1593886665255">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="454" y="118" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728/1366.-148.1920.1040@0.0.1366.728" timestamp="1593886665255" />
-    <state x="33" y="0" key="new project wizard" timestamp="1593882675392">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="33" y="0" key="new project wizard/0.0.1366.728/1366.-148.1920.1040@0.0.1366.728" timestamp="1593882675392" />
-    <state x="313" y="170" key="run.anything.popup" timestamp="1594056201283">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="313" y="170" key="run.anything.popup/0.0.1366.728/1366.-148.1920.1040@0.0.1366.728" timestamp="1594056201283" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1593963624052">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.-148.1920.1040@0.0.1366.728" timestamp="1593963624052" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/AlgorithmProject$CalculatorTest_add.ic" NAME="CalculatorTest.add Coverage Results" MODIFIED="1593886791706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
