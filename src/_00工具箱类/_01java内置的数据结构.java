@@ -32,9 +32,9 @@ public class _01java内置的数据结构 {
 		
 		//注意:无论是删除指定位置,删除之后元素会填充过来,始终是连续的(因此在遍历的过程中,一般不要删除元素)
 		
-//		for (int i = 0; i < list.size(); i++) {
-//			System.out.print(list.get(i)+" ");
-//		}
+		for (int i = 0; i < list.size(); i++) {
+			System.out.print(list.get(i)+" ");
+		}
 		
 	//链表  实现的双端 队列(FIFO 尾部添加 头部取出)
 		LinkedList<Integer> link = new LinkedList<Integer>();
