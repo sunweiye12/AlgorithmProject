@@ -39,7 +39,7 @@ import java.util.Queue;
  */
 public class _08√®π∑∂”¡– {
 	public static void main(String[] args) {
-		Cat cat1 = new Cat("c1");
+		//Cat cat1 = new Cat("c1");
 		Cat cat2 = new Cat("c2");
 		Cat cat3 = new Cat("c3");
 		Cat cat4 = new Cat("c4");
