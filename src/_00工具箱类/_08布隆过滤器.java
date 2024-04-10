@@ -4,5 +4,6 @@ public class _08²¼Â¡¹ıÂËÆ÷ {
 
     public static void main(String[] args) {
         System.out.print("test");
+
     }
 }
