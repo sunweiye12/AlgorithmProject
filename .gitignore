@@ -3,6 +3,11 @@ target/
 tmp/
 *.class
 
+# idea files
+*.iml
+.idea/
+out/
+
 # Log file
 *.log
 logs/
@@ -16,7 +21,3 @@ rc_sdk_feature_list_whale_1700/
 *.tar.gz
 *.rar
 
-# idea files
-*.iml
-.idea/
-out/

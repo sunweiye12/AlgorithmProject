@@ -23,7 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6720297-5358-4297-9325-79733ca68e82" name="Default Changelist" comment="day02">
-      <change beforePath="$PROJECT_DIR$/src/_00工具箱类/_08布隆过滤器.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_00工具箱类/_08布隆过滤器.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +74,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
@@ -100,6 +104,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "/Users/sunweiye/javaProject/learning/AlgorithmProject",
     "node.js.detected.package.eslint": "true",
@@ -107,9 +115,10 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Problems",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.5755396"
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.5755396",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.ignored.files"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -132,13 +141,13 @@
       <recent name="_06JingDianCode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._08布隆过滤器">
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_99Test.Test" />
+  <component name="RunManager" selected="JUnit._07单向链表.main">
+    <configuration name="_01java内置的数据结构" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_00工具箱类._01java内置的数据结构" />
       <module name="AlgorithmProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_99Test.*" />
+          <option name="PATTERN" value="_00工具箱类.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,37 +168,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_04删除有序数组中的重复项" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AlgorithmProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_06JingDianCode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="_06JingDianCode" />
-      <option name="MAIN_CLASS_NAME" value="_06JingDianCode._04删除有序数组中的重复项" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_04删除有序数组中的重复项.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AlgorithmProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_06JingDianCode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="_06JingDianCode" />
-      <option name="MAIN_CLASS_NAME" value="_06JingDianCode._04删除有序数组中的重复项" />
-      <option name="METHOD_NAME" value="main" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="_05多元素数组.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AlgorithmProject" />
       <extension name="coverage">
@@ -206,13 +184,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_06找出一个字符串的所有子串" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AlgorithmProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_00工具箱类.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="_00工具箱类" />
+      <option name="MAIN_CLASS_NAME" value="_00工具箱类._06找出一个字符串的所有子串" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_07单向链表.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AlgorithmProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_00工具箱类.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="_00工具箱类" />
+      <option name="MAIN_CLASS_NAME" value="_00工具箱类._07单向链表" />
+      <option name="METHOD_NAME" value="main" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit._07单向链表.main" />
+        <item itemvalue="Application._01java内置的数据结构" />
+        <item itemvalue="JUnit._06找出一个字符串的所有子串" />
         <item itemvalue="Application._08布隆过滤器" />
         <item itemvalue="JUnit._05多元素数组.main" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="JUnit._04删除有序数组中的重复项.main" />
-        <item itemvalue="JUnit._04删除有序数组中的重复项" />
       </list>
     </recent_temporary>
   </component>
@@ -310,6 +319,10 @@
     <MESSAGE value="12" />
     <MESSAGE value="day02" />
     <option name="LAST_COMMIT_MESSAGE" value="day02" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/AlgorithmProject$CalculatorTest_add.ic" NAME="CalculatorTest.add Coverage Results" MODIFIED="1593886791706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
