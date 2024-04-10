@@ -19,3 +19,4 @@ rc_sdk_feature_list_whale_1700/
 # idea files
 *.iml
 .idea/
+out/
