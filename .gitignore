@@ -1,4 +1,23 @@
-.idea/
+# Compiled class file
 target/
-out/
+tmp/
+*.class
+
+# idea files
 *.iml
+.idea/
+out/
+
+# Log file
+*.log
+logs/
+rc_sdk_feature_list_whale_1700/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+

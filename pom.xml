@@ -1,17 +1,58 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.example</groupId>
-    <artifactId>AlgorithmProjet</artifactId>
+    <groupId>org.test</groupId>
+    <artifactId>test</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-
     <properties>
-        <maven.compiler.source>8</maven.compiler.source>
-        <maven.compiler.target>8</maven.compiler.target>
+        <datasail.version>1.0.0-SNAPSHOT</datasail.version>
+        <volcengine.version>1.0.49</volcengine.version>
+        <slf4j.version>1.7.25</slf4j.version>
+        <httpclient.version>4.5.8</httpclient.version>
+        <protobuf.format.version>1.4</protobuf.format.version>
+        <schema.version>2.0.0-SNAPSHOT</schema.version>
     </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.83</version>
+        </dependency>
+        <dependency>
+            <groupId>com.volcengine</groupId>
+            <artifactId>datasail-collector-java-cloud</artifactId>
+            <version>${datasail.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.volcengine</groupId>
+            <artifactId>volc-sdk-java</artifactId>
+            <version>${volcengine.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+            <version>${slf4j.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+            <version>${httpclient.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.googlecode.protobuf-java-format</groupId>
+            <artifactId>protobuf-java-format</artifactId>
+            <version>${protobuf.format.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.volcengine</groupId>
+            <artifactId>datasail-schema</artifactId>
+            <version>${schema.version}</version>
+        </dependency>
+    </dependencies>
 
 </project>
