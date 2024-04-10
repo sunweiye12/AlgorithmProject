@@ -512,7 +512,7 @@
       <recent name="_06JingDianCode" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit._05多元素数组.main">
+  <component name="RunManager" selected="Application._08布隆过滤器">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_99Test.Test" />
       <module name="AlgorithmProject" />
@@ -526,18 +526,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_03删除有序数组中的重复项.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="_08布隆过滤器" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_00工具箱类._08布隆过滤器" />
       <module name="AlgorithmProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_06JingDianCode.*" />
+          <option name="PATTERN" value="_00工具箱类.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="_06JingDianCode" />
-      <option name="MAIN_CLASS_NAME" value="_06JingDianCode._03删除有序数组中的重复项" />
-      <option name="METHOD_NAME" value="main" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -591,11 +588,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._08布隆过滤器" />
         <item itemvalue="JUnit._05多元素数组.main" />
         <item itemvalue="Application.Test" />
         <item itemvalue="JUnit._04删除有序数组中的重复项.main" />
         <item itemvalue="JUnit._04删除有序数组中的重复项" />
-        <item itemvalue="JUnit._03删除有序数组中的重复项.main" />
       </list>
     </recent_temporary>
   </component>
