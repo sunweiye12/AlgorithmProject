@@ -1,20 +1,38 @@
 package _99Test;
 
+import _00工具箱类._02对数器;
 import com.alibaba.fastjson.JSONObject;
+import sun.lwawt.macosx.CPrinterDevice;
 
+import java.util.HashMap;
 import java.util.HashSet;
 
 public class Test {
     public static void main(String[] args) {
-        String str = "[123,23,34]";
-        HashSet set = JSONObject.parseObject(str, HashSet.class);
 
-        long s = 123;
-        int i = 123;
-        System.out.println(set.contains((int)s));
-        System.out.println(set.contains(i));
-        System.out.println(set.contains(123));
-        System.out.println(set.contains(1234));
+        int i = 2 << 29;
 
+        System.out.println(i);
+
+        int cap = 10;
+
+        int seed = 3;
+
+        int[] value = _02对数器.generateRandomArray(20, 20);
+
+//        String value = ints;
+
+        System.out.println(value);
+
+        int h;
+        System.out.println(Math.abs((cap - 1) & seed * ((h = value.hashCode()) ^ (h >>> 16))));
+
+        int A = 3500; // 随机整数
+        int B = 10; // 总长度
+
+        System.out.println(A & B);
+
+        HashMap hs = new HashMap<>();
+        hs.put("","");
     }
 }
