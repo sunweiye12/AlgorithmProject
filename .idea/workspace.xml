@@ -23,12 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6720297-5358-4297-9325-79733ca68e82" name="Default Changelist" comment="day02">
-      <change afterPath="$PROJECT_DIR$/src/_99Test/TestCURL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorithmProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorithmProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_99Test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_99Test/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_99Test/TestCURL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_99Test/TestCURL.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -274,7 +270,7 @@
       <workItem from="1704819251116" duration="817000" />
       <workItem from="1712731726150" duration="1305000" />
       <workItem from="1712806869069" duration="5193000" />
-      <workItem from="1713322925434" duration="2625000" />
+      <workItem from="1713322925434" duration="6050000" />
     </task>
     <task id="LOCAL-00001" summary="12">
       <created>1593884739285</created>

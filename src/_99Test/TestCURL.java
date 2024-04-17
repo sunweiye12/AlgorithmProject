@@ -1,65 +1,115 @@
 package _99Test;
 
-import okhttp3.*;
-
-import java.io.IOException;
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONArray;
+import com.alibaba.fastjson.JSONObject;
+import java.util.*;
 
 public class TestCURL {
     public static void main(String[] args) throws Exception {
 
         System.out.println("任务启动------>");
-        String url = "https://data-boe.bytedance.net/byteio/open/v1/test_case_suite/test_case/batch_create";
-        String json = "{\"test_case_suite_id\":240,\"creator\":\"zhaozhirong\",\"test_cases\":[{\"name\":\"play场景5\",\"event_name\":\"play\",\"filter_condition\":{\"bool\":\"and\",\"clauses\":[{\"field\":\"enter_from\",\"op\":\"==\",\"value\":\"test2\"},{\"field\":\"page_name\",\"op\":\"!=\",\"value\":12}]},\"rule\":{\"bool\":\"and\",\"clauses\":[{\"key\":\"duration\",\"description\":\"\",\"required\":1,\"value_type\":\"integer\"}]}}]}";
+        String json = "{\n" +
+                "    \"bool\": \"and\",\n" +
+                "    \"clauses\": [\n" +
+                "        {\n" +
+                "            \"bool\": \"and\",\n" +
+                "            \"clauses\": [\n" +
+                "                {\n" +
+                "                    \"field\": \"params\",\n" +
+                "                    \"func\": \".containsKey(\\\"video_id\\\")\",\n" +
+                "                    \"op\": \"==\",\n" +
+                "                    \"value\": \"true\"\n" +
+                "                },\n" +
+                "                {\n" +
+                "                    \"field\": \"params\",\n" +
+                "                    \"func\": \".getString(\\\"video_id\\\")\",\n" +
+                "                    \"op\": \"!=\",\n" +
+                "                    \"value\": \"\\\"0\\\"\"\n" +
+                "                }\n" +
+                "            ]\n" +
+                "        },\n" +
+                "        {\n" +
+                "            \"field\": \"params\",\n" +
+                "            \"func\": \"getOrDefault(\\\"enter_from\\\",\\\"\\\")\",\n" +
+                "            \"op\": \"==\",\n" +
+                "            \"value\": \"\\\"homepage_hot\\\"\"\n" +
+                "        },\n" +
+                "        {\n" +
+                "            \"bool\": \"and\",\n" +
+                "            \"clauses\": [\n" +
+                "                {\n" +
+                "                    \"field\": \"params\",\n" +
+                "                    \"func\": \".getString(\\\"enter_from_merge\\\")\",\n" +
+                "                    \"op\": \"in\",\n" +
+                "                    \"value\": \"(\\\"video\\\",\\\"recommend\\\",\\\"city\\\",\\\"moment\\\")\"\n" +
+                "                }\n" +
+                "            ]\n" +
+                "        },\n" +
+                "        {\n" +
+                "            \"bool\": \"and\",\n" +
+                "            \"clauses\": [\n" +
+                "                {\n" +
+                "                    \"field\": \"params\",\n" +
+                "                    \"func\": \".getString(\\\"action_type\\\")\",\n" +
+                "                    \"op\": \"==\",\n" +
+                "                    \"value\": \"\\\"draw\\\"\"\n" +
+                "                }\n" +
+                "            ]\n" +
+                "        }\n" +
+                "    ]\n" +
+                "}";
+        Queue<String> queue = new PriorityQueue<String>();
+        queue.add(json);
 
-        postForJson(url, json);
+        ArrayList<String> reList = new ArrayList<String>(); // 用于存放结果
+        BFS(json, queue, reList);
+
     }
 
-    public static void postForJson(String url, String json) throws Exception{
-        // 1 获取OkHttpClient对象
-        OkHttpClient client = new OkHttpClient();
-        // 2 构建参数
-        RequestBody requestBody = RequestBody.create(MediaType.parse("application/json; charset=utf-8"), json);
-        // 3 构建 request
-        Request request = new Request.Builder()
-                .url(url)
-                .post(requestBody)
-                .addHeader("x-operate-platform-token", "c7de211d-b880-454f-b688-a0c7cf440d25")
-                .addHeader("operator", "zhaozhirong")
-                .addHeader("content-type", "application/json;charset=UTF-8")
-                .build();
+    public static void BFS(String json, Queue<String> queue, List reList) throws Exception {
 
-        // 4 将Request封装为Call
-        Call call = client.newCall(request);
+        // 如果队列不为空则需要持续进行
+        while (!queue.isEmpty()) {
+            String element = queue.poll(); //获取一个数据
+            JSONObject json1 = JSON.parseObject(element);
+            JSONArray jsonArray = json1.getJSONArray("clauses");
 
+            for (int i = 0; i < jsonArray.size(); i++) {
+                String s = jsonArray.getString(i);
+                if (isYE(s)) {
+                    // 将这个元数的子节点添加到队列中
+                    queue.add(s);
+                } else {
+                    // 处理这个元数的数据
+                    JSONObject s1 = JSON.parseObject(s);
+                    System.out.println(s1.getString("field"));
+                    System.out.println(s1.getString("func"));
+                    System.out.println(s1.getString("op"));
+                    System.out.println(s1.getString("value"));
+                    System.out.println("-------------------------->");
+                }
 
-        // 5 同步调用
-        Response response = call.execute();
-        if (response!=null && response.isSuccessful()){
-            // ...
-            if (response.code() != 200) {
-                System.out.println("上报失败: " + response.message());
-            } else {
-                System.out.println("上报成功: " + response.message());
             }
+
         }
-
-
-//        // 5 异步调用
-//        call.enqueue(new Callback() {
-//            public void onFailure(Call call, IOException e) {
-//                // ...
-//                System.out.println("http发生报错: " + e.getMessage());
-//            }
-//            public void onResponse(Call call, final Response response) throws IOException {
-//                if (response!=null && response.isSuccessful()){
-//                    // ...
-//                    if (response.code() != 200) {
-//                        System.out.println("上报失败: " + response.message());
-//                    } else {
-//                        System.out.println("上报成功: " + response.message());
-//                    }
-//                }
-//            }
-//        });
     }
+
+
+
+    // 判断当前的节点是一个数据节点,还是一个叶子节点
+    public static Boolean isYE(String jsonS) throws Exception {
+        JSONObject jsonO = JSON.parseObject(jsonS);
+        if (jsonO.containsKey("bool") && jsonO.containsKey("clauses")) {
+//            System.out.println("子节点");
+            return true;
+        } else if (jsonO.containsKey("field")) {
+//            System.out.println("数据节点");
+            return false;
+        } else {
+//            System.out.println("处理报错");
+            return false;
+        }
+    }
+
 }
