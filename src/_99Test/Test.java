@@ -6,30 +6,18 @@ import sun.lwawt.macosx.CPrinterDevice;
 
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class Test {
     public static void main(String[] args) {
 
-        int i = 2 << 29;
-
-        System.out.println(i);
-
-        int cap = 10;
-
-        int seed = 3;
-
-        int[] value = _02对数器.generateRandomArray(20, 20);
-
-//        String value = ints;
-
-        System.out.println(value);
-
-        int h;
-        System.out.println(Math.abs((cap - 1) & seed * ((h = value.hashCode()) ^ (h >>> 16))));
-
-        int A = 3500; // 随机整数
-        int B = 10; // 总长度
-
-        System.out.println(A & B);
+        String str = "([长度] + [高度]) * [倍数] - [减号] / [除号] > [大于号] < [小于号] == [等号] ";
+        String regx = "\\[(.*?)]";
+        Pattern pattern = Pattern.compile(regx);
+        Matcher matcher = pattern.matcher(str);
+        while(matcher.find()){
+            System.out.println(matcher.group(1));
+        }
     }
 }
