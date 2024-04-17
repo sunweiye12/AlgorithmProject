@@ -31,8 +31,5 @@ public class Test {
         int B = 10; // ×Ü³¤¶È
 
         System.out.println(A & B);
-
-        HashMap hs = new HashMap<>();
-        hs.put("","");
     }
 }
