@@ -11,12 +11,10 @@ import java.util.regex.Pattern;
 
 public class Test {
     public static void main(String[] args) {
-
-        String str = "([长度] + [高度]) * [倍数] - [减号] / [除号] > [大于号] < [小于号] == [等号] ";
-        String regx = "\\[(.*?)]";
-        Pattern pattern = Pattern.compile(regx);
+        String str = "getOrDefault(\"enter_from\",\"你好\")";
+        Pattern pattern = Pattern.compile("\\\"(.*?)\"");
         Matcher matcher = pattern.matcher(str);
-        while(matcher.find()){
+        if (matcher.find()) {
             System.out.println(matcher.group(1));
         }
     }

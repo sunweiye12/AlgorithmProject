@@ -4,16 +4,16 @@ import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
 import java.util.*;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class TestCURL {
+
     public static void main(String[] args) throws Exception {
 
         System.out.println("任务启动------>");
 
         // 前提:把包含or 逻辑符和 特殊定制udf的规则都删除
-
-        Queue<String> queue = new PriorityQueue<String>();
-
         // input 是一个map结构,key是event_name,value是一个list,每个list的元数代表一个原则,包含了filter和action信息
         HashMap<String, ArrayList<HashMap<String, String>>> input = new HashMap<String, ArrayList<HashMap<String, String>>>();
         HashMap<String, String> rule1 = new HashMap<String, String>();
@@ -34,7 +34,7 @@ public class TestCURL {
         list.add(rule1);
         list.add(rule2);
 
-
+        // 汇总输入
         for (int i = 0; i < list.size(); i++) {
             if (input.containsKey(list.get(i).get("event_name"))) {
                 input.get(list.get(i).get("event_name")).add(list.get(i));
@@ -45,32 +45,52 @@ public class TestCURL {
             }
         }
 
-//        System.out.println(input);
+        // 验证fliter提去逻辑 并打印
+//        String filterStr = input.get("play").get(0).get("filter_dsl");
+//        JSONArray fliterList = GetFliterBFS(filterStr);
+//        System.out.println(fliterList);
 
-        queue.clear();
-        String json1 = input.get("play").get(0).get("filter_dsl");
-        System.out.println("-----<<"+json1+"-----<<");
-        queue.add(json1);
+        String actionStr = input.get("play").get(0).get("action_tem");
+        System.out.println(actionStr);
 
+        final JSONArray actionList = GetAction(actionStr);
+        System.out.println(actionList);
 
-        GetFliterBFS(json1, queue);
+        System.out.println("任务完成<------");
 
     }
 
-    public static JSONArray GetFliterBFS(String json, Queue<String> queue) throws Exception {
+    public static JSONArray GetAction(String json) throws Exception {
         JSONArray ret = new JSONArray();
-        HashSet<String> opSet = new HashSet<String>();
-        opSet.add("==");
-        opSet.add("!=");
-        opSet.add(">");
-        opSet.add("<");
-        opSet.add(">=");
-        opSet.add("<=");
-        HashSet<String> opSet1 = new HashSet<String>();
-        opSet1.add("in");
-        opSet1.add("not in");
-//        opSet.add("");
+        JSONArray input = JSON.parseArray(json);
 
+        for (int i = 0; i < input.size(); i++) {
+            String s = input.getString(i);
+            JSONObject jsonObject = new JSONObject();
+            String field = GetFieldWithPat(s);
+            jsonObject.put("key",field);
+            jsonObject.put("description","");
+            jsonObject.put("required", 1);
+            jsonObject.put("value_type","integer");
+            ret.add(jsonObject);
+        }
+
+        return ret;
+    }
+
+
+
+
+        // 获取一个的规则对应的array
+    public static JSONArray GetFliterBFS(String json) throws Exception {
+        Queue<String> queue = new PriorityQueue<String>();
+        queue.clear();
+        queue.add(json);
+
+        JSONArray ret = new JSONArray();
+        // 支持的判断符号
+        Set<String> opSet = new HashSet<String>(Arrays.asList("==", "!=", ">", "<", ">=", "<="));
+        Set<String> opSet1 = new HashSet<String>(Arrays.asList("in", "not in"));
 
         // 如果队列不为空则需要持续进行
         while (!queue.isEmpty()) {
@@ -86,29 +106,32 @@ public class TestCURL {
                 } else {
                     // 处理这个元数的数据
                     JSONObject s1 = JSON.parseObject(s);
-                    System.out.println(s1.getString("field"));
-                    System.out.println(s1.getString("func"));
-                    System.out.println(s1.getString("op"));
-                    System.out.println(s1.getString("value"));
-                    System.out.println("-------------------------->");
+//                    System.out.println(s1);
+//                    System.out.println("-------------------------->");
 
                     // 只操作params中的字段
                     if ("params".equals(s1.getString("field"))) {
                         if (opSet.contains(s1.getString("op").trim())) {
                             JSONObject jsonObject = new JSONObject();
-
                             // 获取字段信息
-                            String fieldTem = s1.getString("func");
-                            fieldTem = fieldTem;
-
-
-                            jsonObject.put("field","");
+                            String fieldTem = GetField(s1.getString("func"));
+                            jsonObject.put("field",fieldTem);
                             jsonObject.put("op",s1.getString("op"));
-                            jsonObject.put("value",s1.getString("value"));
+                            String valueTem = s1.getString("value").trim();
+                            // 如果是字符串的话讲两侧的引号去掉
+                            valueTem = valueTem.replace("\"","");
+                            jsonObject.put("value",valueTem);
                             ret.add(jsonObject);
-
                         } else if (opSet1.contains(s1.getString("op").trim())) {
-
+                            JSONObject jsonObject = new JSONObject();
+                            // 获取字段信息
+                            String fieldTem = GetField(s1.getString("func"));
+                            jsonObject.put("field",fieldTem);
+                            jsonObject.put("op",s1.getString("op"));
+                            String valueTem = s1.getString("value").trim();
+                            valueTem = "[" + valueTem.substring(1,valueTem.length()-1) + "]";
+                            jsonObject.put("value",valueTem);
+                            ret.add(jsonObject);
                         }
                     }
                 }
@@ -119,19 +142,39 @@ public class TestCURL {
     }
 
 
-
-    // 判断当前的节点是一个数据节点,还是一个叶子节点
     public static Boolean isYE(String jsonS) throws Exception {
         JSONObject jsonO = JSON.parseObject(jsonS);
         if (jsonO.containsKey("bool") && jsonO.containsKey("clauses")) {
-//            System.out.println("子节点");
+            // 子节点
             return true;
         } else if (jsonO.containsKey("field")) {
-//            System.out.println("数据节点");
+            // 数据节点
             return false;
         } else {
-//            System.out.println("处理报错");
-            return false;
+            throw new Exception("处理报错: 不能识别当前是也子节点还是数据节点 --> " + jsonS);
+        }
+    }
+
+
+    // 正则获取第一个"" 双引号之间的数据
+    public static String GetField(String args) throws Exception {
+        Pattern pattern = Pattern.compile("\\\"(.*?)\"");
+        Matcher matcher = pattern.matcher(args);
+        if (matcher.find()) {
+            return matcher.group(1);
+        } else {
+            throw new Exception("Filter没有查找到元素");
+        }
+    }
+
+    // 正则获取()之间的数据,并且移除"双引号
+    public static String GetFieldWithPat(String args) throws Exception {
+        Pattern pattern = Pattern.compile("\\((.*?)\\)");
+        Matcher matcher = pattern.matcher(args);
+        if (matcher.find()) {
+            return matcher.group(1).trim().replace("\"","");
+        } else {
+            throw new Exception("Action没有查找到元素");
         }
     }
 
