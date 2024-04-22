@@ -26,7 +26,6 @@ public class TestCURL {
         System.out.println("行数: " + (rows - 1));
         System.out.println("列数: " + cols);
 
-
         for (int i = 1; i < rows; i++) {
             String id = rs.getCell(0, i).getContents();
             String rule_id = rs.getCell(1, i).getContents();
@@ -42,15 +41,12 @@ public class TestCURL {
 //            System.out.println("action_tmp:" + action_tmp);
 //            System.out.println("------------------------>" + i  + " id: " + id);
 
+            if (id.isEmpty()) continue;
             JSONObject jsonReqBody = GetReqBody(id, rule_id, transformation, event_name, filter_dsl, action_tmp);
             System.out.println(id + ": "+ formatJson(jsonReqBody) + ",");
         }
-
-//        String filterStr = input.get("play").get(0).get("filter_dsl");
 //        JSONArray fliterList = GetFliterBFS(1, filterStr);
 //        System.out.println(fliterList);
-//
-//        String actionStr = input.get("play").get(0).get("action_tem");
 //        JSONArray actionList = GetAction(1, actionStr);
 //        System.out.println(actionList);
 
@@ -59,34 +55,16 @@ public class TestCURL {
     }
 
 
-    public static String formatJson(JSON json) {
-        if (json == null) {
-            return "";
-        }
-
-        String result;
-
-        ObjectMapper objectMapper = new ObjectMapper();
-        Map<String, String> map = new HashMap<>(1);
-        map.put("JSON", json.toString());
-        try {
-            result = objectMapper.writeValueAsString(map.get("JSON"));
-        } catch (JsonProcessingException e) {
-            e.printStackTrace();
-            return "";
-        }
-
-        return result;
-    }
-
-
     public static JSONObject GetReqBody(String id, String rule_id, String transformation, String event_name, String filter_dsl, String action_tmp) throws Exception {
-        String init = GetInitJson();
+
+        int suite_id = 245;
+        String creator = "sunweiye.3";
+        String init = "{\"test_case_suite_id\":" + suite_id + ",\"creator\":\"" + creator + "\"}";
+
         JSONObject reqBody = JSON.parseObject(init);
         JSONArray testList = new JSONArray();
         JSONObject test = new JSONObject();
 
-        // TODO
         test.put("name", transformation + "->" + id);
         test.put("event_name", event_name);
         if (!GetFliterBFS(id, filter_dsl).isEmpty()) {
@@ -109,19 +87,9 @@ public class TestCURL {
 
     }
 
-    public static String GetInitJson() {
-        int id = 245;
-        String creator = "sunweiye.3";
-        String json = "{\"test_case_suite_id\":" + id + ",\"creator\":\"" + creator + "\"}";
-        return json;
-    }
-
-
-
     public static JSONArray GetAction(String id, String json) throws Exception {
         JSONArray ret = new JSONArray();
         JSONArray input = JSON.parseArray(json);
-//        if (json == null || input == null) {return ret;}
         for (int i = 0; i < input.size(); i++) {
         String s = input.getString(i);
         JSONObject jsonObject = new JSONObject();
@@ -131,10 +99,8 @@ public class TestCURL {
         jsonObject.put("required", 1);
         String valueType = null;
         try {
-            valueType = FunMatch(s);            // 提取值对应的数据类型,如果有不能识别的数据类型会报错
+            valueType = FunMatch(s);   // 提取值对应的数据类型,如果有不能识别的数据类型会报错
         } catch (Exception e) {
-            // TODO 这里前期可以不抛.打印出有问题的规则数量
-//                throw new Exception( "报错规则(主键)id: " + id + "; " + e.getMessage());
             System.out.println("报错规则(主键)id: " + id + "; " + e.getMessage());
         }
         jsonObject.put("value_type",valueType);
@@ -157,7 +123,6 @@ public class TestCURL {
         while (!queue.isEmpty()) {
             String element = queue.poll();
             JSONObject json1 = JSON.parseObject(element);
-//            if (element == null || json1 == null) {continue;}
             JSONArray jsonArray = json1.getJSONArray("clauses");
 
             for (int i = 0; i < jsonArray.size(); i++) {
@@ -171,12 +136,11 @@ public class TestCURL {
                     if ("params".equals(s1.getString("field"))) {  // 只操作params中的字段
 
                         try {
-                            IsContainFun(s1.getString("func"));  // 判断是否存在不支持的UDF
+                            IsContainFun(s1.getString("func"));  // 判断UDF是否合法
                         } catch (Exception e) {
-                            // TODO 这里前期可以不抛.打印出有问题的规则数量
-//                throw new Exception( "报错规则(主键)id: " + id + "; " + e.getMessage());
                             System.out.println("报错规则(主键)id: " + id + "; " + e.getMessage());
                         }
+                        // TODO 特殊处理逻辑,将包含containsKey函数的条件忽略不导入
                         if (s1.getString("func").contains("containsKey(")) {
                             continue;
                         }
@@ -260,6 +224,24 @@ public class TestCURL {
         } else  {
             throw new Exception("函数不支持映射: " + args);
         }
+    }
+
+    public static String formatJson(JSON json) {
+        if (json == null) {
+            return "";
+        }
+
+        String result;
+        ObjectMapper objectMapper = new ObjectMapper();
+        Map<String, String> map = new HashMap<>(1);
+        map.put("JSON", json.toString());
+        try {
+            result = objectMapper.writeValueAsString(map.get("JSON"));
+        } catch (JsonProcessingException e) {
+            e.printStackTrace();
+            return "";
+        }
+        return result;
     }
 
 }
