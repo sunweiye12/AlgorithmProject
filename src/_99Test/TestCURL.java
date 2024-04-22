@@ -7,6 +7,9 @@ import java.io.File;
 import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import jxl.Sheet;
 import jxl.Workbook;
 
@@ -37,10 +40,10 @@ public class TestCURL {
 //            System.out.println("event_name:" + event_name);
 //            System.out.println("filter_dsl:" + filter_dsl);
 //            System.out.println("action_tmp:" + action_tmp);
-            System.out.println("------------------------>" + i );
+//            System.out.println("------------------------>" + i  + " id: " + id);
 
             JSONObject jsonReqBody = GetReqBody(id, rule_id, transformation, event_name, filter_dsl, action_tmp);
-            System.out.println(jsonReqBody);
+            System.out.println(id + ": "+ formatJson(jsonReqBody) + ",");
         }
 
 //        String filterStr = input.get("play").get(0).get("filter_dsl");
@@ -55,13 +58,36 @@ public class TestCURL {
 
     }
 
+
+    public static String formatJson(JSON json) {
+        if (json == null) {
+            return "";
+        }
+
+        String result;
+
+        ObjectMapper objectMapper = new ObjectMapper();
+        Map<String, String> map = new HashMap<>(1);
+        map.put("JSON", json.toString());
+        try {
+            result = objectMapper.writeValueAsString(map.get("JSON"));
+        } catch (JsonProcessingException e) {
+            e.printStackTrace();
+            return "";
+        }
+
+        return result;
+    }
+
+
     public static JSONObject GetReqBody(String id, String rule_id, String transformation, String event_name, String filter_dsl, String action_tmp) throws Exception {
         String init = GetInitJson();
         JSONObject reqBody = JSON.parseObject(init);
         JSONArray testList = new JSONArray();
         JSONObject test = new JSONObject();
 
-        test.put("name", transformation + "->" + id + "--test1");
+        // TODO
+        test.put("name", transformation + "->" + id);
         test.put("event_name", event_name);
         if (!GetFliterBFS(id, filter_dsl).isEmpty()) {
             JSONObject tem = new JSONObject();
@@ -84,7 +110,7 @@ public class TestCURL {
     }
 
     public static String GetInitJson() {
-        int id = 244;
+        int id = 245;
         String creator = "sunweiye.3";
         String json = "{\"test_case_suite_id\":" + id + ",\"creator\":\"" + creator + "\"}";
         return json;
