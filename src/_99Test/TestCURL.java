@@ -12,14 +12,36 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import jxl.Sheet;
 import jxl.Workbook;
+import org.junit.Before;
+import org.junit.Test;
 
 public class TestCURL {
 
-    public static void main(String[] args) throws Exception {
+    int suite_id;
+    String creator;
+    File file;
+    Boolean is_group_id_filter;
+    Boolean is_check;
 
+    @Before
+    public void init() {
+        // 测试数据集相关信息
+        suite_id = 7205;
+        creator = "sunweiye.3";
+        // 文件地址
+        file = new File("src/resources/33-not-or-2.xls");
+        // 是否将group_id放到filter条件中
+        is_group_id_filter = true;
+
+        // 先检查是是否有失败的情况,然后在置为false,跑出脚本
+        is_check = true;
+    }
+
+    @Test
+    public void main() throws Exception {
         System.out.println("任务启动------>");
         // 前提:把包含or 逻辑符和 特殊定制udf的规则都删除
-        Workbook wrb = Workbook.getWorkbook(new File("src/resources/test1.xls"));
+        Workbook wrb = Workbook.getWorkbook(file);
         Sheet rs = wrb.getSheet(0);
         int cols = rs.getColumns();
         int rows = rs.getRows();
@@ -43,28 +65,21 @@ public class TestCURL {
 
             if (id.isEmpty()) continue;
             JSONObject jsonReqBody = GetReqBody(id, rule_id, transformation, event_name, filter_dsl, action_tmp);
-            System.out.println(id + ": "+ formatJson(jsonReqBody) + ",");
+            if (!is_check) {
+                System.out.println(id + ": "+ formatJson(jsonReqBody) + ",");
+            }
         }
-//        JSONArray fliterList = GetFliterBFS(1, filterStr);
-//        System.out.println(fliterList);
-//        JSONArray actionList = GetAction(1, actionStr);
-//        System.out.println(actionList);
-
         System.out.println("任务完成<------");
 
     }
 
 
-    public static JSONObject GetReqBody(String id, String rule_id, String transformation, String event_name, String filter_dsl, String action_tmp) throws Exception {
+    public JSONObject GetReqBody(String id, String rule_id, String transformation, String event_name, String filter_dsl, String action_tmp) throws Exception {
 
-        int suite_id = 245;
-        String creator = "sunweiye.3";
         String init = "{\"test_case_suite_id\":" + suite_id + ",\"creator\":\"" + creator + "\"}";
-
         JSONObject reqBody = JSON.parseObject(init);
         JSONArray testList = new JSONArray();
         JSONObject test = new JSONObject();
-
         test.put("name", transformation + "->" + id);
         test.put("event_name", event_name);
         if (!GetFliterBFS(id, filter_dsl).isEmpty()) {
@@ -87,7 +102,7 @@ public class TestCURL {
 
     }
 
-    public static JSONArray GetAction(String id, String json) throws Exception {
+    public JSONArray GetAction(String id, String json) throws Exception {
         JSONArray ret = new JSONArray();
         JSONArray input = JSON.parseArray(json);
         for (int i = 0; i < input.size(); i++) {
@@ -101,7 +116,12 @@ public class TestCURL {
         try {
             valueType = FunMatch(s);   // 提取值对应的数据类型,如果有不能识别的数据类型会报错
         } catch (Exception e) {
-            System.out.println("报错规则(主键)id: " + id + "; " + e.getMessage());
+            if (is_check) System.out.println("报错规则(主键)id: " + id + "; " + e.getMessage());
+        }
+        // TODO 将group_id和author_id字段主动置为String
+        Set<String> setTem = new HashSet<String>(Arrays.asList("group_id", "author_id"));
+        if (setTem.contains(field)) {
+            valueType = "string";
         }
         jsonObject.put("value_type",valueType);
         ret.add(jsonObject);
@@ -110,7 +130,7 @@ public class TestCURL {
     }
 
     // 获取一个的规则对应的array
-    public static JSONArray GetFliterBFS(String id, String json) throws Exception {
+    public JSONArray GetFliterBFS(String id, String json) throws Exception {
         Queue<String> queue = new PriorityQueue<String>();
         queue.clear();
         queue.add(json);
@@ -125,6 +145,7 @@ public class TestCURL {
             JSONObject json1 = JSON.parseObject(element);
             JSONArray jsonArray = json1.getJSONArray("clauses");
 
+            if (jsonArray == null) continue;
             for (int i = 0; i < jsonArray.size(); i++) {
                 String s = jsonArray.getString(i);
                 if (isYE(id, s)) {
@@ -138,10 +159,12 @@ public class TestCURL {
                         try {
                             IsContainFun(s1.getString("func"));  // 判断UDF是否合法
                         } catch (Exception e) {
-                            System.out.println("报错规则(主键)id: " + id + "; " + e.getMessage());
+                            if (is_check) System.out.println("报错规则(主键)id: " + id + "; " + e.getMessage());
                         }
                         // TODO 特殊处理逻辑,将包含containsKey函数的条件忽略不导入
                         if (s1.getString("func").contains("containsKey(")) {
+                            continue;
+                        } else if (!is_group_id_filter && "group_id".equals(GetField(s1.getString("func")))) {
                             continue;
                         }
 
@@ -168,7 +191,7 @@ public class TestCURL {
         return ret;
     }
 
-    public static Boolean isYE(String id, String jsonS) throws Exception {
+    public Boolean isYE(String id, String jsonS) throws Exception {
         JSONObject jsonO = JSON.parseObject(jsonS);
         if (jsonO.containsKey("bool") && jsonO.containsKey("clauses")) {  // 子节点
             return true;
@@ -180,7 +203,7 @@ public class TestCURL {
     }
 
     // 正则获取第一个"" 双引号之间的数据
-    public static String GetField(String args) throws Exception {
+    public String GetField(String args) throws Exception {
         Pattern pattern = Pattern.compile("\\\"(.*?)\"");
         Matcher matcher = pattern.matcher(args);
         if (matcher.find()) {
@@ -191,7 +214,7 @@ public class TestCURL {
     }
 
     // 正则获取()之间的数据,并且移除"双引号
-    public static String GetFieldWithPat(String args) throws Exception {
+    public String GetFieldWithPat(String args) throws Exception {
         Pattern pattern = Pattern.compile("\\((.*?)\\)");
         Matcher matcher = pattern.matcher(args);
         if (matcher.find()) {
@@ -202,10 +225,11 @@ public class TestCURL {
     }
 
     // 判断函数是否在支持的范围内,如果不支持的函数则报错,并打印处理来
-    public static boolean IsContainFun(String args) throws Exception {
+    public boolean IsContainFun(String args) throws Exception {
         if (args.contains("getOrDefault(") || args.contains("get(") || args.contains("containsKey(")
         || args.contains("getStringWithDefaultValue(") || args.contains("getString(") || args.contains("getInt(")
-        || args.contains("getInteger(") || args.contains("getLong(") || args.contains("getFloat(") || args.contains("getDouble(")) {
+        || args.contains("getInteger(") || args.contains("getLong(") || args.contains("getFloat(")
+        || args.contains("getDouble(") || args.contains("getJSONObject(")) {
             return true;
         } else {
             throw new Exception("函数不支持此UDF: " + args);
@@ -213,9 +237,9 @@ public class TestCURL {
     }
 
     // 通过给定出操作函数,提取出数据类型
-    public static String FunMatch(String args) throws Exception {
+    public String FunMatch(String args) throws Exception {
         if (args.contains("toString(") || args.contains("toStringWithDefaultValue(") || args.contains("getOrDefault(") || args.contains("get(")
-                || args.contains("getStringWithDefaultValue(") || args.contains("getString(")) {
+                || args.contains("getStringWithDefaultValue(") || args.contains("getString(") || args.contains("getJSONObject(")) { // TODO getJSONObject按照string处理
             return "string";
         } else if (args.contains("toFloat(") || args.contains("toDouble(") || args.contains("getFloat(") || args.contains("getDouble(")) {
             return "float";
@@ -226,7 +250,7 @@ public class TestCURL {
         }
     }
 
-    public static String formatJson(JSON json) {
+    public String formatJson(JSON json) {
         if (json == null) {
             return "";
         }

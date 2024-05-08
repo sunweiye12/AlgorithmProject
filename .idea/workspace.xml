@@ -23,10 +23,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6720297-5358-4297-9325-79733ca68e82" name="Default Changelist" comment="day02">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/33-not-or-1.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/33-not-or-2.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/34-not-or.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/35-not-or.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/test-30-1.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/test-32-not-or.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AlgorithmProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorithmProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/_99Test/TestCURL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_99Test/TestCURL.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -123,7 +128,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Global Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.5755396",
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
@@ -152,7 +157,7 @@
       <recent name="_06JingDianCode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestCURL">
+  <component name="RunManager" selected="JUnit.TestCURL">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_99Test.Test" />
       <module name="AlgorithmProject" />
@@ -179,30 +184,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_08布隆过滤" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_00工具箱类._08布隆过滤" />
+    <configuration name="TestCURL" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AlgorithmProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_00工具箱类.*" />
+          <option name="PATTERN" value="_99Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="_99Test" />
+      <option name="MAIN_CLASS_NAME" value="_99Test.TestCURL" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_06找出一个字符串的所有子串" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCURL.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AlgorithmProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_00工具箱类.*" />
+          <option name="PATTERN" value="_99Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="_00工具箱类" />
-      <option name="MAIN_CLASS_NAME" value="_00工具箱类._06找出一个字符串的所有子串" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="_99Test" />
+      <option name="MAIN_CLASS_NAME" value="_99Test.TestCURL" />
+      <option name="METHOD_NAME" value="main" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -225,11 +233,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestCURL" />
+        <item itemvalue="JUnit.TestCURL.main" />
         <item itemvalue="Application.TestCURL" />
         <item itemvalue="Application.Test" />
         <item itemvalue="JUnit._08布隆过滤.main" />
-        <item itemvalue="Application._08布隆过滤" />
-        <item itemvalue="JUnit._06找出一个字符串的所有子串" />
       </list>
     </recent_temporary>
   </component>
@@ -275,7 +283,9 @@
       <workItem from="1704819251116" duration="817000" />
       <workItem from="1712731726150" duration="1305000" />
       <workItem from="1712806869069" duration="5193000" />
-      <workItem from="1713322925434" duration="40463000" />
+      <workItem from="1713322925434" duration="47955000" />
+      <workItem from="1714396403757" duration="585000" />
+      <workItem from="1715049472728" duration="2977000" />
     </task>
     <task id="LOCAL-00001" summary="12">
       <created>1593884739285</created>
@@ -329,6 +339,16 @@
     <MESSAGE value="12" />
     <MESSAGE value="day02" />
     <option name="LAST_COMMIT_MESSAGE" value="day02" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="4" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
