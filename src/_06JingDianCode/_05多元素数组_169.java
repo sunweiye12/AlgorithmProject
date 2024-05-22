@@ -16,7 +16,7 @@ import java.util.Arrays;
 输入：nums = [2,2,1,1,1,2,2]
 输出：2
 */
-public class _05多元素数组 {
+public class _05多元素数组_169 {
 
 
     @Test

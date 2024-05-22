@@ -19,7 +19,7 @@ import java.util.Arrays;
 输入：nums = [-1,-100,3,99], k = 2
 输出：[3,99,-1,-100]
 */
-public class _06轮转数组 {
+public class _06轮转数组_189 {
 
 
     @Test
