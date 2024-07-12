@@ -23,7 +23,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6720297-5358-4297-9325-79733ca68e82" name="Default Changelist" comment="day02">
+      <change afterPath="$PROJECT_DIR$/src/_05LeetCode/_00笔记.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05LeetCode/算法40讲课件/01-为什么要学习算法与数据结构.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05LeetCode/算法40讲课件/02-如何有效学习和训练算法和数据结构.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05LeetCode/算法40讲课件/03-课程总览&amp;算法复杂度.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05LeetCode/算法40讲课件/04-LeetCode介绍+练习方式.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05LeetCode/算法40讲课件/05-数组、链表.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05LeetCode/算法40讲课件/06-堆栈、队列.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05LeetCode/算法40讲课件/07-优先队列（PriorityQueue）.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05LeetCode/算法40讲课件/08-哈希表（HashTable）.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05LeetCode/算法40讲课件/09-树、二叉树、二叉搜索树.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05LeetCode/算法40讲课件/10-二叉树遍历.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05LeetCode/算法40讲课件/11-分治、递归、回溯.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05LeetCode/算法40讲课件/12-贪心算法（Greedy Algorithm)-.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05LeetCode/算法40讲课件/13-深度优先DFS+广度优先BFS.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05LeetCode/算法40讲课件/14-剪枝.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05LeetCode/算法40讲课件/15-二分查找.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05LeetCode/算法40讲课件/16-字典树.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05LeetCode/算法40讲课件/17-位运算.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05LeetCode/算法40讲课件/18-动态规划.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05LeetCode/算法40讲课件/19-并查集.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05LeetCode/算法40讲课件/20-LRU Cache.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05LeetCode/算法40讲课件/21-布隆过滤器.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05LeetCode/算法40讲课件/22-最后一章.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_07LeetCode/_101数组_链表_206.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_07LeetCode/_102数组_链表_141.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_07LeetCode/_103数组_链表_24.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_07LeetCode/_104数组_链表_142.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_07LeetCode/_201栈_队列_20.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_07LeetCode/_202栈_队列_225.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_07LeetCode/_203栈_队列_232.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_01基本排序算法/_03冒泡排序.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_01基本排序算法/_03冒泡排序.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +92,8 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/lib/tools.jar!/sun/tools/jstack/JStack.class" root0="SKIP_INSPECTION" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/src.zip!/java/lang/String.java" root0="SKIP_INSPECTION" />
     <setting file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/src.zip!/java/util/concurrent/Future.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -113,25 +146,25 @@
     &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
     &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/sunweiye/javaProject/learning/AlgorithmProject/src/resources&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/sunweiye/javaProject/learning/AlgorithmProject/src/_05LeetCode/算法40讲课件&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Global Libraries&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.5755396&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/_05LeetCode/算法40讲课件" />
+      <recent name="$PROJECT_DIR$/src/_05LeetCode" />
+      <recent name="$PROJECT_DIR$/src/_07JingDianCode" />
       <recent name="$PROJECT_DIR$/src/resources" />
       <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src/_06JingDianCode" />
-      <recent name="D:\IdeaProjects\AlgorithmProject\src" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -144,17 +177,19 @@
       <recent name="_00工具箱类" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="_07LeetCode" />
+      <recent name="_07JingDianCode" />
       <recent name="_99Test" />
       <recent name="_06JingDianCode" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestCURL">
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_99Test.Test" />
+  <component name="RunManager" selected="Application._03冒泡排序">
+    <configuration name="_03冒泡排序" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_01基本排序算法._03冒泡排序" />
       <module name="AlgorithmProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_99Test.*" />
+          <option name="PATTERN" value="_01基本排序算法.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,60 +197,63 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCURL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_99Test.TestCURL" />
+    <configuration name="_02两数相加" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AlgorithmProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_99Test.*" />
+          <option name="PATTERN" value="_05LeetCode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestCURL" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AlgorithmProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_99Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="_99Test" />
-      <option name="MAIN_CLASS_NAME" value="_99Test.TestCURL" />
+      <option name="PACKAGE_NAME" value="_05LeetCode" />
+      <option name="MAIN_CLASS_NAME" value="_05LeetCode._02两数相加" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCURL.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="_101数组_链表_206.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AlgorithmProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_99Test.*" />
+          <option name="PATTERN" value="_07LeetCode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="_99Test" />
-      <option name="MAIN_CLASS_NAME" value="_99Test.TestCURL" />
+      <option name="PACKAGE_NAME" value="_07LeetCode" />
+      <option name="MAIN_CLASS_NAME" value="_07LeetCode._101数组_链表_206" />
       <option name="METHOD_NAME" value="main" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_08布隆过滤.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="_102数组_链表_141.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AlgorithmProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_00工具箱类.*" />
+          <option name="PATTERN" value="_07LeetCode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="_00工具箱类" />
-      <option name="MAIN_CLASS_NAME" value="_00工具箱类._08布隆过滤" />
+      <option name="PACKAGE_NAME" value="_07LeetCode" />
+      <option name="MAIN_CLASS_NAME" value="_07LeetCode._102数组_链表_141" />
+      <option name="METHOD_NAME" value="main" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_201栈_队列_20.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AlgorithmProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_07LeetCode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="_07LeetCode" />
+      <option name="MAIN_CLASS_NAME" value="_07LeetCode._201栈_队列_20" />
       <option name="METHOD_NAME" value="main" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -224,11 +262,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestCURL" />
-        <item itemvalue="JUnit.TestCURL.main" />
-        <item itemvalue="Application.TestCURL" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="JUnit._08布隆过滤.main" />
+        <item itemvalue="Application._03冒泡排序" />
+        <item itemvalue="JUnit._02两数相加" />
+        <item itemvalue="JUnit._102数组_链表_141.main" />
+        <item itemvalue="JUnit._101数组_链表_206.main" />
+        <item itemvalue="JUnit._201栈_队列_20.main" />
       </list>
     </recent_temporary>
   </component>
@@ -279,6 +317,18 @@
       <workItem from="1715049472728" duration="3336000" />
       <workItem from="1715397354278" duration="599000" />
       <workItem from="1715654248315" duration="5000" />
+      <workItem from="1716353752753" duration="13899000" />
+      <workItem from="1716796998821" duration="365000" />
+      <workItem from="1716797394215" duration="346000" />
+      <workItem from="1716843079933" duration="917000" />
+      <workItem from="1717046479064" duration="5312000" />
+      <workItem from="1718276478063" duration="625000" />
+      <workItem from="1718858735493" duration="2223000" />
+      <workItem from="1718987378894" duration="5778000" />
+      <workItem from="1719817458086" duration="129000" />
+      <workItem from="1720715785984" duration="3379000" />
+      <workItem from="1720752110162" duration="26000" />
+      <workItem from="1720794690502" duration="442000" />
     </task>
     <task id="LOCAL-00001" summary="12">
       <created>1593884739285</created>
@@ -340,6 +390,11 @@
           <properties class="java.lang.NullPointerException" package="java.lang" />
           <option name="timeStamp" value="4" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/_07LeetCode/_201栈_队列_20.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
