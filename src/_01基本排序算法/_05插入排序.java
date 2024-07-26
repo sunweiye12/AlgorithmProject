@@ -10,7 +10,7 @@ public class _05插入排序 {
 	
 	public static void main(String[] args) {
 		int[] arr = {5,3,2,8,5,9,21,6};
-		insertSort(arr);
+        insertSort(arr);
 		for (int i : arr) {
 			System.out.print(i + " ");
 		}
@@ -23,7 +23,7 @@ public class _05插入排序 {
 	 * @param arr
 	 */
 	public static void insertSort(int[] arr){
-		for(int i = 1;i < arr.length; i++){ //从第一个节点开始想前插入
+		for(int i = 1;i < arr.length; i++){ //从第二个节点开始向前插入
 			for(int j = i; j > 0; j--){		//每个节点最多交换的次数
 				if(arr[j] < arr[j-1]){	    //如果后面的这个比前面的小就交换位置
 					swap(arr,j,j-1);
@@ -41,7 +41,4 @@ public class _05插入排序 {
 		arr[j]   = arr[i]^arr[j];
 		arr[i]   = arr[i]^arr[j];
 	}
-	
-	
-	
 }

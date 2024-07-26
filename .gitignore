@@ -8,7 +8,6 @@ tmp/
 .idea/
 out/
 AlgorithmProject.iml
-/.idea/
 
 # Log file
 *.log
