@@ -2,6 +2,7 @@ package _07LeetCode;
 import org.junit.Test;
 
 /**
+ * 链接：https://leetcode.cn/problems/reverse-linked-list/description/
  * 问细节: 链表中不能有环
  * 思路1:
  * 1. 利用三个指针,分别指向上一个元素pev,当前元素cur,下一个元素net
@@ -9,9 +10,7 @@ import org.junit.Test;
  * 遍历cur当不为空的时候,
  *  保存net指针,将next指向pev.
  *
- *  更细pev和cur的指针
- *
- *
+ *  更新pev和cur的指针
  */
 
 public class _101数组_链表_206 {

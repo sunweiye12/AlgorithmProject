@@ -4,6 +4,7 @@ import org.junit.Test;
 import java.util.HashSet;
 
 /**
+ * https://leetcode.cn/problems/linked-list-cycle/description/
  * 问细节:当只有一个节点,或者为null的时候,认为是又环还是没有环?
  *
  * 思路1: 通过set结构来实现,从头开始遍历,将每一个元素判断set是否存在并扔到set,

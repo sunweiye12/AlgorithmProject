@@ -2,6 +2,7 @@ package _07LeetCode;
 import org.junit.Test;
 
 /**
+ * https://leetcode.cn/problems/swap-nodes-in-pairs/description/
  * 问细节:每隔两个交换一次,奇数个的时候最后一个不交换,1也元素或者为空时不交换.
  *
  * 思路1: 每两个元素执行一次操作
