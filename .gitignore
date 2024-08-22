@@ -8,6 +8,7 @@ tmp/
 .idea/
 out/
 AlgorithmProject.iml
+.idea/workspace.xml
 
 # Log file
 *.log
