@@ -24,7 +24,6 @@ public class _203栈_队列_232 {
     public void main() {
         System.out.println("开始");
 
-
     }
 
     class MyQueue {
@@ -64,7 +63,5 @@ public class _203栈_队列_232 {
             return input_s.empty() && output_s.empty();
         }
     }
-
-
 
 }
