@@ -14,10 +14,6 @@ import org.junit.Test;
  * 1. cur为head.next.next
  * 2. 将第二个元素作为头,下一个节点指向第一个元素,pev指向这个元素,并让这个元素的next为空
  * 3. 判断cur
- *
- *
- *
- *
  */
 
 public class _103数组_链表_24 {
@@ -53,23 +49,26 @@ public class _103数组_链表_24 {
 
         // 保存第三个元素
         ListNode cur = head.next.next;
-
         // 初始化前两个元素
         ListNode pev = head; // 代表前两个元素的第二个元素
         ListNode rs = head.next; // 结果
+
         rs.next = pev;
         pev.next = null; // 重点
 
         while (cur != null) {
-            if (cur != null && cur.next != null) {
+            if (cur.next != null) {
                 // 保留元素
                 ListNode a  = cur;
                 ListNode b  = cur.next;
+
                 // 要先更新索引(要不然下卖弄赋值的时候会成环)
                 cur = cur.next.next;
+
                 // 执行交换
                 pev.next = b;
                 pev.next.next = a;
+
                 // 更新索引
                 pev = a;
                 pev.next = null;

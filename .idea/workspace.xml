@@ -24,38 +24,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a6720297-5358-4297-9325-79733ca68e82" name="Default Changelist" comment="day02">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_01基本排序算法/_03冒泡排序.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_01基本排序算法/_03冒泡排序.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_01基本排序算法/_05插入排序.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_01基本排序算法/_05插入排序.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_01基本排序算法/_07随机快排_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_01基本排序算法/_07随机快排_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_01基本排序算法/_08归并排序_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_01基本排序算法/_08归并排序_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_01基本排序算法/_08归并排序_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_01基本排序算法/_08归并排序_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_05LeetCode/_00笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/_07LeetCode/_00笔记.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_05LeetCode/算法40讲课件/01-为什么要学习算法与数据结构.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/_07LeetCode/算法40讲课件/01-为什么要学习算法与数据结构.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_05LeetCode/算法40讲课件/02-如何有效学习和训练算法和数据结构.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/_07LeetCode/算法40讲课件/02-如何有效学习和训练算法和数据结构.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_05LeetCode/算法40讲课件/03-课程总览&amp;算法复杂度.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/_07LeetCode/算法40讲课件/03-课程总览&amp;算法复杂度.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_05LeetCode/算法40讲课件/04-LeetCode介绍+练习方式.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/_07LeetCode/算法40讲课件/04-LeetCode介绍+练习方式.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_05LeetCode/算法40讲课件/05-数组、链表.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/_07LeetCode/算法40讲课件/05-数组、链表.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_05LeetCode/算法40讲课件/06-堆栈、队列.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/_07LeetCode/算法40讲课件/06-堆栈、队列.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_05LeetCode/算法40讲课件/07-优先队列（PriorityQueue）.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/_07LeetCode/算法40讲课件/07-优先队列（PriorityQueue）.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_05LeetCode/算法40讲课件/08-哈希表（HashTable）.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/_07LeetCode/算法40讲课件/08-哈希表（HashTable）.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_05LeetCode/算法40讲课件/09-树、二叉树、二叉搜索树.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/_07LeetCode/算法40讲课件/09-树、二叉树、二叉搜索树.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_05LeetCode/算法40讲课件/10-二叉树遍历.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/_07LeetCode/算法40讲课件/10-二叉树遍历.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_05LeetCode/算法40讲课件/11-分治、递归、回溯.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/_07LeetCode/算法40讲课件/11-分治、递归、回溯.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_05LeetCode/算法40讲课件/12-贪心算法（Greedy Algorithm)-.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/_07LeetCode/算法40讲课件/12-贪心算法（Greedy Algorithm)-.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_05LeetCode/算法40讲课件/13-深度优先DFS+广度优先BFS.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/_07LeetCode/算法40讲课件/13-深度优先DFS+广度优先BFS.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_05LeetCode/算法40讲课件/14-剪枝.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/_07LeetCode/算法40讲课件/14-剪枝.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_05LeetCode/算法40讲课件/15-二分查找.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/_07LeetCode/算法40讲课件/15-二分查找.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_05LeetCode/算法40讲课件/16-字典树.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/_07LeetCode/算法40讲课件/16-字典树.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_05LeetCode/算法40讲课件/17-位运算.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/_07LeetCode/算法40讲课件/17-位运算.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_05LeetCode/算法40讲课件/18-动态规划.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/_07LeetCode/算法40讲课件/18-动态规划.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_05LeetCode/算法40讲课件/19-并查集.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/_07LeetCode/算法40讲课件/19-并查集.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_05LeetCode/算法40讲课件/20-LRU Cache.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/_07LeetCode/算法40讲课件/20-LRU Cache.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_05LeetCode/算法40讲课件/21-布隆过滤器.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/_07LeetCode/算法40讲课件/21-布隆过滤器.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_05LeetCode/算法40讲课件/22-最后一章.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/_07LeetCode/算法40讲课件/22-最后一章.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/_07LeetCode/_101数组_链表_206.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_07LeetCode/_101数组_链表_206.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_07LeetCode/_102数组_链表_141.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_07LeetCode/_102数组_链表_141.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/_07LeetCode/_103数组_链表_24.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_07LeetCode/_103数组_链表_24.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_07LeetCode/_104数组_链表_142.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_07LeetCode/_104数组_链表_142.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,22 +155,9 @@
       <recent name="_06JingDianCode" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit._07随机快排_2.main">
+  <component name="RunManager" selected="JUnit._101数组_链表_206.main">
     <configuration name="_03冒泡排序" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_01基本排序算法._03冒泡排序" />
-      <module name="AlgorithmProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_01基本排序算法.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_05插入排序" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_01基本排序算法._05插入排序" />
       <module name="AlgorithmProject" />
       <extension name="coverage">
         <pattern>
@@ -254,13 +211,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_101数组_链表_206.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AlgorithmProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_07LeetCode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="_07LeetCode" />
+      <option name="MAIN_CLASS_NAME" value="_07LeetCode._101数组_链表_206" />
+      <option name="METHOD_NAME" value="main" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit._101数组_链表_206.main" />
         <item itemvalue="JUnit._07随机快排_2.main" />
         <item itemvalue="Application._06希尔排序" />
         <item itemvalue="Application._03冒泡排序" />
         <item itemvalue="Application._07快速排序_1" />
-        <item itemvalue="Application._05插入排序" />
       </list>
     </recent_temporary>
   </component>
@@ -327,7 +300,9 @@
       <workItem from="1721223165138" duration="505000" />
       <workItem from="1721275675762" duration="1129000" />
       <workItem from="1721968931483" duration="9435000" />
-      <workItem from="1723434314423" duration="1525000" />
+      <workItem from="1723434314423" duration="4986000" />
+      <workItem from="1724216816575" duration="2518000" />
+      <workItem from="1724294380851" duration="1027000" />
     </task>
     <task id="LOCAL-00001" summary="12">
       <created>1593884739285</created>
