@@ -1,8 +1,10 @@
 package _07LeetCode;
 import org.junit.Test;
 
+import java.util.LinkedList;
 import java.util.PriorityQueue;
 import java.util.Stack;
+import java.util.concurrent.ConcurrentLinkedQueue;
 
 /**
  * 链接:https://leetcode.cn/problems/implement-stack-using-queues/description/
@@ -26,14 +28,19 @@ public class _202栈_队列_225 {
     @Test
     public void main() {
         System.out.println("开始");
-
+        MyStack myStack = new MyStack();
+        myStack.push(1);
+        myStack.push(2);
+        System.out.println(myStack.top()); // 返回 2
+        System.out.println(myStack.pop()); // 返回 2
+        System.out.println(myStack.empty()); // 返回 False
     }
 
     class MyStack {
 
-        private PriorityQueue<Integer> q;
+        private LinkedList<Integer> q;
         public MyStack() {
-            q = new PriorityQueue<>();
+            q = new LinkedList<Integer>();
         }
 
         public void push(int x) {
@@ -43,19 +50,19 @@ public class _202栈_队列_225 {
         public int pop() {
             int size = q.size();
             while (size > 1) {
-                q.add(q.poll());
+                q.add(q.pop());
                 size--;
             }
-            return q.poll();
+            return q.pop();
         }
 
-        public int peek() {
+        public int top() {
             int size = q.size();
             while (size > 1) {
-                q.add(q.poll());
+                q.add(q.pop());
                 size--;
             }
-            int result =  q.poll();
+            int result =  q.pop();
             q.add(result);
             return result;
         }
