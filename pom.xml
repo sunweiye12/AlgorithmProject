@@ -31,11 +31,6 @@
         </dependency>
         <dependency>
             <groupId>com.volcengine</groupId>
-            <artifactId>datasail-collector-java-cloud</artifactId>
-            <version>${datasail.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.volcengine</groupId>
             <artifactId>volc-sdk-java</artifactId>
             <version>${volcengine.version}</version>
         </dependency>
@@ -53,11 +48,6 @@
             <groupId>com.googlecode.protobuf-java-format</groupId>
             <artifactId>protobuf-java-format</artifactId>
             <version>${protobuf.format.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.volcengine</groupId>
-            <artifactId>datasail-schema</artifactId>
-            <version>${schema.version}</version>
         </dependency>
         <dependency>
             <groupId>org.apache.poi</groupId>
