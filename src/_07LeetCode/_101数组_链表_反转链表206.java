@@ -14,7 +14,7 @@ import org.junit.Test;
  *  3)更新pev和cur的指针
  */
 
-public class _101数组_链表_206 {
+public class _101数组_链表_反转链表206 {
 
     @Test
     public void main() {

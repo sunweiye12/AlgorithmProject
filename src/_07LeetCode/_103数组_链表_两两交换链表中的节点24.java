@@ -16,7 +16,7 @@ import org.junit.Test;
  * 3. 判断cur
  */
 
-public class _103数组_链表_24 {
+public class _103数组_链表_两两交换链表中的节点24 {
 
     @Test
     public void main() {

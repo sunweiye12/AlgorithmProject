@@ -18,7 +18,7 @@ import java.util.Stack;
  *
  */
 
-public class _203栈_队列_232 {
+public class _203栈_队列_用栈实现队列232 {
 
     @Test
     public void main() {

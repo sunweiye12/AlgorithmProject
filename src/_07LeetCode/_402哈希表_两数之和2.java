@@ -21,7 +21,7 @@ import java.util.HashMap;
  *
  */
 
-public class _402哈希表_两数之和1 {
+public class _402哈希表_两数之和2 {
 
     @Test
     public void main() {

@@ -18,7 +18,7 @@ import java.util.HashSet;
  *
  */
 
-public class _104数组_链表_142 {
+public class _104数组_链表_环形链表难142 {
 
     @Test
     public void main() {

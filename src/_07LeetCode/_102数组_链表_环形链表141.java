@@ -15,7 +15,7 @@ import java.util.HashSet;
  *
  */
 
-public class _102数组_链表_141 {
+public class _102数组_链表_环形链表141 {
 
     @Test
     public void main() {

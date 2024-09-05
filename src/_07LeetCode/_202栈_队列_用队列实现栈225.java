@@ -2,9 +2,6 @@ package _07LeetCode;
 import org.junit.Test;
 
 import java.util.LinkedList;
-import java.util.PriorityQueue;
-import java.util.Stack;
-import java.util.concurrent.ConcurrentLinkedQueue;
 
 /**
  * 链接:https://leetcode.cn/problems/implement-stack-using-queues/description/
@@ -22,7 +19,7 @@ import java.util.concurrent.ConcurrentLinkedQueue;
  *
  */
 
-public class _202栈_队列_225 {
+public class _202栈_队列_用队列实现栈225 {
 
 
     @Test

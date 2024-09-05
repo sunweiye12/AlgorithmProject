@@ -27,7 +27,7 @@ import java.util.Stack;
  *
  */
 
-public class _201栈_队列_20 {
+public class _201栈_队列_有效的括号20 {
 
     @Test
     public void main() {
