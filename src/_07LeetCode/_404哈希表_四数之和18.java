@@ -46,16 +46,7 @@ public class _404哈希表_四数之和18 {
             }
         }
 
-        for (String tmp : set) {
-            String[] s = tmp.split("_");
-            ArrayList<Integer> listTmp = new ArrayList<>();
-            for (int i = 0; i < s.length; i++) {
-                listTmp.add(Integer.parseInt(s[i]));
-            }
-            list.add(listTmp);
-        }
-
-        return list;
+        return getLists(list, set);
     }
 
     private List<String> getThreeNums(int index, int[] nums, int targetTmp) {
@@ -84,7 +75,7 @@ public class _404哈希表_四数之和18 {
     }
 
 
-    // 暴力法 O(n2)
+    // 暴力法 O(n4)
     public List<List<Integer>> fourSum1(int[] nums, int target) {
         List<List<Integer>> list = new ArrayList<>();
         if (nums.length < 4) {
@@ -108,6 +99,10 @@ public class _404哈希表_四数之和18 {
             }
         }
 
+        return getLists(list, set);
+    }
+
+    private List<List<Integer>> getLists(List<List<Integer>> list, HashSet<String> set) {
         for (String tmp : set) {
             String[] s = tmp.split("_");
             ArrayList<Integer> listTmp = new ArrayList<>();
