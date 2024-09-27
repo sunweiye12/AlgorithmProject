@@ -16,7 +16,7 @@ import org.junit.Test;
  *
  */
 
-public class _502树_二叉树的最近公共祖先235 {
+public class _502树_二叉搜索树的最近公共祖先235 {
 
 
 
