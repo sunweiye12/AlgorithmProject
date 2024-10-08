@@ -34,7 +34,7 @@ import java.util.HashSet;
  *
  */
 
-public class _502树_二叉树的最近公共祖先236 {
+public class _503树_二叉树的最近公共祖先236 {
 
 
 
