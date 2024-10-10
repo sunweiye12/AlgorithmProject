@@ -2,7 +2,9 @@ package _01基本排序算法;
 
 public class _07快速排序_1 {
 	/**
-	 * 时间复杂度: O(nlogn)  O(n^2) ---平均---->O(nlogn)
+	 * 思路：
+     *
+     * 时间复杂度: O(nlogn)  O(n^2) ---平均---->O(nlogn)
 	 * 空间占用: O(logn)  -  O(n)
 	 * 稳定性: 不稳定
 	 * @param args
@@ -18,11 +20,11 @@ public class _07快速排序_1 {
 	
 	//快速排序
 	public static void fastSort (int[] arr,int first,int last){
-		if (first >= last) { //递归截止的条件(当数组只有一个元素第)
+		if (first >= last) { //递归截止的条件(当数组只有一个元素)
 			return;
 		}
 		
-		int mid_value = arr[first];	//获取数组的下标
+		int mid_value = arr[first];	//取第一个元素作为基准元素用作比较。
 		int low = first;
 		int high = last;
 		
@@ -33,7 +35,7 @@ public class _07快速排序_1 {
 			}
 			arr[low] = arr[high];
 			
-			//当满足条件时游标右移,负责交换
+			//当满足条件时游标右移,否则交换
 			while((low < high) && (arr[low]<=mid_value)){
 				low += 1;
 			}

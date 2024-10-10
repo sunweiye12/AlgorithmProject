@@ -17,13 +17,13 @@ public class _08归并排序_1 {
 		}
 	}
 	
-	//归并排序(返回一个姓数组)
+	//归并排序(返回一个有序数组)
 	public static int[] mergeSort(int[] arr, int left, int right) {
 
 	    if (left == right) {	//划分为只有一个元素时返回元素本身
 	       return new int[] {arr[left]};
 	    }
-	    int mid = right+(( left - right) >> 1);
+	    int mid = right+(( left - right) >> 1);  // 求中间值（防止溢出），将数组分成两部分
 	    
 	    int[] l = mergeSort(arr, left, mid);
 	    int[] r = mergeSort(arr, mid + 1, right);
@@ -41,8 +41,7 @@ public class _08归并排序_1 {
 	    while (lp < l.length && rp < r.length) {
 	       result[p++] = (l[lp] < r[rp] ? l[lp++] : r[rp++]);
 	    }
-	    //当其中一个数组用完时,来到下满
-	    
+	    //当其中一个数组用完时,来到下面
 	    //分别将没有弄完的元素直接添加到数组中
 	    while (lp < l.length) {
 	       result[p++] = l[lp++];

@@ -7,6 +7,10 @@ tmp/
 *.iml
 .idea/
 out/
+AlgorithmProject.iml
+.idea/workspace.xml
+.DS_Store
+src/.DS_Store
 
 # Log file
 *.log

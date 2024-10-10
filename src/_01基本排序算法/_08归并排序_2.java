@@ -46,8 +46,7 @@ public class _08归并排序_2 {
 	    while (lp <= mid && rp <= right) {
 	       result[p++] = (arr[lp] > arr[rp] ? arr[lp++] : arr[rp++]);
 	    }
-	    //当其中一个数组用完时,来到下满
-	    
+	    //当其中一个数组用完时,来到下面
 	    //分别将没有弄完的元素直接添加到数组中
 	    while (lp <= mid) {
 	       result[p++] = arr[lp++];
