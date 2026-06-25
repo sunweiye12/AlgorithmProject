@@ -11,6 +11,10 @@ AlgorithmProject.iml
 .idea/workspace.xml
 .DS_Store
 src/.DS_Store
+.env
+.env.*
+!.env.example
+*.local
 
 # Log file
 *.log
@@ -24,4 +28,3 @@ rc_sdk_feature_list_whale_1700/
 *.zip
 *.tar.gz
 *.rar
-
