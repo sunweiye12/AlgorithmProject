@@ -19,9 +19,9 @@ mvn clean package
 
 ## 目录说明
 
-- `_01基本排序算法`：排序算法
-- `_02分类算法`：队列栈、链表、二叉树、哈希、并查集、递归、动态规划、贪心等
-- `_03examination`：公司笔试题
-- `_04JianZhiOffer`：剑指 Offer
-- `_05LeetCode`、`_07LeetCode`：LeetCode 练习
-- `_99Test`：临时测试代码
+- `C01基本排序算法`：排序算法
+- `C02分类算法`：队列栈、链表、二叉树、哈希、并查集、递归、动态规划、贪心等
+- `C03examination`：公司笔试题
+- `C04JianZhiOffer`：剑指 Offer
+- `C05LeetCode`、`C07LeetCode`：LeetCode 练习
+- `C99Test`：临时测试代码
